@@ -1,0 +1,378 @@
+[
+    {
+        "year": "4th Year",
+        "semester": "7th Semester",
+        "courses": [
+            {
+                "courseCode": "CSBS4101",
+                "courseName": "Cloud Computing",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction to Cloud Computing",
+                        "topics": [
+                            "Overview of distributed, parallel and cloud computing",
+                            "Service models: IaaS, PaaS, SaaS and deployment models (public, private, hybrid)"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Virtualization and Cloud Architecture",
+                        "topics": [
+                            "Virtualization concepts: types, hypervisors and resource pooling",
+                            "Cloud infrastructure and architecture layers"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Cloud Storage and Services",
+                        "topics": [
+                            "Cloud storage models, APIs and data management",
+                            "Cloud service providers: AWS, Azure and Google Cloud overview"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Cloud Security and Management",
+                        "topics": [
+                            "Cloud security threats, risk management and compliance",
+                            "Service level agreements (SLA), monitoring and billing models"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS4102",
+                "courseName": "Big Data Analytics",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction to Big Data",
+                        "topics": [
+                            "Definition, characteristics and challenges of big data",
+                            "Big data architecture and processing frameworks"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Hadoop Ecosystem",
+                        "topics": [
+                            "HDFS architecture and MapReduce programming model",
+                            "YARN, Hive, Pig and HBase overview"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Data Analytics Techniques",
+                        "topics": [
+                            "Batch and real-time analytics",
+                            "Stream processing using Spark and Kafka"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Applications and Visualization",
+                        "topics": [
+                            "Big data use cases: healthcare, finance, IoT",
+                            "Visualization tools and dashboards"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS4131",
+                "courseName": "Professional Elective – III",
+                "L": 3,
+                "T": 0,
+                "P": 0,
+                "totalHours": 3,
+                "creditPoints": 3,
+                "courseType": "Professional Elective",
+                "options": [
+                    {
+                        "name": "Natural Language Processing",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Introduction to NLP, language models and text processing"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Syntax and parsing techniques"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Machine translation, sentiment analysis and text summarization"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Data Mining",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Data preprocessing and data warehouse concepts"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Association rule mining and Apriori algorithm"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Classification and clustering techniques: decision trees, k-means"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS4132",
+                "courseName": "Open Elective – I",
+                "L": 3,
+                "T": 0,
+                "P": 0,
+                "totalHours": 3,
+                "creditPoints": 3,
+                "courseType": "Open Elective",
+                "options": [
+                    {
+                        "name": "Blockchain Technology",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Blockchain fundamentals, distributed ledger and consensus mechanisms"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Cryptographic techniques and smart contracts"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Applications in finance, healthcare and supply chain"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Internet of Things (IoT)",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "IoT architecture and communication models"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Sensors, actuators and IoT protocols"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "IoT applications in smart homes and industries"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "4th Year",
+        "semester": "8th Semester",
+        "courses": [
+            {
+                "courseCode": "CSBS4201",
+                "courseName": "Deep Learning",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction to Deep Learning",
+                        "topics": [
+                            "Artificial neural networks and perceptrons",
+                            "Activation functions and gradient descent optimization"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Feedforward and Convolutional Networks",
+                        "topics": [
+                            "CNN architecture and convolution operations",
+                            "Pooling, dropout and regularization techniques"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Sequence Models",
+                        "topics": [
+                            "Recurrent neural networks (RNN) and LSTM networks",
+                            "Applications in NLP and speech recognition"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Advanced Topics",
+                        "topics": [
+                            "Autoencoders, GANs and reinforcement learning basics",
+                            "Transfer learning and fine-tuning"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS4231",
+                "courseName": "Professional Elective – IV",
+                "L": 3,
+                "T": 0,
+                "P": 0,
+                "totalHours": 3,
+                "creditPoints": 3,
+                "courseType": "Professional Elective",
+                "options": [
+                    {
+                        "name": "Quantum Computing",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Quantum mechanics foundations for computing"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Qubits, superposition and entanglement"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Quantum algorithms: Deutsch, Grover and Shor"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Augmented and Virtual Reality",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "AR/VR fundamentals and interaction models"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Hardware, sensors and motion tracking techniques"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Applications in gaming, education and simulation"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS4232",
+                "courseName": "Open Elective – II",
+                "L": 3,
+                "T": 0,
+                "P": 0,
+                "totalHours": 3,
+                "creditPoints": 3,
+                "courseType": "Open Elective",
+                "options": [
+                    {
+                        "name": "Edge Computing",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Concept of edge and fog computing"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Architecture, data management and latency optimization"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Applications in IoT and smart cities"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ethical Hacking",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Introduction to ethical hacking and penetration testing"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Scanning, enumeration and vulnerability assessment"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Exploitation techniques and reporting"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

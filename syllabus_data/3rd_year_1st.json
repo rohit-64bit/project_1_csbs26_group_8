@@ -1,0 +1,484 @@
+[
+    {
+        "year": "3rd Year",
+        "semester": "5th Semester",
+        "courses": [
+            {
+                "courseCode": "CSBS3101",
+                "courseName": "Computer Networks",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction to Computer Networks",
+                        "topics": [
+                            "Network topologies, types of networks and network models",
+                            "OSI and TCP/IP models, encapsulation and addressing"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Data Link Layer",
+                        "topics": [
+                            "Error detection and correction methods",
+                            "Flow control and ARQ protocols",
+                            "Medium access control: CSMA/CD, token passing"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Network Layer",
+                        "topics": [
+                            "IPv4 and IPv6 addressing, subnetting and routing principles",
+                            "Static and dynamic routing algorithms (RIP, OSPF)"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Transport and Application Layers",
+                        "topics": [
+                            "TCP and UDP protocols, congestion control and flow control",
+                            "Application layer protocols: DNS, HTTP, SMTP, FTP"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3102",
+                "courseName": "Database Management Systems",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Database Concepts",
+                        "topics": [
+                            "Characteristics of database systems, DBMS architecture and advantages",
+                            "Data models: hierarchical, network, relational and object-oriented"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Relational Model and SQL",
+                        "topics": [
+                            "Keys, constraints and relational algebra operations",
+                            "SQL commands for data definition, manipulation and control"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Database Design",
+                        "topics": [
+                            "ER modeling, normalization (1NF to BCNF)",
+                            "Functional dependencies and decomposition"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Transaction Management and Concurrency Control",
+                        "topics": [
+                            "Concepts of transactions, ACID properties",
+                            "Concurrency control and recovery techniques"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3103",
+                "courseName": "Software Engineering",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Software Process Models",
+                        "topics": [
+                            "Phases of software development lifecycle (SDLC)",
+                            "Waterfall, spiral, agile and prototype models"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Software Requirements and Design",
+                        "topics": [
+                            "Requirement elicitation and specification",
+                            "Design methodologies: structured and object-oriented design"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Software Testing and Quality Assurance",
+                        "topics": [
+                            "Testing levels and techniques (unit, integration, system, acceptance)",
+                            "Quality assurance standards (ISO, CMMI)"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Project Management and Maintenance",
+                        "topics": [
+                            "Effort estimation, risk analysis, and configuration management",
+                            "Software maintenance and re-engineering"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3104",
+                "courseName": "Artificial Intelligence",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction to AI",
+                        "topics": [
+                            "Definition and scope of AI, applications and history",
+                            "Intelligent agents and problem-solving approaches"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Search Techniques",
+                        "topics": [
+                            "Uninformed and informed search: BFS, DFS, A* algorithm",
+                            "Game playing and adversarial search (minimax, alpha-beta pruning)"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Knowledge Representation and Reasoning",
+                        "topics": [
+                            "Propositional and predicate logic, inference rules",
+                            "Semantic networks, frames and ontologies"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Machine Learning and Expert Systems",
+                        "topics": [
+                            "Supervised and unsupervised learning basics",
+                            "Expert systems and knowledge engineering"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3131-CSBS3135",
+                "courseName": "Professional Elective – I",
+                "L": 3,
+                "T": 0,
+                "P": 0,
+                "totalHours": 3,
+                "creditPoints": 3,
+                "courseType": "Professional Elective",
+                "options": [
+                    {
+                        "name": "Computer Graphics",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Graphics systems and output primitives",
+                                    "Line and circle drawing algorithms"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "2D transformations and clipping algorithms"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "3D transformations, projections and hidden surface removal"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "E-Commerce",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Introduction to E-commerce and business models"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Security, payment systems and digital signatures"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "E-commerce infrastructure and legal issues"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "3rd Year",
+        "semester": "6th Semester",
+        "courses": [
+            {
+                "courseCode": "CSBS3201",
+                "courseName": "Machine Learning",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction and Basics",
+                        "topics": [
+                            "Machine learning paradigms: supervised, unsupervised, reinforcement",
+                            "Linear regression and gradient descent"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Classification Techniques",
+                        "topics": [
+                            "Decision trees, naïve Bayes classifier",
+                            "Support vector machines and k-nearest neighbors"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Unsupervised Learning",
+                        "topics": [
+                            "Clustering algorithms: K-means, hierarchical, DBSCAN",
+                            "Dimensionality reduction: PCA, LDA"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Neural Networks and Deep Learning",
+                        "topics": [
+                            "Perceptron, multilayer neural networks and backpropagation",
+                            "Introduction to CNN and RNN architectures"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3202",
+                "courseName": "Object Oriented Programming",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Object-Oriented Concepts",
+                        "topics": [
+                            "Principles of OOP: abstraction, encapsulation, inheritance, polymorphism",
+                            "Class, object and access specifiers"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Inheritance and Polymorphism",
+                        "topics": [
+                            "Types of inheritance, constructor chaining, method overriding",
+                            "Dynamic binding and interfaces"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Exception Handling and File I/O",
+                        "topics": [
+                            "Try-catch-finally blocks, user-defined exceptions",
+                            "Reading and writing files, serialization"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Java Collections Framework",
+                        "topics": [
+                            "Lists, sets, maps, generics and iterators",
+                            "Streams and lambda expressions in Java"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3203",
+                "courseName": "Internet and Web Technologies",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Web Fundamentals",
+                        "topics": [
+                            "Internet architecture, HTTP, and DNS overview",
+                            "HTML5 structure and semantic tags"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Client-Side Scripting",
+                        "topics": [
+                            "CSS for layout and styling",
+                            "JavaScript fundamentals, DOM manipulation and events"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Server-Side Scripting",
+                        "topics": [
+                            "Introduction to Node.js, Express.js, and REST APIs",
+                            "Database connectivity and session management"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Advanced Web Technologies",
+                        "topics": [
+                            "AJAX, JSON and web security basics",
+                            "Introduction to React.js and component-based architecture"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3231",
+                "courseName": "Mobile Computing",
+                "L": 4,
+                "T": 0,
+                "P": 0,
+                "totalHours": 4,
+                "creditPoints": 4,
+                "courseType": "Professional Core Course",
+                "modules": [
+                    {
+                        "moduleNo": "I",
+                        "title": "Introduction to Mobile Computing",
+                        "topics": [
+                            "Concepts of mobile communication and computing systems",
+                            "Mobile devices, cellular networks and GSM architecture"
+                        ]
+                    },
+                    {
+                        "moduleNo": "II",
+                        "title": "Wireless Technologies",
+                        "topics": [
+                            "Bluetooth, Wi-Fi, ZigBee, and 4G/5G overview",
+                            "Mobile IP, handoff management and routing protocols"
+                        ]
+                    },
+                    {
+                        "moduleNo": "III",
+                        "title": "Mobile Application Development",
+                        "topics": [
+                            "Android architecture and components",
+                            "Activity lifecycle, UI design and data storage"
+                        ]
+                    },
+                    {
+                        "moduleNo": "IV",
+                        "title": "Mobile Security and Cloud Integration",
+                        "topics": [
+                            "Security challenges in mobile computing",
+                            "Integration with cloud services and IoT applications"
+                        ]
+                    }
+                ]
+            },
+            {
+                "courseCode": "CSBS3232",
+                "courseName": "Professional Elective – II",
+                "L": 3,
+                "T": 0,
+                "P": 0,
+                "totalHours": 3,
+                "creditPoints": 3,
+                "courseType": "Professional Elective",
+                "options": [
+                    {
+                        "name": "Data Analytics",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Data analytics lifecycle and visualization techniques"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Descriptive, predictive and prescriptive analytics"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Tools: Python, Pandas, NumPy, and visualization libraries"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyber Security",
+                        "modules": [
+                            {
+                                "moduleNo": "I",
+                                "topics": [
+                                    "Security principles, attacks, and vulnerabilities"
+                                ]
+                            },
+                            {
+                                "moduleNo": "II",
+                                "topics": [
+                                    "Cryptography fundamentals, symmetric and asymmetric encryption"
+                                ]
+                            },
+                            {
+                                "moduleNo": "III",
+                                "topics": [
+                                    "Network and application security, firewalls, IDS/IPS"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

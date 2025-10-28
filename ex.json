@@ -1,0 +1,245 @@
+[
+    {
+        "courseCode": "ECEN2104",
+        "courseName": "Digital Logic",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Engineering Science Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Number Systems, Boolean Algebra and Logic Gates",
+                "topics": [
+                    "Data and number systems: binary, octal, and hexadecimal representation and conversions",
+                    "BCD, Gray code, Excess-3 code and conversions between them",
+                    "Signed binary number representation using 1’s and 2’s complement methods",
+                    "Binary arithmetic operations: addition, subtraction, etc.",
+                    "Boolean algebra and De-Morgan’s theorem",
+                    "Logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR – truth tables and circuit representation",
+                    "Universal logic gates and their implementations",
+                    "Sum of Products (SOP) and Product of Sums (POS) forms",
+                    "Minimization of logic expressions using algebraic, Karnaugh map, and Quine-McCluskey methods"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Arithmetic and Combinational Circuits",
+                "topics": [
+                    "Arithmetic circuits: ripple carry adder, carry look-ahead adder (CLA), carry save adder (CSA), and BCD adder",
+                    "Subtractor circuit design and implementation",
+                    "Combinational circuits: encoder, decoder, comparator, multiplexer, demultiplexer, and parity generator",
+                    "Shannon’s expansion theorem and realization of logic functions using multiplexers",
+                    "Parity generator design and applications"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Sequential Logic Circuits",
+                "topics": [
+                    "Basic memory elements and flip-flops: SR, JK, D, and T flip-flops",
+                    "Sequential circuit design methodology: state tables and state diagrams",
+                    "State reduction method and circuit excitation/output tables",
+                    "Derivation of Boolean functions for sequential circuits",
+                    "Finite State Machine (FSM) design using sequential circuit methodology",
+                    "Registers: parallel load registers, shift registers and their types",
+                    "Counters: asynchronous (ripple) and synchronous (binary, BCD, Johnson) counters"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Memory Systems and Logic Families",
+                "topics": [
+                    "Memory systems: basic concepts and designs of RAM (SRAM and DRAM), ROM, EPROM, and EEPROM",
+                    "Programmable logic devices: PLA, PAL, PLD, and gate arrays",
+                    "Logic families: NMOS and CMOS – operation, characteristics, and specifications",
+                    "Realization of basic logic gates using NMOS and CMOS technologies",
+                    "Open collector and tri-state gates, wired-AND connections, and bus operations"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Morris M. Mano, “Digital Logic and Computer Design”, PHI.",
+            "Leach & Malvino, “Digital Principles & Applications”, 5th Edition, McGraw Hill.",
+            "R. P. Jain, “Modern Digital Electronics”, 2nd Edition, Tata McGraw Hill.",
+            "Brian Holdsworth & Clive Woods, “Digital Logic Design”, 4th Edition.",
+            "H. Taub & D. Schilling, “Digital Integrated Electronics”, McGraw Hill."
+        ],
+        "referenceBooks": [
+            "John F. Wakerly, “Digital Design: Principles and Practices”.",
+            "A. Anand Kumar, “Fundamentals of Digital Circuits”, PHI."
+        ],
+        "courseOutcomes": [
+            "Learn binary number systems and design logic circuits using combinational gates",
+            "Design applications of sequential circuits",
+            "Design and analyze finite state machines (FSMs)",
+            "Understand memory classification and types",
+            "Learn the basics of CMOS logic",
+            "Understand the design of various digital components used in VLSI applications"
+        ]
+    },
+    {
+        "courseCode": "ECEN2104",
+        "courseName": "Digital Logic",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Engineering Science Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Number Systems, Boolean Algebra and Logic Gates",
+                "topics": [
+                    "Data and number systems: binary, octal, and hexadecimal representation and conversions",
+                    "BCD, Gray code, Excess-3 code and conversions between them",
+                    "Signed binary number representation using 1’s and 2’s complement methods",
+                    "Binary arithmetic operations: addition, subtraction, etc.",
+                    "Boolean algebra and De-Morgan’s theorem",
+                    "Logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR – truth tables and circuit representation",
+                    "Universal logic gates and their implementations",
+                    "Sum of Products (SOP) and Product of Sums (POS) forms",
+                    "Minimization of logic expressions using algebraic, Karnaugh map, and Quine-McCluskey methods"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Arithmetic and Combinational Circuits",
+                "topics": [
+                    "Arithmetic circuits: ripple carry adder, carry look-ahead adder (CLA), carry save adder (CSA), and BCD adder",
+                    "Subtractor circuit design and implementation",
+                    "Combinational circuits: encoder, decoder, comparator, multiplexer, demultiplexer, and parity generator",
+                    "Shannon’s expansion theorem and realization of logic functions using multiplexers",
+                    "Parity generator design and applications"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Sequential Logic Circuits",
+                "topics": [
+                    "Basic memory elements and flip-flops: SR, JK, D, and T flip-flops",
+                    "Sequential circuit design methodology: state tables and state diagrams",
+                    "State reduction method and circuit excitation/output tables",
+                    "Derivation of Boolean functions for sequential circuits",
+                    "Finite State Machine (FSM) design using sequential circuit methodology",
+                    "Registers: parallel load registers, shift registers and their types",
+                    "Counters: asynchronous (ripple) and synchronous (binary, BCD, Johnson) counters"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Memory Systems and Logic Families",
+                "topics": [
+                    "Memory systems: basic concepts and designs of RAM (SRAM and DRAM), ROM, EPROM, and EEPROM",
+                    "Programmable logic devices: PLA, PAL, PLD, and gate arrays",
+                    "Logic families: NMOS and CMOS – operation, characteristics, and specifications",
+                    "Realization of basic logic gates using NMOS and CMOS technologies",
+                    "Open collector and tri-state gates, wired-AND connections, and bus operations"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Morris M. Mano, “Digital Logic and Computer Design”, PHI.",
+            "Leach & Malvino, “Digital Principles & Applications”, 5th Edition, McGraw Hill.",
+            "R. P. Jain, “Modern Digital Electronics”, 2nd Edition, Tata McGraw Hill.",
+            "Brian Holdsworth & Clive Woods, “Digital Logic Design”, 4th Edition.",
+            "H. Taub & D. Schilling, “Digital Integrated Electronics”, McGraw Hill."
+        ],
+        "referenceBooks": [
+            "John F. Wakerly, “Digital Design: Principles and Practices”.",
+            "A. Anand Kumar, “Fundamentals of Digital Circuits”, PHI."
+        ],
+        "courseOutcomes": [
+            "Learn binary number systems and design logic circuits using combinational gates",
+            "Design applications of sequential circuits",
+            "Design and analyze finite state machines (FSMs)",
+            "Understand memory classification and types",
+            "Learn the basics of CMOS logic",
+            "Understand the design of various digital components used in VLSI applications"
+        ]
+    },
+    {
+        "courseCode": "ECEN2104",
+        "courseName": "Digital Logic",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Engineering Science Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Number Systems, Boolean Algebra and Logic Gates",
+                "topics": [
+                    "Data and number systems: binary, octal, and hexadecimal representation and conversions",
+                    "BCD, Gray code, Excess-3 code and conversions between them",
+                    "Signed binary number representation using 1’s and 2’s complement methods",
+                    "Binary arithmetic operations: addition, subtraction, etc.",
+                    "Boolean algebra and De-Morgan’s theorem",
+                    "Logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR – truth tables and circuit representation",
+                    "Universal logic gates and their implementations",
+                    "Sum of Products (SOP) and Product of Sums (POS) forms",
+                    "Minimization of logic expressions using algebraic, Karnaugh map, and Quine-McCluskey methods"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Arithmetic and Combinational Circuits",
+                "topics": [
+                    "Arithmetic circuits: ripple carry adder, carry look-ahead adder (CLA), carry save adder (CSA), and BCD adder",
+                    "Subtractor circuit design and implementation",
+                    "Combinational circuits: encoder, decoder, comparator, multiplexer, demultiplexer, and parity generator",
+                    "Shannon’s expansion theorem and realization of logic functions using multiplexers",
+                    "Parity generator design and applications"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Sequential Logic Circuits",
+                "topics": [
+                    "Basic memory elements and flip-flops: SR, JK, D, and T flip-flops",
+                    "Sequential circuit design methodology: state tables and state diagrams",
+                    "State reduction method and circuit excitation/output tables",
+                    "Derivation of Boolean functions for sequential circuits",
+                    "Finite State Machine (FSM) design using sequential circuit methodology",
+                    "Registers: parallel load registers, shift registers and their types",
+                    "Counters: asynchronous (ripple) and synchronous (binary, BCD, Johnson) counters"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Memory Systems and Logic Families",
+                "topics": [
+                    "Memory systems: basic concepts and designs of RAM (SRAM and DRAM), ROM, EPROM, and EEPROM",
+                    "Programmable logic devices: PLA, PAL, PLD, and gate arrays",
+                    "Logic families: NMOS and CMOS – operation, characteristics, and specifications",
+                    "Realization of basic logic gates using NMOS and CMOS technologies",
+                    "Open collector and tri-state gates, wired-AND connections, and bus operations"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Morris M. Mano, “Digital Logic and Computer Design”, PHI.",
+            "Leach & Malvino, “Digital Principles & Applications”, 5th Edition, McGraw Hill.",
+            "R. P. Jain, “Modern Digital Electronics”, 2nd Edition, Tata McGraw Hill.",
+            "Brian Holdsworth & Clive Woods, “Digital Logic Design”, 4th Edition.",
+            "H. Taub & D. Schilling, “Digital Integrated Electronics”, McGraw Hill."
+        ],
+        "referenceBooks": [
+            "John F. Wakerly, “Digital Design: Principles and Practices”.",
+            "A. Anand Kumar, “Fundamentals of Digital Circuits”, PHI."
+        ],
+        "courseOutcomes": [
+            "Learn binary number systems and design logic circuits using combinational gates",
+            "Design applications of sequential circuits",
+            "Design and analyze finite state machines (FSMs)",
+            "Understand memory classification and types",
+            "Learn the basics of CMOS logic",
+            "Understand the design of various digital components used in VLSI applications"
+        ]
+    }
+]
