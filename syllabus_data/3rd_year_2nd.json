@@ -1,0 +1,1014 @@
+[
+    {
+        "courseCode": "AEIE3221",
+        "courseName": "Fundamentals of Sensors and Transducers",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Resistive and Inductive Sensors",
+                "topics": [
+                    "Definition, principle of sensing and transduction",
+                    "Classification of transducers and their basic characteristics",
+                    "Resistive transducers: potentiometric transducer – construction, symbol, materials, loading effect, error calculation, and sensitivity",
+                    "Strain gauge: theory, types, materials, gauge factor, temperature compensation, and dummy gauge",
+                    "Strain measurement circuits – quarter, half, and full bridge configurations",
+                    "Inductive sensors: principle and common types",
+                    "Reluctance change type sensors and mutual inductance change type sensors",
+                    "Transformer action type sensors and Linear Variable Differential Transformer (LVDT) – construction and working principle"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Capacitive, Piezoelectric, and Magneto-Based Sensors",
+                "topics": [
+                    "Capacitive sensors: variable distance-parallel plate, variable area-parallel plate, and variable dielectric constant type",
+                    "Calculation of sensitivity and response characteristics",
+                    "Microphone design principles and applications",
+                    "Piezoelectric transducers: piezoelectric effect, charge and voltage coefficients and their relationships",
+                    "Crystal model, materials (natural and synthetic), and charge amplifiers",
+                    "Ultrasonic sensors for liquid velocity and level measurements",
+                    "Magnetoresistive effect and magnetostrictive sensors – principles and applications"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Thermal and Temperature Sensors",
+                "topics": [
+                    "Thermal sensors and their significance in industrial measurement",
+                    "Resistance Temperature Detector (RTD): materials, temperature range, R-T characteristics, configurations, and applications",
+                    "Thermistors: materials, shapes, R-T characteristics, range, and accuracy specifications",
+                    "Thermocouples: thermoelectric laws, types, temperature ranges, series and parallel configurations",
+                    "Cold junction compensation and use of compensating cables",
+                    "Thermal radiation sensors: types, construction, and comparative analysis",
+                    "Introduction to semiconductor type temperature sensors and their practical uses"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Radiation and Smart Sensors",
+                "topics": [
+                    "Radiation sensors: LED, LDR, photodiodes, photovoltaic cells, and photoemissive cell types",
+                    "Materials, construction, response characteristics, and applications of radiation sensors",
+                    "Geiger counters and scintillation detectors – working principle and use cases",
+                    "Introduction to smart sensors and their applications in modern measurement systems"
+                ]
+            }
+        ],
+        "textBooks": [
+            "D. Patranabis, 'Sensors and Transducers', 2nd Edition, PHI Learning."
+        ],
+        "referenceBooks": [
+            "H. K. P. Neubert, 'Instrument Transducers', Oxford University Press.",
+            "E. A. Doebelin, 'Measurement Systems: Application and Design', McGraw Hill."
+        ],
+        "courseOutcomes": [
+            "Use different methods for converting a physical parameter into an electrical quantity.",
+            "Select the best-fit transducers for measurement of parameters like temperature, strain, motion, position, and light intensity.",
+            "Compare different sensors and standards to make accurate measurements of displacement, stress, force, acceleration, and flow.",
+            "Acquire knowledge on high-temperature sensing systems used in industrial applications such as steel, aluminum, and copper plants.",
+            "Learn the basic principles and applications of smart sensors.",
+            "Identify and understand the role of various sensors used in real-life applications."
+        ]
+    },
+    {
+        "courseCode": "HMTS3221",
+        "courseName": "Human Resource Management",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Human Resource Management and Human Resource Planning",
+                "topics": [
+                    "Meaning, scope, objectives, and functions of Human Resource Management (HRM)",
+                    "HR as a factor of competitive advantage",
+                    "Structure of the HR department and roles of HR managers",
+                    "Line and staff responsibilities of HR managers",
+                    "Environmental factors influencing HRM",
+                    "Human Resource Planning (HRP): definition, objectives, and process",
+                    "Supply and demand forecasting techniques in HRP",
+                    "Manpower inventory and its importance",
+                    "Career planning and development and succession planning",
+                    "Human Resource Information System (HRIS): functions and benefits"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Recruitment, Selection, and Human Resource Development",
+                "topics": [
+                    "Recruitment and selection process in organizations",
+                    "Sources and methods of selection and interviewing techniques",
+                    "Interviewing methods, skills, and common errors in selection",
+                    "Human Resource Development (HRD): definition, objectives, and process",
+                    "Assessment of HRD needs and HRD methods",
+                    "Training process: design, implementation, and evaluation of training programmes",
+                    "Induction training and employee orientation",
+                    "Developing managerial skills for team management, collaboration, interaction across business functions, presentation, negotiation, and networking"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Performance Appraisal and Compensation Management",
+                "topics": [
+                    "Performance appraisal systems: purpose, methods, and appraisal instruments",
+                    "360-degree appraisal, HR scorecard, and errors in appraisal",
+                    "Potential appraisal and appraisal interviews",
+                    "Compensation management: concepts, components, and wage systems",
+                    "Systems of wage payment, job evaluation, wage/salary fixation",
+                    "Incentive schemes, bonuses, ESOPs, and fringe benefits",
+                    "Retirement benefits and compensation planning strategies"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Industrial Relations, Participation, and Discipline Management",
+                "topics": [
+                    "Industrial relations in India: management and trade union relationships",
+                    "Industrial disputes: trends, collective bargaining, and settlement mechanisms",
+                    "Role of government and labor policy in India",
+                    "Workers’ participation in management: concept, practices, and prospects in India",
+                    "Quality circles and other small group activities for employee involvement",
+                    "Discipline management: concept, misconduct, disciplinary actions, and domestic enquiries",
+                    "Grievance handling mechanisms and resolution approaches"
+                ]
+            }
+        ],
+        "textBooks": [
+            "T. Agarwala, 'Strategic Human Resource Management', Oxford University Press."
+        ],
+        "referenceBooks": [
+            "K. Aswathappa, 'Human Resource Management', Tata McGraw Hill.",
+            "P. Jyothi and D. N. Venkatesh, 'Human Resource Management', Oxford University Press.",
+            "E. A. Ramaswamy, 'Managing Human Resources', Oxford University Press.",
+            "M. S. Saiyadain, 'Human Resource Management', Tata McGraw Hill.",
+            "Sabari Mondal and Amal Goswami, 'Human Resource Management', Vrinda Publications."
+        ],
+        "courseOutcomes": [
+            "Comprehend the importance of human resources and their effective management in organizations.",
+            "Demonstrate a basic understanding of different tools used in forecasting and planning human resource needs.",
+            "Explain the organizational, societal, and individual costs and benefits of training and development.",
+            "Understand the role of resistance and commitment in relation to change and propose strategies for organizational development.",
+            "Understand the appropriate policies and practices involved in the performance management process.",
+            "Analyze core issues and practices related to employee relations, labor laws, trade unionism, grievance handling, and discipline."
+        ]
+    },
+    {
+        "courseCode": "INCO3016",
+        "courseName": "Indian Constitution and Civil Society",
+        "L": 2,
+        "T": 0,
+        "P": 0,
+        "totalHours": 2,
+        "creditPoints": 0,
+        "courseType": "Humanities and Social Science",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to the Constitution of India",
+                "topics": [
+                    "Historical background of the Indian Constitution",
+                    "Making of the Indian Constitution",
+                    "Process of framing the Constitution",
+                    "The Constituent Assembly and its functioning"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Salient Features and Comparative Analysis",
+                "topics": [
+                    "Salient features of the Indian Constitution",
+                    "Comparison with the constitutions of other countries",
+                    "Understanding uniqueness and similarities with global democratic frameworks"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Relevance of the Constitution of India",
+                "topics": [
+                    "Relevance and applicability of the Indian Constitution in contemporary society",
+                    "Relationship between Constitution and Governance",
+                    "Role of the Constitution in Judiciary and Parliament",
+                    "Constitutional amendments and their implications"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Constitution and Society",
+                "topics": [
+                    "Relationship between Constitution and Society",
+                    "Concepts of democracy, secularism, and justice",
+                    "Rights and duties of individual citizens",
+                    "Fundamental Rights, Directive Principles of State Policy, and Fundamental Duties"
+                ]
+            }
+        ],
+        "textBooks": [
+            "C. M. Elliot (ed.), 'Civil Society and Democracy', Oxford University Press, 2012."
+        ],
+        "referenceBooks": [
+            "David Held et al. (ed.), 'The Idea of the Modern State', Open University Press, Bristol, 1993.",
+            "Neera Chandoke, 'State and Civil Society', Sage Publications, Delhi, 1995."
+        ],
+        "courseOutcomes": [
+            "Analyze the historical, political, and philosophical context behind the Indian Constitution-making process.",
+            "Appreciate the important principles characterizing the Indian Constitution and compare them with other constitutions.",
+            "Understand the relevance and application of the Indian Constitution in contemporary times.",
+            "Critique the contexts and reasons for constitutional amendments in response to societal changes.",
+            "Establish the relationship between the Indian Constitution and civil society at both collective and individual levels.",
+            "Exercise constitutional rights and duties consciously in personal and professional life."
+        ]
+    },
+    {
+        "courseCode": "CSBS3221",
+        "courseName": "Introduction to E-Commerce",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Open Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to E-Commerce and EDI Systems",
+                "topics": [
+                    "Overview and definitions of Electronic Commerce",
+                    "Advantages and disadvantages of E-Commerce",
+                    "Drivers and myths of E-Commerce; the Dot Com era and emergence of E-Business",
+                    "Relationship between E-Commerce and networking technologies",
+                    "Different types of networks for E-Commerce: Internet, Intranet, and Extranet",
+                    "Wireless Application Protocol (WAP): definition, mobility, and commerce",
+                    "Mobile computing and wireless web concepts",
+                    "Web security and infrastructure requirements for E-Commerce",
+                    "Electronic Data Interchange (EDI): meaning, benefits, concepts, applications, and EDIFACT standard",
+                    "Value Added Network (VAN) and Internet-based EDI"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "E-Commerce Business Models and Supply Chain Management",
+                "topics": [
+                    "Business models of E-Commerce based on transaction parties: B2B, B2C, C2B, C2C, and E-Governance",
+                    "Overview of E-strategy and strategic methods for developing E-Commerce systems",
+                    "B2B E-Commerce and collaborative commerce",
+                    "Supply Chain Management (SCM) in E-Commerce",
+                    "E-logistics and supply chain portals",
+                    "Supply Chain Planning (SCP) tools and Supply Chain Execution (SCE) tools",
+                    "SCE framework and the effect of emerging technologies on supply chain management"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "E-Commerce Risks, Security, and Digital Marketing",
+                "topics": [
+                    "Overview of E-Commerce risks and security concerns",
+                    "Security standards, firewalls, and cryptography fundamentals",
+                    "Key management, digital signatures, digital envelopes, and digital certificates",
+                    "Virtual Private Networks (VPN) and secure communication in E-Commerce",
+                    "Electronic payment mechanisms: card systems, e-cheques, e-cash, and e-payment threats and protections",
+                    "E-Marketing: traditional vs. online marketing approaches",
+                    "Search Engine Optimization (SEO) and its role in digital marketing",
+                    "Internet marketing technologies, social marketing, and location-based marketing strategies"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Emerging Technologies in E-Commerce",
+                "topics": [
+                    "Radio Frequency Identification (RFID) and its applications in E-Commerce",
+                    "Augmented Reality (AR) and its impact on digital shopping experiences",
+                    "Blockchain technology and its role in secure transactions",
+                    "Internet of Things (IoT) applications in E-Commerce systems",
+                    "Artificial Intelligence (AI) and machine learning-driven insights in E-Commerce",
+                    "Influence of emerging technologies on the future of E-Commerce"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Kenneth C. Laudon and Carol G. Traver, 'E-Commerce: Business, Technology, Society', Pearson Education.",
+            "Efraim Turban, David King, Jae Lee, Ting-Peng Liang, and Deborrah Turban, 'Electronic Commerce 2010: A Managerial Perspective'."
+        ],
+        "referenceBooks": [
+            "David Whitley, 'E-Commerce: Strategy, Technologies & Applications', TMH."
+        ],
+        "courseOutcomes": [
+            "Understand the basics and working concepts of E-Commerce systems.",
+            "Select appropriate hardware and software platforms for implementing E-Commerce applications.",
+            "Explain various E-Commerce models such as EDI, B2B, B2C, C2C, m-Commerce, and E-Governance.",
+            "Understand the importance of security, cryptography, and privacy in E-Commerce transactions.",
+            "Describe E-Commerce marketing concepts, strategies, and technological dimensions.",
+            "Analyze the role of emerging technologies such as AI, IoT, AR, and Blockchain in reshaping E-Commerce."
+        ]
+    },
+    {
+        "courseCode": "CSBS3232",
+        "courseName": "Machine Learning",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Regression Techniques",
+                "topics": [
+                    "Basic concepts and examples of learning",
+                    "Components of a learning system",
+                    "Simple model of learning",
+                    "Different types of learning: supervised, unsupervised, and reinforcement learning",
+                    "Regression: input representation, linear classification, and regression",
+                    "Logistic regression and nonlinear transformations",
+                    "Likelihood measure and gradient descent optimization"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Learning Theory and Evaluation Metrics",
+                "topics": [
+                    "Components of learning and relationship between training and testing",
+                    "Error and noise in data and their effects on learning",
+                    "Dichotomies, growth function, and break points in hypothesis evaluation",
+                    "Evaluation metrics: accuracy, precision, recall, and F1-score",
+                    "VC Dimension: definition, VC dimension of perceptrons, and interpretation",
+                    "Utility and implications of VC dimension in learning capacity",
+                    "Bias-Variance tradeoff and understanding learning curves"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Neural Networks and Deep Learning",
+                "topics": [
+                    "Recapitulation of neural network model and backpropagation algorithm",
+                    "Introduction to Radial Basis Function (RBF) networks",
+                    "Convolutional Neural Networks (CNNs) and Deep Neural Networks (DNNs)",
+                    "Fundamentals of deep learning and representation learning",
+                    "Softmax function, one-hot encoding, and cross-entropy loss",
+                    "Classification using deep learning architectures"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Support Vector Machines and Regularization",
+                "topics": [
+                    "Support Vector Machines (SVM): margin and maximum margin classifiers",
+                    "Quadratic programming formulation of SVM",
+                    "Support vectors and kernel functions for non-linear learning",
+                    "Overfitting: causes, effects, and mitigation techniques",
+                    "Concept and application of regularization in model training"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Y. S. Abu-Mostafa, M. Magdon-Ismail, and H. T. Lin, 'Learning from Data: A Short Course', AMLbook.com.",
+            "A. Konar, 'Computational Intelligence: Principles, Techniques and Applications', Springer, 2012.",
+            "T. M. Mitchell, 'Machine Learning', McGraw-Hill, 1997."
+        ],
+        "referenceBooks": [
+            "S. Haykin, 'Neural Networks and Learning Machines', PHI Learning, 3rd Edition, 2009.",
+            "Christopher M. Bishop, 'Pattern Recognition and Machine Learning', Springer, 2010.",
+            "Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 'Deep Learning', MIT Press, 2017."
+        ],
+        "courseOutcomes": [
+            "Interpret the fundamentals of the machine learning paradigm.",
+            "Inspect and analyze data patterns using regression techniques.",
+            "Compare the complexity and limitations of various machine learning algorithms.",
+            "Understand and implement different neural network and deep learning models.",
+            "Compute linear and non-linear functions using Support Vector Machines.",
+            "Apply machine learning algorithms to real-world data and interpret outcomes effectively."
+        ]
+    },
+    {
+        "courseCode": "CSBS3231",
+        "courseName": "Mobile Computing",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Mobile Communication and Multiple Access Technologies",
+                "topics": [
+                    "Introduction to mobile wireless communication and systems",
+                    "Channel assignment schemes and channel interferences",
+                    "Multiple access technologies in cellular communication: TDMA, FDMA, CDMA",
+                    "Overview of cellular network generations",
+                    "Second generation (2G) networks: GSM",
+                    "Third generation (3G) networks: UMTS",
+                    "Fourth generation (4G) networks: LTE Advanced",
+                    "Brief introduction to Fifth Generation (5G) networks and advancements"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Cellular Mobile Communication and MAC Protocols",
+                "topics": [
+                    "Generations of cellular communication technologies",
+                    "Services and architecture of GSM",
+                    "GSM frequency bands and allocation strategy",
+                    "General Packet Radio Service (GPRS) concepts",
+                    "Introduction to Software Defined Radio (SDR)",
+                    "Wireless MAC protocols: issues and challenges",
+                    "Motivation for specialized MAC protocols: hidden and exposed station problems, near-far station problems",
+                    "Taxonomy of MAC protocols",
+                    "Channel assignment schemes: fixed, random, and reservation-based schemes"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Mobile Network and Transport Layer Protocols",
+                "topics": [
+                    "Wireless LAN: IEEE 802.11 architecture and standards",
+                    "Personal Area Networks (PAN): Bluetooth, Piconet, Scatternet, and connection establishment",
+                    "Bluetooth protocol stack and functionalities",
+                    "Mobile IP: goals, assumptions, entities, and terminology",
+                    "IP packet delivery, agent advertisement and discovery, registration, and route optimization",
+                    "TCP variations in mobile networks: Traditional TCP, Indirect TCP, Snooping TCP, Mobile TCP, ATCP",
+                    "Concepts of transmission freezing, timeout handling, and selective retransmission",
+                    "Transaction-oriented TCP and performance improvements for mobility"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Mobile Routing and Application Protocols",
+                "topics": [
+                    "Mobile Ad hoc Networks (MANETs): overview and properties",
+                    "Routing algorithms in MANETs: DSR, WRP, DSDV, AODV, ZRP",
+                    "Multicast routing algorithms: MAODV, ODMRP",
+                    "Wireless Application Protocol (WAP): overview and significance in mobile internet",
+                    "WAP gateway and protocol stack",
+                    "Wireless Markup Language (WML) and its application in mobile services"
+                ]
+            }
+        ],
+        "textBooks": [
+            "P. K. Pattnaik and R. Mall, 'Fundamentals of Mobile Computing', PHI Learning Pvt. Ltd.",
+            "J. H. Schiller, 'Mobile Communications', Pearson Education."
+        ],
+        "referenceBooks": [
+            "U. Hansmann, L. Merk, M. S. Nicklous, and T. Stober, 'Principles of Mobile Computing', Springer.",
+            "D. P. Agrawal and Qing-An Zeng, 'Introduction to Wireless and Mobile Systems', Thomson Asia Pvt. Ltd.",
+            "C. K. Toh, 'Ad Hoc Mobile Wireless Networks', Pearson Education.",
+            "Sipra Das Bit and Biplab K. Sikdar, 'Mobile Computing', PHI Learning Pvt. Ltd."
+        ],
+        "courseOutcomes": [
+            "Understand various multiple access techniques and compare among them.",
+            "Learn the evolution and architecture of different generations of mobile networks.",
+            "Explain the fundamental concept of cellular mobile communication and its challenges.",
+            "Describe inter-networking challenges and solutions in wireless mobile networks.",
+            "Analyze modifications necessary in TCP/IP protocols for wireless environments.",
+            "Compare and evaluate different mobile routing algorithms and protocols."
+        ]
+    },
+    {
+        "courseCode": "CSBS3202",
+        "courseName": "Object Oriented Programming",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Basics of OOP and Introduction to Java",
+                "topics": [
+                    "Properties of object-oriented programming language",
+                    "Comparison between object-oriented and procedural programming languages",
+                    "Major and minor elements of OOP: object, class, relationships among objects",
+                    "Aggregation, association, and generalization concepts",
+                    "Meta-class and message passing",
+                    "Inheritance, encapsulation, and polymorphism",
+                    "Basic concepts of Java programming: advantages of Java, byte-code, and JVM",
+                    "Java data types, operators, control statements, and loops",
+                    "Arrays, creation of class and object, constructors, finalize method, and garbage collection"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Class and Object Properties, Reusability, and Packages",
+                "topics": [
+                    "Access specifiers and method overloading",
+                    "Use of 'this' keyword",
+                    "Objects as parameters and methods returning objects",
+                    "Call by value and call by reference concepts",
+                    "Static variables, methods, and blocks",
+                    "Nested and inner classes",
+                    "String handling concepts and mutable vs immutable strings",
+                    "Super class and subclass relationships including multilevel inheritance",
+                    "Constructor calling process in inheritance",
+                    "Use of 'super' and 'final' keywords with 'super()' method",
+                    "Dynamic method dispatch and abstract classes and methods",
+                    "Interfaces and their implementation",
+                    "Creation and importing of packages, member access control for packages",
+                    "Implementation of various relationships in OOPs"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Exception Handling and I/O Streams",
+                "topics": [
+                    "Basics of exception handling and types of exception classes",
+                    "Usage of try, catch, throw, throws, and finally",
+                    "Creation and handling of user-defined exception classes",
+                    "Input-output stream structure and Wrapper classes",
+                    "Command-line arguments and I/O operations using BufferedReader and Scanner classes",
+                    "File handling and file copy programming using command-line arguments"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Multithreading, Applets, and Swing Programming",
+                "topics": [
+                    "Fundamentals of multithreading and main thread concepts",
+                    "Thread life cycle and creation of multiple threads",
+                    "Thread priorities, synchronization, inter-thread communication, and deadlocks",
+                    "Suspending and resuming threads",
+                    "Basics of applet programming and applet life cycle",
+                    "Differences between applications and applets",
+                    "Parameter passing in applets",
+                    "Introduction to Swing programming and AWT event handling",
+                    "Differences between applet and Swing frameworks",
+                    "Message box, input box, JFrame, JButton, and JLabel components"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Patrick Naughton and Herbert Schildt, 'The Complete Reference – Java 2', TMH.",
+            "James Rumbaugh and Michael Blaha, 'Object Oriented Modelling and Design', Prentice Hall of India."
+        ],
+        "referenceBooks": [
+            "Ali Bahrami, 'Object-Oriented System Development', McGraw Hill.",
+            "R. K. Das, 'Core Java for Beginners', Vikas Publishing.",
+            "Deitel and Deitel, 'Java How to Program', 6th Edition, Pearson.",
+            "Ivor Horton, 'Beginning Java 2 SDK', Wrox.",
+            "E. Balagurusamy, 'Programming with Java: A Primer', 3rd Edition, TMH."
+        ],
+        "courseOutcomes": [
+            "Recall the knowledge of procedural language and map it to object-oriented concepts.",
+            "Relate real-world problems with object-oriented approaches.",
+            "Describe and illustrate the features of object-oriented programming.",
+            "Analyze real-world problems using OOP concepts and formulate solutions.",
+            "Manage the complexity of procedural languages using polymorphism, inheritance, abstraction, and encapsulation.",
+            "Create and explain GUI and thread-based applications."
+        ]
+    },
+    {
+        "courseCode": "CSBS3234",
+        "courseName": "Blockchain Technology and Applications",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Blockchain and Cryptography",
+                "topics": [
+                    "Centralized vs. decentralized systems – advantages and disadvantages",
+                    "Distributed databases and brief idea of blockchain technology",
+                    "Introduction to cryptocurrency and evolution of cryptocurrencies",
+                    "Cryptography concepts: public key and private key, hash function, and digital signature (ECDSA)",
+                    "Memory hard algorithms and zero-knowledge proofs",
+                    "Information hiding, RSA, SHA-256, hash pointer, and Merkle Tree structures"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Blockchain Network, Mining, and Consensus Mechanisms",
+                "topics": [
+                    "Blockchain network and mining mechanisms",
+                    "Distributed consensus and Merkle Patricia Tree",
+                    "Blockchain transactions, fees, anonymity, rewards, and chain policies",
+                    "Life cycle of a blockchain application, soft and hard forks",
+                    "Private and public blockchains and their differences",
+                    "Consensus mechanisms: introduction and classification",
+                    "Nakamoto consensus, Proof of Work (PoW), Proof of Stake (PoS)",
+                    "Byzantine Fault Tolerance (BFT), Proof of Authority (PoA), Proof of Elapsed Time (PoET), and Proof of Burn (PoB)"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Bitcoin and Ethereum Blockchain",
+                "topics": [
+                    "Bitcoin blockchain: structure, operations, features, consensus model, and incentive model",
+                    "Ethereum basics and smart contract fundamentals",
+                    "Turing completeness of smart contract languages and verification challenges",
+                    "Smart contracts for enforcing legal contracts",
+                    "Comparison of Bitcoin scripting vs. Ethereum smart contracts",
+                    "Decentralized Applications (DApps) and their implementation"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Enterprise Blockchain, Consensus, and Security",
+                "topics": [
+                    "Permission-oriented blockchains and smart contracts over closed networks",
+                    "Paxos and Byzantine Generals Problem",
+                    "Byzantine Fault Tolerance (BFT), Practical BFT (PBFT), and comparison of PoW vs. PBFT",
+                    "Enterprise blockchain frameworks: Hyperledger, Hyperledger Fabric, Hyperledger Indy, and Hyperledger Aries",
+                    "Bitcoin NG, CoSi, ByzCoin, and Algorand concepts",
+                    "Decentralization of digital identity, DIDs, and verifiable credentials",
+                    "Blockchain interoperability: asset transfer, escrow, and hashed timelock contracts (HTLC)",
+                    "Blockchain security and its challenges"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Lorne Lantz and Daniel Cawrey, 'Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications', Shroff/O'Reilly."
+        ],
+        "referenceBooks": [
+            "William Stallings, 'Cryptography and Network Security: Principles and Practices', Pearson/PHI.",
+            "Wayne Walker, 'Blockchain: Real-World Applications and Understanding: How Blockchain Can Be Applied In Your World', Audiobook.",
+            "Antony Lewis, 'The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them', Mango Media."
+        ],
+        "courseOutcomes": [
+            "Understand core blockchain concepts, benefits, and limitations compared to other technology systems.",
+            "Explain the cryptographic techniques used to design blockchain frameworks.",
+            "Identify and describe the working principles of Bitcoin and Ethereum blockchains.",
+            "Understand blockchain design concepts and consensus mechanisms used in permissionless systems.",
+            "Make informed decisions about blockchain adoption and real-world applicability.",
+            "Understand enterprise blockchain systems like Hyperledger, Bitcoin NG, BizCoin, Algorand, and the concepts of interoperability and security in blockchain."
+        ]
+    },
+    {
+        "courseCode": "CSBS3233",
+        "courseName": "Compiler Design",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Compiler and Lexical Analysis",
+                "topics": [
+                    "Introduction to Compiler and its role in language translation",
+                    "Analysis of a source program and different phases of compilation",
+                    "Cousins of a compiler and their roles",
+                    "Lexical Analysis: Role of lexical analyzer",
+                    "Tokens, patterns, and lexemes",
+                    "Input buffering and specification of tokens",
+                    "Recognition of tokens using finite automata concepts",
+                    "Language for specifying lexical analyzer: Lex",
+                    "Design of a lexical analyzer generator (Lex tool)"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Syntax Analysis, Type Checking, and Run-Time Environments",
+                "topics": [
+                    "Role and function of parser",
+                    "Context-free grammar and grammar construction",
+                    "Top-down parsing and non-recursive predictive parsing (LL(1))",
+                    "Bottom-up parsing, handles, viable prefixes",
+                    "Various forms of LR parsers: SLR(1), LR(0), LR(1)",
+                    "Construction of LALR(1) parsing table",
+                    "Parser generators (YACC)",
+                    "Type systems and specification of simple type checker",
+                    "Equivalence of type expressions and type conversions",
+                    "Run-time environment: Activation trees, control stack, scope of declaration, and name binding",
+                    "Storage organization and subdivision of run-time memory",
+                    "Activation records and storage allocation strategies",
+                    "Parameter passing methods: call by value, call by reference, copy restore, call by name",
+                    "Symbol tables and dynamic storage allocation techniques"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Syntax Directed Translation and Intermediate Code Generation",
+                "topics": [
+                    "Syntax directed definitions and construction of syntax trees",
+                    "Bottom-up evaluation of S-attributed and L-attributed definitions",
+                    "Translation schemes and elimination of left recursion",
+                    "Bottom-up evaluation of inherited attributes",
+                    "Intermediate code generation: types of intermediate languages and graphical representations",
+                    "Three-address code and its implementation",
+                    "Representation techniques: quadruples, triples, and indirect triples"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Code Generation and Optimization",
+                "topics": [
+                    "Design issues in code generation",
+                    "Basic blocks and flow graphs",
+                    "Transformations of basic blocks and loop structures",
+                    "Simple code generator design",
+                    "Register allocation and assignment techniques",
+                    "DAG representation of basic blocks",
+                    "Code optimization: introduction and principles",
+                    "Sources of optimization and loop optimization",
+                    "Code motion and induction variable elimination",
+                    "Peephole optimization techniques"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Aho, Sethi, Ullman, 'Compiler Principles, Techniques and Tools', Pearson Education.",
+            "Holub, 'Compiler Design in C', PHI Learning."
+        ],
+        "referenceBooks": [
+            "Andrew W. Appel, 'Modern Compiler Implementation in C', Cambridge University Press."
+        ],
+        "courseOutcomes": [
+            "Acquire knowledge of different phases and passes of compilation and design lexical analyzers for a language.",
+            "Understand parser types including Top-Down and Bottom-Up, and construction of LL, SLR, CLR, and LALR parsing tables.",
+            "Understand the concept of type checking and run-time environments.",
+            "Implement compilers using syntax-directed translation and understand synthesized and inherited attributes.",
+            "Generate intermediate code for high-level language statements.",
+            "Apply optimization techniques to intermediate code and generate efficient machine code."
+        ]
+    },
+    {
+        "courseCode": "ECEN3222",
+        "courseName": "Designing with Processors and Controllers",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Microprocessors and Microcontrollers",
+                "topics": [
+                    "Designing with microprocessors and microcontrollers: issues and solutions",
+                    "Embedded systems vs. general computing systems",
+                    "Purpose and characteristics of embedded systems",
+                    "Optimizing design metrics for embedded applications",
+                    "Overview of prominent processor and controller technologies",
+                    "RISC vs. CISC architectures and comparison of their design approaches"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Devices, Communication Buses, and I/O Interfaces",
+                "topics": [
+                    "Input/output types: serial and parallel communication devices",
+                    "Wireless communication devices and their roles in embedded systems",
+                    "Timer and counting devices, watchdog timer, and real-time clock",
+                    "Serial bus communication protocols: UART, RS-232, RS-485",
+                    "Parallel communication networks: ISA, PCI, PCI-X",
+                    "Internet-based embedded system network protocols, USB, and Bluetooth",
+                    "Different types of I/O devices and interfacing methods: Keypad, LCD, VGA",
+                    "Introduction to I/O interfaces and interrupts",
+                    "Interrupt hardware, enabling and disabling interrupts",
+                    "Concepts of handshaking and polled I/O",
+                    "Memory-mapped I/O, interrupt priorities, stack and queue management",
+                    "Vectored interrupts and direct memory access (DMA)",
+                    "Introduction to sensors and actuators used in processor-based systems"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Memory and Hardware-Software Co-Design",
+                "topics": [
+                    "Memory types: SRAM, DRAM, EEPROM, FLASH, CACHE",
+                    "Cache memory organizations: direct, associative, and set-associative mapping",
+                    "Virtual memory: organization, mapping, and management techniques",
+                    "Fundamental issues in hardware-software co-design",
+                    "Unified Modeling Language (UML) and system-level modeling",
+                    "Hardware-software trade-offs and Data Flow Graph (DFG) model",
+                    "State machine programming model and model for multiprocessor systems",
+                    "Introduction to ARM architecture: processor design and implementation",
+                    "Overview of ARM organization and system-level integration"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Real-Time Operating Systems and Applications",
+                "topics": [
+                    "Basics of operating systems and task management concepts",
+                    "Tasks, processes, and threads in real-time systems",
+                    "Multiprocessing and multitasking concepts in embedded systems",
+                    "Task communication and synchronization mechanisms",
+                    "Qualities of a good real-time operating system (RTOS)",
+                    "Resource management and scheduling paradigms: static and dynamic scheduling",
+                    "Static priorities, best-effort scheduling, and rate-monotonic scheduling",
+                    "Real-world issues in RTOS: blocking, unpredictability, interrupts, and caching",
+                    "Examples of embedded operating systems: RT Linux, VRTX, mobile OS, RFID systems"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Jack Ganssle, 'The Art of Designing Embedded Systems', Newnes, 1999.",
+            "David Simon, 'An Embedded Software Primer', Addison Wesley, 2000."
+        ],
+        "referenceBooks": [
+            "C. M. Krishna and Kang G. Shin, 'Real-Time Systems', McGraw-Hill, 1997.",
+            "J. A. Stankovic and K. Ramamritham, 'Advances in Hard Real-Time Systems', IEEE Computer Society Press, 1993.",
+            "Shibu K. V., 'Introduction to Embedded Systems', TMH.",
+            "Frank Vahid and Tony Givargis, 'Embedded System Design – A Unified Hardware and Software Introduction', John Wiley.",
+            "Rajkamal, 'Embedded Systems', TMH.",
+            "L. B. Das, 'Embedded Systems', Pearson.",
+            "S. Heath, 'Embedded System Design', Elsevier.",
+            "G. Osborn, 'Embedded Microcontroller and Processor Design', Pearson.",
+            "Steve Furber, 'ARM System-on-Chip Architecture', Pearson."
+        ],
+        "courseOutcomes": [
+            "Understand microprocessors and microcontrollers – their operation and programming.",
+            "Identify RISC processors from CISC processors and apply them in circuit design.",
+            "Analyze operations of different serial and parallel buses and interrupts.",
+            "Evaluate various hardware designs and memory configurations.",
+            "Develop and write RTOS components for complex processor-based designs.",
+            "Design processor and controller-based intelligent systems for real-life applications."
+        ]
+    },
+    {
+        "courseCode": "CSBS3203",
+        "courseName": "Enterprise System and IT Solutions",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Enterprise Systems and Digitalization in Business",
+                "topics": [
+                    "Enterprise and system concepts, system types, and examples",
+                    "Data and information: sources of data for business",
+                    "Strategy and technology integration in enterprises",
+                    "Information as a strategic asset and its business implications",
+                    "Digitalization and digital transformation in modern enterprises",
+                    "Importance of digital media and its role in business innovation",
+                    "Disruptive technologies and their impact on business processes"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Management Information Systems and IT for Business",
+                "topics": [
+                    "Information Systems and organizational strategy alignment",
+                    "Basic concepts and structure of Information Systems (IS)",
+                    "Computer-based Information Systems for decision-making processes",
+                    "Data management and analytics in business environments",
+                    "Concepts and practices of Business Intelligence (BI)",
+                    "Data warehousing, data mart, metadata, and multidimensional modeling",
+                    "Online Analytical Processing (OLAP) and Online Transaction Processing (OLTP) systems"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Enterprise Systems and ERP Concepts",
+                "topics": [
+                    "Introduction to enterprise systems and their significance",
+                    "Overview of major business processes: Sales & Distribution (SD), Procurement, Production Planning & Control (PP), Materials Management (MM), Finance and Control (FICO), Human Resource Management (HM), Warehouse Management (WM), Quality Management (QM), and Enterprise Asset Management (EAM)",
+                    "Enterprise Resource Planning (ERP): concepts, evolution, and functional architecture",
+                    "ERP and business process redesign for efficiency and integration",
+                    "ERP software overview and real-world applications"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Supply Chain and Customer Relationship Management Systems",
+                "topics": [
+                    "Supply Chain Management (SCM): concepts, drivers, and components",
+                    "Inbound and outbound logistics: definitions, functions, and applications",
+                    "E-Procurement, E-Tailing, E-Logistics, E-Collaboration, and E-Integration",
+                    "Overview of SCM tools and their roles in business integration",
+                    "Customer Relationship Management (CRM): concepts, features, and types",
+                    "Applications of CRM and Sales Force Automation (SFA)",
+                    "CRM tools and their significance in customer engagement",
+                    "Concept and evolution of XRP (Extended ERP)",
+                    "Case studies on integrated enterprise solutions"
+                ]
+            }
+        ],
+        "textBooks": [
+            "James A. O’Brien, George M. Marakas, and Ramesh Behl, 'Management Information Systems', McGraw Hill.",
+            "Simha R. Magal and Jeffrey Word, 'Integrated Business Processes with ERP Systems', Wiley.",
+            "Ramesh Sharda, Dursun Delen, and Efraim Turban, 'Business Intelligence, Analytics, and Data Science: A Managerial Perspective', Pearson."
+        ],
+        "referenceBooks": [
+            "Rahul De, 'MIS: Managing Information Systems in Business, Government and Society', Wiley.",
+            "Kenneth C. Laudon and Jane P. Laudon, 'Management Information Systems: Managing the Digital Firm', Pearson.",
+            "Mary Sumner, 'Enterprise Resource Planning', Pearson.",
+            "Alexis Leon, 'Enterprise Resource Planning', Tata McGraw-Hill."
+        ],
+        "courseOutcomes": [
+            "Classify various functional areas of management and information systems along with the information technologies involved.",
+            "Evaluate the current role of IT in organizations for achieving goals and strategic objectives.",
+            "Analyze the role of business processes in supporting enterprise system implementation.",
+            "Evaluate the implementation process and effectiveness of Enterprise Systems.",
+            "Describe how enterprise systems use relational database management systems for organizational data management and decision-making.",
+            "Analyze real-world cases relevant to enterprise systems and their impact on decision-making."
+        ]
+    },
+    {
+        "courseCode": "CSBS3201",
+        "courseName": "Software Engineering",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Software Engineering and Requirement Analysis",
+                "topics": [
+                    "Software Engineering – objectives and definitions",
+                    "Software Development Life Cycle (SDLC) and its different phases",
+                    "Software Lifecycle Models: Waterfall, RAD, Prototyping, Incremental, Iterative, Spiral, and Agile",
+                    "Requirements Phase: Requirements gathering and analysis",
+                    "Requirement Specifications – General Structure of Software Requirement Specification (SRS)",
+                    "Structured Analysis Modeling Techniques",
+                    "Process Modeling using Data Flow Diagrams (DFD) with examples",
+                    "Data Dictionary, Decision Tree, and Decision Table with examples",
+                    "Data Modeling using Entity Relationship Diagram (ERD) with examples"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Software Design and Object-Oriented Analysis",
+                "topics": [
+                    "Overview and comparison between requirement analysis and design",
+                    "Attributes of good software design",
+                    "Design approaches – Functional and Object-Oriented",
+                    "Design aspects – Top-down and Bottom-up structured design",
+                    "High-level and Low-level design concepts",
+                    "Functional decomposition, abstraction, cohesion, coupling, structure charts, and structured English",
+                    "Object-Oriented Analysis and Design (OOAD) concepts",
+                    "Unified Modelling Language (UML): various diagram types for different system views",
+                    "User View – Use Case Diagrams with examples",
+                    "Structural View – Class Diagrams with examples",
+                    "Behavioral View – Sequence, Collaboration, Activity, and State Chart Diagrams with examples"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Coding, Testing, and Review Techniques",
+                "topics": [
+                    "Programming principles and guidelines",
+                    "Structured programming and code reusability",
+                    "Coding standards and documentation guidelines",
+                    "Self-review and peer review in software development",
+                    "Testing Overview: objectives, definitions, and classification",
+                    "Static vs Dynamic Testing, Functional vs Non-functional Testing",
+                    "Testing Artifacts – Test cases and test suites, stub and driver concepts",
+                    "Testing methods: White-box testing (Control Flow Graph and Cyclomatic Complexity), Black-box testing (Equivalence Class Partitioning and Boundary Value Analysis)",
+                    "Testing levels – Unit, Integration, System, User Acceptance, Regression, Performance, Usability, and Non-functional Testing"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Software Maintenance, Estimation, and Project Management",
+                "topics": [
+                    "Software Maintenance: types – corrective, preventive, adaptive, and perfective",
+                    "Change management and maintenance process",
+                    "Introduction to Continuous Integration (CI) and Continuous Deployment (CD)",
+                    "Software Estimation – overview of size, effort, duration, and cost estimation",
+                    "Size estimation methods: Lines of Code (LOC) and Function Points (FP)",
+                    "Effort and duration estimation using productivity measures",
+                    "Constructive Cost Model (COCOMO): Basic, Intermediate, and Detailed COCOMO models",
+                    "Project Management – overview of planning, staffing, execution, monitoring, and control",
+                    "Project scheduling: Work Breakdown Structure (WBS), Gantt Charts, and PERT diagram",
+                    "Configuration Management – identification, control, status accounting, and audits",
+                    "Concept of baseline and versioning of configurable items (CIs)"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Roger S. Pressman, 'Software Engineering – A Practitioner’s Approach', McGraw Hill.",
+            "Rajib Mall, 'Fundamentals of Software Engineering', PHI Learning Pvt. Ltd."
+        ],
+        "referenceBooks": [
+            "Ian Sommerville, 'Software Engineering', Addison-Wesley Publishing Company.",
+            "Pankaj Jalote, 'An Integrated Approach to Software Engineering', Narosa Publishing House.",
+            "Grady Booch, James Rumbaugh, and Ivar Jacobson, 'The Unified Modeling Language User Guide', Pearson Education."
+        ],
+        "courseOutcomes": [
+            "Understand the basic concepts of SDLC stages and different SDLC models.",
+            "Model function-oriented software design using structured analysis techniques.",
+            "Develop object-oriented software design using UML concepts.",
+            "Analyze and differentiate various software testing methodologies and approaches.",
+            "Estimate software size, effort, cost, and time using established models like COCOMO.",
+            "Prepare effective project schedules and staffing plans for software projects."
+        ]
+    }
+]
