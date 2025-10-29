@@ -1,484 +1,782 @@
 [
     {
-        "year": "3rd Year",
-        "semester": "5th Semester",
-        "courses": [
+        "courseCode": "CSBS3135",
+        "courseName": "Artificial Intelligence",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
             {
-                "courseCode": "CSBS3101",
-                "courseName": "Computer Networks",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction to Computer Networks",
-                        "topics": [
-                            "Network topologies, types of networks and network models",
-                            "OSI and TCP/IP models, encapsulation and addressing"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Data Link Layer",
-                        "topics": [
-                            "Error detection and correction methods",
-                            "Flow control and ARQ protocols",
-                            "Medium access control: CSMA/CD, token passing"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Network Layer",
-                        "topics": [
-                            "IPv4 and IPv6 addressing, subnetting and routing principles",
-                            "Static and dynamic routing algorithms (RIP, OSPF)"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Transport and Application Layers",
-                        "topics": [
-                            "TCP and UDP protocols, congestion control and flow control",
-                            "Application layer protocols: DNS, HTTP, SMTP, FTP"
-                        ]
-                    }
+                "moduleNo": "I",
+                "title": "Introduction and Uninformed Search",
+                "topics": [
+                    "Definition and scope of Artificial Intelligence, typical AI problems, and practical impact of AI in real-world domains",
+                    "Approaches to AI and limitations of current AI systems, brief history and evolution of AI",
+                    "Intelligent Agents: rational agents, reflex-based, model-based, goal-based, and utility-based agents",
+                    "Agent environments and agent architectures",
+                    "Problem solving using search – formulation of classical AI problems as state-space search problems",
+                    "State-space search notation, explicit vs. implicit state-space representations",
+                    "Uninformed search strategies: search tree formulation and exploration",
+                    "Breadth-first search, uniform-cost search, depth-first search, depth-limited search, and bidirectional search algorithms"
                 ]
             },
             {
-                "courseCode": "CSBS3102",
-                "courseName": "Database Management Systems",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Database Concepts",
-                        "topics": [
-                            "Characteristics of database systems, DBMS architecture and advantages",
-                            "Data models: hierarchical, network, relational and object-oriented"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Relational Model and SQL",
-                        "topics": [
-                            "Keys, constraints and relational algebra operations",
-                            "SQL commands for data definition, manipulation and control"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Database Design",
-                        "topics": [
-                            "ER modeling, normalization (1NF to BCNF)",
-                            "Functional dependencies and decomposition"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Transaction Management and Concurrency Control",
-                        "topics": [
-                            "Concepts of transactions, ACID properties",
-                            "Concurrency control and recovery techniques"
-                        ]
-                    }
+                "moduleNo": "II",
+                "title": "Informed Search, Adversarial Search and Constraint Satisfaction",
+                "topics": [
+                    "Informed search: basic principles and role of heuristics in search optimization",
+                    "A* search and its properties, admissible and consistent heuristics",
+                    "Iterative deepening A* (IDA*) and AO* algorithms",
+                    "Local search techniques: hill climbing and simulated annealing",
+                    "Multi-agent problem solving: adversarial search and game tree representation",
+                    "MINIMAX algorithm and alpha-beta pruning with performance analysis",
+                    "Constraint Satisfaction Problems (CSP): definition, representation, and formulation",
+                    "Solving CSPs using backtracking and forward checking methods"
                 ]
             },
             {
-                "courseCode": "CSBS3103",
-                "courseName": "Software Engineering",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Software Process Models",
-                        "topics": [
-                            "Phases of software development lifecycle (SDLC)",
-                            "Waterfall, spiral, agile and prototype models"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Software Requirements and Design",
-                        "topics": [
-                            "Requirement elicitation and specification",
-                            "Design methodologies: structured and object-oriented design"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Software Testing and Quality Assurance",
-                        "topics": [
-                            "Testing levels and techniques (unit, integration, system, acceptance)",
-                            "Quality assurance standards (ISO, CMMI)"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Project Management and Maintenance",
-                        "topics": [
-                            "Effort estimation, risk analysis, and configuration management",
-                            "Software maintenance and re-engineering"
-                        ]
-                    }
+                "moduleNo": "III",
+                "title": "Knowledge Representation and Reasoning",
+                "topics": [
+                    "Knowledge representation issues and various approaches to knowledge representation",
+                    "Propositional logic: syntax, semantics, inference rules, and resolution techniques",
+                    "Limitations of propositional logic in complex reasoning",
+                    "First Order Predicate Logic (FOPL): syntax, semantics, and representation of knowledge using FOPL",
+                    "Clauses, resolution, and unification processes for inference",
+                    "Default and non-monotonic reasoning concepts",
+                    "Rule-based systems: introduction, Horn clauses, procedural vs. declarative knowledge",
+                    "Forward and backward reasoning mechanisms"
                 ]
             },
             {
-                "courseCode": "CSBS3104",
-                "courseName": "Artificial Intelligence",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction to AI",
-                        "topics": [
-                            "Definition and scope of AI, applications and history",
-                            "Intelligent agents and problem-solving approaches"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Search Techniques",
-                        "topics": [
-                            "Uninformed and informed search: BFS, DFS, A* algorithm",
-                            "Game playing and adversarial search (minimax, alpha-beta pruning)"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Knowledge Representation and Reasoning",
-                        "topics": [
-                            "Propositional and predicate logic, inference rules",
-                            "Semantic networks, frames and ontologies"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Machine Learning and Expert Systems",
-                        "topics": [
-                            "Supervised and unsupervised learning basics",
-                            "Expert systems and knowledge engineering"
-                        ]
-                    }
-                ]
-            },
-            {
-                "courseCode": "CSBS3131-CSBS3135",
-                "courseName": "Professional Elective – I",
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "totalHours": 3,
-                "creditPoints": 3,
-                "courseType": "Professional Elective",
-                "options": [
-                    {
-                        "name": "Computer Graphics",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Graphics systems and output primitives",
-                                    "Line and circle drawing algorithms"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "2D transformations and clipping algorithms"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "3D transformations, projections and hidden surface removal"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "E-Commerce",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Introduction to E-commerce and business models"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Security, payment systems and digital signatures"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "E-commerce infrastructure and legal issues"
-                                ]
-                            }
-                        ]
-                    }
+                "moduleNo": "IV",
+                "title": "Planning, Learning and Probabilistic Reasoning",
+                "topics": [
+                    "Planning: introduction, problem solving vs. planning, logic-based planning",
+                    "Planning algorithms and planning as search, total-order and partial-order planning",
+                    "Learning in AI: overview of learning paradigms and learning rules",
+                    "Supervised learning models: Naïve Bayes classifier and decision tree learning",
+                    "Reasoning with uncertainty: probabilistic reasoning and probabilistic inference rules",
+                    "Bayesian networks: syntax, semantics, parameter learning and inference"
                 ]
             }
+        ],
+        "textBooks": [
+            "S. Russell and P. Norvig, 'Artificial Intelligence: A Modern Approach', Pearson Education.",
+            "Dan W. Patterson, 'Introduction to Artificial Intelligence and Expert Systems', PHI."
+        ],
+        "referenceBooks": [
+            "Amit Konar, 'Artificial Intelligence and Soft Computing: Behavioral and Cognitive Modeling of the Human Brain', CRC Press.",
+            "Elaine Rich and Kelvin Knight, 'Artificial Intelligence', TMH."
+        ],
+        "courseOutcomes": [
+            "Apply the basic principles of state-space to formulate classical AI problems.",
+            "Demonstrate uninformed and informed search techniques to solve search problems.",
+            "Illustrate adversarial search algorithms and constraint satisfaction problem-solving approaches.",
+            "Interpret the principles of knowledge representation and propositional logic.",
+            "Investigate knowledge using first-order predicate logic to solve AI problems inspired by human behavior.",
+            "Construct AI models to solve real-world problems using learning techniques and probabilistic models."
         ]
     },
     {
-        "year": "3rd Year",
-        "semester": "6th Semester",
-        "courses": [
+        "courseCode": "CSBS3131",
+        "courseName": "Computer Graphics",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
             {
-                "courseCode": "CSBS3201",
-                "courseName": "Machine Learning",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction and Basics",
-                        "topics": [
-                            "Machine learning paradigms: supervised, unsupervised, reinforcement",
-                            "Linear regression and gradient descent"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Classification Techniques",
-                        "topics": [
-                            "Decision trees, naïve Bayes classifier",
-                            "Support vector machines and k-nearest neighbors"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Unsupervised Learning",
-                        "topics": [
-                            "Clustering algorithms: K-means, hierarchical, DBSCAN",
-                            "Dimensionality reduction: PCA, LDA"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Neural Networks and Deep Learning",
-                        "topics": [
-                            "Perceptron, multilayer neural networks and backpropagation",
-                            "Introduction to CNN and RNN architectures"
-                        ]
-                    }
+                "moduleNo": "I",
+                "title": "Introduction to Computer Graphics and Scan Conversion",
+                "topics": [
+                    "Introduction to computer graphics and graphics systems",
+                    "Relationship and difference between computer graphics, image, and image processing",
+                    "Representing, preparing, presenting, and interacting with pictures for visualization and image processing",
+                    "Color models, lookup table, histogram, and various image formats",
+                    "Image representation hardware: CRT, LCD, LED display devices, scanners, and digital cameras",
+                    "Gamma correction, interlacing, and properties of display devices",
+                    "Scan conversion: representation of points and lines",
+                    "Line drawing algorithms: DDA algorithm and Bresenham’s line algorithm",
+                    "Circle generation algorithm and ellipse generation algorithm"
                 ]
             },
             {
-                "courseCode": "CSBS3202",
-                "courseName": "Object Oriented Programming",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Object-Oriented Concepts",
-                        "topics": [
-                            "Principles of OOP: abstraction, encapsulation, inheritance, polymorphism",
-                            "Class, object and access specifiers"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Inheritance and Polymorphism",
-                        "topics": [
-                            "Types of inheritance, constructor chaining, method overriding",
-                            "Dynamic binding and interfaces"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Exception Handling and File I/O",
-                        "topics": [
-                            "Try-catch-finally blocks, user-defined exceptions",
-                            "Reading and writing files, serialization"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Java Collections Framework",
-                        "topics": [
-                            "Lists, sets, maps, generics and iterators",
-                            "Streams and lambda expressions in Java"
-                        ]
-                    }
+                "moduleNo": "II",
+                "title": "Area Filling and 2D Transformations",
+                "topics": [
+                    "Area filling algorithms: scan line polygon-fill algorithm, boundary fill algorithm, and flood fill algorithm",
+                    "2D transformations: translation, rotation, and scaling",
+                    "Matrix representation and homogeneous coordinates",
+                    "Transformation between coordinate systems",
+                    "Reflection and shear transformations",
+                    "Transformation of points, lines, and intersections between lines",
+                    "Introduction to 3D transformation concepts"
                 ]
             },
             {
-                "courseCode": "CSBS3203",
-                "courseName": "Internet and Web Technologies",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Web Fundamentals",
-                        "topics": [
-                            "Internet architecture, HTTP, and DNS overview",
-                            "HTML5 structure and semantic tags"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Client-Side Scripting",
-                        "topics": [
-                            "CSS for layout and styling",
-                            "JavaScript fundamentals, DOM manipulation and events"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Server-Side Scripting",
-                        "topics": [
-                            "Introduction to Node.js, Express.js, and REST APIs",
-                            "Database connectivity and session management"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Advanced Web Technologies",
-                        "topics": [
-                            "AJAX, JSON and web security basics",
-                            "Introduction to React.js and component-based architecture"
-                        ]
-                    }
+                "moduleNo": "III",
+                "title": "Viewing Pipeline, Clipping and 3D Representation",
+                "topics": [
+                    "Viewing pipeline and window-to-viewport coordinate transformation",
+                    "Clipping operations: point, line, circle, polygon, ellipse, and text clipping",
+                    "Line clipping algorithms: Cohen-Sutherland and Liang-Barsky methods",
+                    "Polygon clipping algorithms: Sutherland-Hodgeman and Weiler-Atherton",
+                    "Overview of 3D viewing concepts and projections",
+                    "3D display methods: perspective and parallel projection, vanishing points, and horizon",
+                    "3D object representation: depth cueing, polygon tables, plane equations, and polygon meshes"
                 ]
             },
             {
-                "courseCode": "CSBS3231",
-                "courseName": "Mobile Computing",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction to Mobile Computing",
-                        "topics": [
-                            "Concepts of mobile communication and computing systems",
-                            "Mobile devices, cellular networks and GSM architecture"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Wireless Technologies",
-                        "topics": [
-                            "Bluetooth, Wi-Fi, ZigBee, and 4G/5G overview",
-                            "Mobile IP, handoff management and routing protocols"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Mobile Application Development",
-                        "topics": [
-                            "Android architecture and components",
-                            "Activity lifecycle, UI design and data storage"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Mobile Security and Cloud Integration",
-                        "topics": [
-                            "Security challenges in mobile computing",
-                            "Integration with cloud services and IoT applications"
-                        ]
-                    }
-                ]
-            },
-            {
-                "courseCode": "CSBS3232",
-                "courseName": "Professional Elective – II",
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "totalHours": 3,
-                "creditPoints": 3,
-                "courseType": "Professional Elective",
-                "options": [
-                    {
-                        "name": "Data Analytics",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Data analytics lifecycle and visualization techniques"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Descriptive, predictive and prescriptive analytics"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Tools: Python, Pandas, NumPy, and visualization libraries"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Cyber Security",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Security principles, attacks, and vulnerabilities"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Cryptography fundamentals, symmetric and asymmetric encryption"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Network and application security, firewalls, IDS/IPS"
-                                ]
-                            }
-                        ]
-                    }
+                "moduleNo": "IV",
+                "title": "Curves, Hidden Surfaces and Shading Models",
+                "topics": [
+                    "Curve representation and surface design principles",
+                    "Bezier curves and B-spline curves – representation and properties",
+                    "End conditions for periodic B-spline curves and rational B-spline curve representation",
+                    "Hidden surface removal techniques: depth comparison, Z-buffer algorithm, back-face detection",
+                    "BSP tree method, Painter’s algorithm, scan-line algorithm, and hidden line elimination",
+                    "Wireframe methods and fractal geometry concepts",
+                    "Color and shading models: light and color models, interpolative shading, and texture mapping"
                 ]
             }
+        ],
+        "textBooks": [
+            "Hearn, Baker, 'Computer Graphics (C Version)', 2nd Edition, Pearson Education.",
+            "D. F. Rogers and J. A. Adams, 'Mathematical Elements for Computer Graphics', 2nd Edition, TMH."
+        ],
+        "referenceBooks": [
+            "Z. Xiang and R. Plastock, 'Schaum’s Outlines: Computer Graphics', 2nd Edition, TMH.",
+            "Peter Shirley, Michael Ashikhmin, Michael Gleicher, Stephen R. Marschner, Erik Reinhard, Kelvin Sung, 'Fundamentals of Computer Graphics', CRC Press.",
+            "Jeffrey McConnell, 'Computer Graphics: Theory into Practice', Jones and Bartlett Publishers."
+        ],
+        "courseOutcomes": [
+            "Demonstrate device-dependent and independent color models, image representation techniques, and computer graphics software.",
+            "Apply algorithms like DDA, Bresenham’s line, circle, and ellipse generation to create geometric figures.",
+            "Compare and analyze area-filling and clipping algorithms for 2D and 3D graphics.",
+            "Employ 2D and 3D transformation techniques such as translation, rotation, scaling, reflection, and shearing.",
+            "Demonstrate 3D object representation, projection, and curve/surface modeling using Bezier and B-spline techniques.",
+            "Describe hidden surface representation using Z-buffer, BSP tree, and Painter’s algorithm, and understand shading and fractal geometry."
+        ]
+    },
+    {
+        "courseCode": "CSBS3101",
+        "courseName": "Computer Networks",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction, Physical Layer and Data Link Layer (Part I)",
+                "topics": [
+                    "Overview of data communication concepts and definitions",
+                    "Direction of data flow: simplex, half-duplex, full-duplex modes",
+                    "Network topologies: bus, ring, mesh, star, and hybrid topologies",
+                    "Types of computer networks: LAN, MAN, and WAN",
+                    "Network protocols and layered reference models – OSI and TCP/IP models with comparative study",
+                    "Transmission media: guided (twisted pair, coaxial, fiber optic) and unguided (radio, microwave, satellite) media",
+                    "Switching techniques: circuit switching, packet switching, and message switching",
+                    "Telephone network overview and basic structure",
+                    "Networking devices and their functions – repeaters, hubs, bridges, switches, routers, and gateways",
+                    "Data link layer overview and error handling concepts",
+                    "Types of errors in data transmission and error detection techniques: parity check, cyclic redundancy check (CRC), and checksum",
+                    "Error correction using Hamming code"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Data Link Layer (Part II): Protocols and Access Mechanisms",
+                "topics": [
+                    "Flow control mechanisms: Stop-and-Wait and Sliding Window Protocols",
+                    "Automatic Repeat reQuest (ARQ) techniques: Stop-and-Wait ARQ, Go-Back-N, and Selective Repeat",
+                    "Framing techniques: character-oriented (byte-oriented) and bit-oriented protocols",
+                    "High-level Data Link Control (HDLC) and Point-to-Point Protocol (PPP)",
+                    "Local area network technologies: Token Ring, FDDI, and Ethernet",
+                    "Medium access control (MAC) mechanisms: reservation, polling, and multiple access techniques",
+                    "Random access methods: Pure ALOHA, Slotted ALOHA, Carrier Sense Multiple Access (CSMA), CSMA/CD, and CSMA/CA"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Network Layer and Routing Protocols",
+                "topics": [
+                    "Network layer functions and Internet Protocol (IP)",
+                    "Differences between IPv4 and IPv6, ARP and RARP protocols",
+                    "IP addressing: classful and classless addressing schemes",
+                    "Subnetting, Variable Length Subnet Masking (VLSM), and Classless Inter-Domain Routing (CIDR)",
+                    "Routing concepts and techniques: static, dynamic, and default routing",
+                    "Unicast routing protocols and algorithms: RIP, OSPF, and BGP – principles and comparison"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Transport and Application Layer Protocols",
+                "topics": [
+                    "Transport layer responsibilities: process-to-process delivery",
+                    "User Datagram Protocol (UDP) and Transmission Control Protocol (TCP)",
+                    "Congestion control techniques: open-loop and closed-loop approaches",
+                    "Quality of Service (QoS) concepts and performance parameters",
+                    "Techniques to improve QoS: leaky bucket and token bucket algorithms",
+                    "Application layer protocols and their functionalities: DNS, SMTP, FTP, and DHCP"
+                ]
+            }
+        ],
+        "textBooks": [
+            "B. A. Forouzan, 'Data Communications and Networking', TMH."
+        ],
+        "referenceBooks": [
+            "A. S. Tanenbaum, 'Computer Networks', Pearson Education/PHI.",
+            "W. Stallings, 'Data and Computer Communications', PHI/Pearson Education.",
+            "Kurose and Ross, 'Computer Networking: A Top-Down Approach Featuring the Internet', Pearson Education.",
+            "Comer, 'Internetworking with TCP/IP', Volumes 1, 2, 3, Pearson Education/PHI."
+        ],
+        "courseOutcomes": [
+            "Describe fundamental concepts of data communication, networking, layered models, protocols, and networking devices.",
+            "Explain theoretical foundations of data communication, including digital and analog transmission, multiplexing, and switching.",
+            "Illustrate data link layer services, framing, error control, flow control, and various channel access protocols.",
+            "Examine routing algorithms, addressing schemes, and network layer protocols.",
+            "Analyze transport layer protocols, congestion control techniques, and QoS provisioning methods.",
+            "Define and understand the functionality of different application layer protocols."
+        ]
+    },
+    {
+        "courseCode": "CSBS3102",
+        "courseName": "Database Management Systems",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Databases, Data Models and Relational Algebra",
+                "topics": [
+                    "Overview of databases and database management systems (DBMS)",
+                    "Importance of database design and limitations of file-based data management systems",
+                    "Database system concepts, architecture, and components",
+                    "Three-level architecture of DBMS: external, conceptual, and internal levels",
+                    "Instances, schemas, roles of database administrator and users",
+                    "Advantages and disadvantages of DBMS",
+                    "Data modeling: basic building blocks and types of data models",
+                    "Entity-Relationship (ER) modeling: entities, attributes, relationships, cardinalities, strong and weak entities",
+                    "Generalization, specialization, and aggregation in ER models",
+                    "Entity integrity, primary keys, and translation of ER model into relational model",
+                    "Relational algebra operations: selection, projection, union, intersection, set difference, cross product, rename, and assignment",
+                    "Joins (inner, outer, natural) and division operator in relational algebra"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Relational Data Model and Normalization",
+                "topics": [
+                    "Relational data model concepts and logical view of data",
+                    "Keys and integrity constraints: entity and referential integrity",
+                    "Relational set operators and the role of data dictionary/system catalog",
+                    "Relationships within relational databases and data redundancy control",
+                    "Indexing concepts and Codd’s relational database rules",
+                    "Functional dependencies: definition, types (trivial, non-trivial), and closures",
+                    "Irreducible sets of FDs and canonical cover",
+                    "Normalization process and normal forms: 1NF, 2NF, 3NF, BCNF",
+                    "Decomposition techniques using FDs, lossless decomposition, and dependency preservation",
+                    "Advanced normal forms: 4NF (multivalued dependencies), 5NF (join dependencies), and Domain-Key Normal Form (DKNF)"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Structured Query Language (SQL)",
+                "topics": [
+                    "Introduction to SQL and its sublanguages: DDL, DML, and DCL",
+                    "Basic SQL structure and syntax",
+                    "Basic and advanced queries including selection, projection, and set operations",
+                    "Aggregate functions, handling of NULL values, and domain constraints",
+                    "Referential integrity constraints, assertions, and view definitions",
+                    "Join operations: inner, outer, and cross joins",
+                    "Transaction commands: commit and rollback",
+                    "Subqueries and correlated subqueries in SQL",
+                    "Built-in SQL functions: numeric, date, and string functions",
+                    "Creating and managing updatable views"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "PL/SQL, Transactions, and Storage Structures",
+                "topics": [
+                    "Introduction to PL/SQL and procedural extensions to SQL",
+                    "Structure of PL/SQL blocks and variable declarations",
+                    "Control structures, iteration constructs, and exception handling",
+                    "Cursors: implicit and explicit types",
+                    "Stored procedures, functions, and PL/SQL packages",
+                    "Triggers and types of locks in PL/SQL",
+                    "Transaction management: concepts, states, and ACID properties",
+                    "Concurrency control techniques and serializability concepts",
+                    "Lock-based protocols and recoverability",
+                    "Storage structures and indexing techniques",
+                    "Sequential and indexed file organizations",
+                    "Primary, secondary, and multi-level indexing methods"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Abraham Silberschatz, Henry F. Korth, and S. Sudarshan, 'Database System Concepts', TMH.",
+            "Ramez Elmasri and Shamkant Navathe, 'Fundamentals of Database Systems', Addison-Wesley."
+        ],
+        "referenceBooks": [
+            "C. J. Date, 'An Introduction to Database Systems', Addison-Wesley.",
+            "Ivan Bayross, 'SQL-PL/SQL', BPB Publications."
+        ],
+        "courseOutcomes": [
+            "Demonstrate the concepts of various data models and schemas used in database design.",
+            "Design relational database schemas using conceptual modeling tools such as ER diagrams.",
+            "Analyze functional dependencies and normalize relational database designs.",
+            "Apply query languages to manipulate and manage relational databases.",
+            "Describe transaction concepts, database storage structures, and indexing methods.",
+            "Construct relational database schemas for real-world applications."
+        ]
+    },
+    {
+        "courseCode": "CSBS3132",
+        "courseName": "E-Commerce",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to E-Commerce and EDI Systems",
+                "topics": [
+                    "Overview and definition of E-Commerce",
+                    "Advantages and disadvantages of E-Commerce",
+                    "Drivers and myths of E-Commerce; the Dot Com era and emergence of E-Business",
+                    "Relationship between E-Commerce and networking technologies",
+                    "Different types of networks supporting E-Commerce: Internet, Intranet, and Extranet",
+                    "Electronic Data Interchange (EDI): meaning, benefits, concepts, applications, and models",
+                    "EDI standards such as EDIFACT and Internet-based EDI",
+                    "Wireless Application Protocol (WAP) and mobile commerce concepts",
+                    "Handheld devices and mobile computing for E-Commerce",
+                    "Wireless web, web security, and infrastructure requirements for E-Commerce"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "E-Commerce Business Models and Strategies",
+                "topics": [
+                    "Classification of business models based on transaction parties: B2B, B2C, C2B, C2C, E-Governance, and m-Commerce",
+                    "E-Commerce strategy development: overview and strategic methods for establishing E-Commerce systems",
+                    "B2B E-Commerce and collaborative commerce models",
+                    "Supply chain management in E-Commerce: E-logistics and supply chain portals",
+                    "Supply Chain Planning (SCP) and Supply Chain Execution (SCE) tools and frameworks",
+                    "Impact of emerging technologies on supply chain management"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "E-Payment, E-Marketing, and E-Commerce Security",
+                "topics": [
+                    "Electronic payment mechanisms: payment card systems, e-cheques, e-cash, and digital wallets",
+                    "E-payment threats, frauds, and protection techniques",
+                    "Digital commerce marketing: online marketing strategies and tools",
+                    "Internet marketing technologies and cost-benefit analysis of digital marketing",
+                    "Social and mobile marketing: concepts and strategies",
+                    "Local and location-based mobile marketing",
+                    "Risks in E-Commerce and importance of security",
+                    "Security standards, firewalls, and cryptographic methods",
+                    "Key management, digital certificates, and digital signatures"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Emerging Technologies in E-Commerce",
+                "topics": [
+                    "Virtual Reality (VR) and Augmented Reality (AR) applications in E-Commerce",
+                    "Blockchain and its role in secure and transparent E-Commerce transactions",
+                    "Internet of Things (IoT) integration in online commerce systems",
+                    "Artificial Intelligence (AI) and machine learning-driven insights in E-Commerce",
+                    "How emerging technologies are reshaping the future of E-Commerce platforms and customer experience"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Kenneth C. Laudon and Carol G. Traver, 'E-Commerce: Business, Technology, Society', Pearson Education.",
+            "David Whitley, 'E-Commerce: Strategy, Technologies & Applications', TMH."
+        ],
+        "referenceBooks": [
+            "Efraim Turban, David King, Jae Lee, Ting-Peng Liang, and Deborrah Turban, 'Electronic Commerce 2010: A Managerial Perspective'."
+        ],
+        "courseOutcomes": [
+            "Describe the fundamental concepts and architecture of E-Commerce systems.",
+            "Select appropriate hardware and software platforms for implementing E-Commerce applications.",
+            "Classify various forms of E-Commerce including EDI, B2B, B2C, C2C, m-Commerce, and E-Governance.",
+            "Interpret the importance of security, privacy, and trust in E-Commerce.",
+            "Explain E-Commerce marketing concepts, strategies, and technologies.",
+            "Demonstrate how emerging technologies like AI, IoT, Blockchain, and AR/VR are transforming E-Commerce."
+        ]
+    },
+    {
+        "courseCode": "CSBS3103",
+        "courseName": "Formal Language and Automata Theory",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Finite Automata and Finite State Machines",
+                "topics": [
+                    "Basic concepts of logic: propositions, connectives, well-formed formulas, and disjunctive normal form",
+                    "Finite automata: definition, transition functions, deterministic finite automata (DFA), and non-deterministic finite automata (NFA)",
+                    "Transition diagrams and representation of automata",
+                    "Applications of finite automata and significance of ε-transitions in NFA",
+                    "Language acceptance by DFA and NFA, and conversion from NFA (with or without ε-transitions) to DFA",
+                    "Design of DFA/NFA for given regular languages",
+                    "Finite state machines (FSM): definition, structure, and types",
+                    "Moore and Mealy machines and their interconversion",
+                    "Minimization of finite state machines and equivalence of two FSMs",
+                    "Limitations of FSMs in language recognition"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Formal Languages, Grammars, and Regular Languages",
+                "topics": [
+                    "Formal language fundamentals and grammar concepts",
+                    "Chomsky hierarchy and classification of grammars",
+                    "Right-linear and left-linear grammars and their properties",
+                    "Regular grammars and regular languages with examples",
+                    "Regular expressions: syntax, semantics, and their applications",
+                    "Closure properties of regular languages",
+                    "Acceptance of regular strings by DFA and NFA",
+                    "Pumping lemma for regular languages and identification of non-regular languages",
+                    "Reduction of number of states and equivalence between regular grammars and regular languages",
+                    "Relationship among regular expressions, grammars, and finite automata"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Context-Free Languages and Pushdown Automata",
+                "topics": [
+                    "Definition and characteristics of context-free languages (CFLs) and grammars (CFGs)",
+                    "Derivation trees and parsing: leftmost and rightmost derivations",
+                    "Ambiguity in context-free grammars and methods for resolution",
+                    "Normal forms: Chomsky Normal Form (CNF) and Greibach Normal Form (GNF)",
+                    "Pumping lemma for CFLs and closure properties of CFLs",
+                    "Pushdown automata (PDA): definition, structure, and operations",
+                    "Acceptance by PDA and its equivalence with CFLs",
+                    "Design of PDAs for given languages",
+                    "Non-deterministic PDA (NPDA) and its role as a recognizer of context-free languages",
+                    "Relation between parsing and PDA operation"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Turing Machines and Undecidability",
+                "topics": [
+                    "Introduction to Turing machines and their formal definitions",
+                    "Design and modeling of Turing machines for different languages",
+                    "Turing machine as a language acceptor and as a transducer",
+                    "Computable functions and languages accepted by Turing machines",
+                    "Non-deterministic Turing machines and their equivalence with deterministic models",
+                    "Universal Turing machine and its concept of general computation",
+                    "Undecidable problems: halting problem, post correspondence problem (PCP)",
+                    "Undecidable problems of context-free languages and post systems"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Peter Linz, 'An Introduction to Formal Languages and Automata', Narosa Publishing House.",
+            "Mishra and Chandrasekharan, 'Theory of Computer Science', PHI Learning."
+        ],
+        "referenceBooks": [
+            "J. E. Hopcroft and J. D. Ullman, 'Introduction to Automata Theory, Languages, and Computation', Narosa Student Edition.",
+            "Zvi Kohavi, 'Switching and Finite Automata', Tata McGraw Hill.",
+            "John C. Martin, 'Introduction to the Theory of Formal Languages and Automata', McGraw Hill.",
+            "S. P. Eigere Xavier, 'Theory of Automata, Formal Languages and Computation', New Age Publishers."
+        ],
+        "courseOutcomes": [
+            "Demonstrate the fundamental concepts of formal languages and finite automata techniques.",
+            "Identify different formal language classes and their interrelationships.",
+            "Design finite automata for recognizing regular expressions and languages.",
+            "Construct context-free grammars for describing various languages.",
+            "Design pushdown automata (PDA) for recognizing context-free languages.",
+            "Interpret and design Turing machines as language acceptors and problem solvers."
+        ]
+    },
+    {
+        "courseCode": "CSBS3134",
+        "courseName": "Image Processing",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Image Enhancement in Spatial Domain",
+                "topics": [
+                    "Overview and applications of digital image processing",
+                    "Digital image representation: pixels, sampling, and quantization",
+                    "Spatial and intensity resolution, and interpolation techniques",
+                    "Pixel relationships: neighbors, adjacency, connectivity, regions, boundaries, and distance measures",
+                    "Image quality metrics and need for image enhancement",
+                    "Intensity transformation functions: negative, logarithmic, power-law, and contrast stretching (linear and non-linear)",
+                    "Histogram-based enhancement techniques and equalization",
+                    "Spatial filtering concepts: correlation and convolution in spatial domain",
+                    "Image smoothing and sharpening spatial filters"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Frequency Domain Enhancement and Image Restoration",
+                "topics": [
+                    "Properties of 1-D and 2-D Discrete Fourier Transform (DFT)",
+                    "Filtering concepts in frequency domain",
+                    "Image smoothing and sharpening in the frequency domain using DFT",
+                    "Image degradation: introduction, types, and degradation models",
+                    "Noise modeling and estimation of degradation functions",
+                    "Image restoration techniques in presence of noise using spatial filtering",
+                    "Handling periodic noise using band-pass and band-reject filters"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Image Compression Techniques",
+                "topics": [
+                    "Fundamentals of image compression and coding redundancy",
+                    "Image compression model and performance evaluation",
+                    "Statistical coding techniques: Huffman coding, arithmetic coding, and LZW coding",
+                    "Lossless compression techniques: run-length and predictive coding",
+                    "Lossy compression methods using vector quantization"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Image Segmentation and Feature Detection",
+                "topics": [
+                    "Introduction to image segmentation and its objectives",
+                    "Detection of discontinuities: point, line, and edge detection methods",
+                    "Thresholding techniques: global, local, optimum, multiple, and variable thresholding",
+                    "Hough Transform for detecting geometric shapes",
+                    "Region-based segmentation: principles of region growing, splitting, and merging"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Rafael C. Gonzalez and Richard E. Woods, 'Digital Image Processing', Pearson."
+        ],
+        "referenceBooks": [
+            "Anil K. Jain, 'Fundamentals of Digital Image Processing', Pearson.",
+            "S. Sridhar, 'Digital Image Processing', Oxford University Press, 2nd Edition.",
+            "Bhabatosh Chanda and Dwijesh Dutta Majumder, 'Digital Image Processing and Analysis', Prentice Hall of India."
+        ],
+        "courseOutcomes": [
+            "Review the fundamental concepts and components of a digital image processing system.",
+            "Apply various spatial domain enhancement techniques for image improvement.",
+            "Explain different causes of image degradation and image restoration techniques.",
+            "Illustrate frequency domain image enhancement and filtering techniques.",
+            "Demonstrate image compression techniques for data reduction.",
+            "Compute and analyze feature extraction and segmentation techniques for image recognition and analysis."
+        ]
+    },
+    {
+        "courseCode": "HMTS3101",
+        "courseName": "Principles of Management",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Management and Evolution of Management Thought",
+                "topics": [
+                    "Definition, nature, purpose, and scope of management",
+                    "Functions, principles, skills, and roles of a manager",
+                    "Evolution of management thought and schools of management",
+                    "Scientific Management by F.W. Taylor",
+                    "Administrative Management and Fayol’s Principles of Management",
+                    "Behavioural and Human Relations Approaches – Hawthorne Studies",
+                    "Modern management perspectives and organizational culture",
+                    "Types of business organizations: sole proprietorship, partnership, and company",
+                    "Public and private sector enterprises and their management structures",
+                    "Current trends and issues in management and organizational environment"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Planning, Organizing, Controlling, and Human Resource Management",
+                "topics": [
+                    "Planning: definition, importance, and types of plans",
+                    "Steps in the planning process and characteristics of effective planning",
+                    "Objective setting, strategic management, premising, and forecasting",
+                    "Organizing: nature, purpose, and types of organizational structures",
+                    "Formal and informal organization; line and staff authority; departmentalization",
+                    "Delegation of authority, centralization, and decentralization",
+                    "Controlling: concept, importance, and relationship with planning",
+                    "Control process and various types of control techniques",
+                    "Human Resource Management (HRM): planning, recruitment, and selection",
+                    "Training and development, performance management, and career planning"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Directing, Decision-Making, and Coordination",
+                "topics": [
+                    "Directing: foundation of individual and group behavior",
+                    "Motivation and motivational theories: Maslow, Herzberg, McGregor, and others",
+                    "Motivational techniques and job satisfaction and enrichment",
+                    "Leadership: types and theories of leadership",
+                    "Communication: process, barriers, and effectiveness",
+                    "Use of information technology in managerial communication",
+                    "Decision-making process and Simon’s model of decision-making",
+                    "Creative problem solving and group decision-making",
+                    "Coordination: concepts, importance, issues, and techniques for effective coordination"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Leadership, Communication, Motivation and Modern Management Concepts",
+                "topics": [
+                    "Leading and managing communication in organizations",
+                    "Nature, functions, and methods of interpersonal communication",
+                    "Barriers and direction of communication flow; role of technology in communication",
+                    "Motivating employees: comparison of early and contemporary motivation theories",
+                    "Contemporary issues in motivation and employee engagement",
+                    "Leadership: definitions, early and contingency theories, and modern leadership perspectives",
+                    "Teamwork, group dynamics, and organizational behavior concepts",
+                    "Management by Objectives (MBO) and Management by Exception (MBE)",
+                    "Styles of management: American, Japanese, and Indian models",
+                    "McKinsey’s 7-S Framework and the concept of self-management"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Stephen P. Robbins and Mary Coulter, 'Management', Pearson Education, 13th Edition, 2017.",
+            "Harold Koontz and Heinz Weihrich, 'Essentials of Management', McGraw Hill, 10th Edition, 2015.",
+            "Aswathappa K. and Bhat, 'Management: Principles, Processes & Practices', Oxford University Press, 2nd Edition, 2016.",
+            "Robbins, Coulter, and DeCenzo, 'Fundamentals of Management', Pearson Education, 9th Edition, 2016.",
+            "Richard L. Daft, 'Management', Cengage Learning, 10th Edition."
+        ],
+        "courseOutcomes": [
+            "Study the historical evolution and key schools of management thought.",
+            "Understand core management functions and the fundamentals of managerial roles.",
+            "Comprehend the process and importance of planning in organizations.",
+            "Understand organizational structure, authority, and responsibility relationships.",
+            "Demonstrate effective leadership, direction, and communication skills in management contexts.",
+            "Analyze management issues and formulate suitable control mechanisms for organizational improvement."
+        ]
+    },
+    {
+        "courseCode": "CSBS3133",
+        "courseName": "Soft Computing",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Genetic Algorithms",
+                "topics": [
+                    "Introduction to soft computing: definition, characteristics, and motivation",
+                    "Different tools and techniques used in soft computing",
+                    "Applications and usefulness of soft computing in engineering and problem-solving",
+                    "Genetic Algorithms (GA): basic concepts and working principles",
+                    "Encoding techniques for genetic representation",
+                    "Fitness functions and their significance in GA performance",
+                    "Genetic modeling: inheritance, selection, crossover, and mutation operations",
+                    "Bitwise operators and chromosome representation",
+                    "Convergence properties and termination conditions in genetic algorithms"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Artificial Neural Networks",
+                "topics": [
+                    "Structure and function of biological neurons and their analogs in artificial systems",
+                    "Artificial neuron model and definition of Artificial Neural Networks (ANNs)",
+                    "Taxonomy and classification of neural networks",
+                    "Comparison between ANNs and the human brain",
+                    "Characteristics, learning mechanisms, and applications of ANNs",
+                    "Single-layer and multi-layer perceptron architectures",
+                    "Concept of linear separability and limitations of single-layer networks",
+                    "Different types of activation functions used in neural computation",
+                    "Backpropagation algorithm and its working principles",
+                    "Applications of neural networks in prediction, classification, and control systems"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Fuzzy Sets, Fuzzy Logic and Knowledge Representation",
+                "topics": [
+                    "Overview of classical set theory and limitations in uncertainty representation",
+                    "Introduction to fuzzy sets and fuzzy relations",
+                    "Fuzzy set operations and their mathematical properties",
+                    "Cardinality and features of fuzzy relations",
+                    "Membership functions: types, features, and standard forms",
+                    "Fuzzification methods and standard boundary definitions",
+                    "Fuzzy to crisp conversions using lambda-cuts",
+                    "Defuzzification techniques and applications",
+                    "Overview of classical predicate logic and fuzzy predicate logic",
+                    "Approximate reasoning, fuzzy implication, and fuzzy rule-based systems"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Rough Sets and Multi-Objective Optimization",
+                "topics": [
+                    "Introduction to rough set theory and its role in soft computing",
+                    "Decision tables, indiscernibility relations, and set approximation concepts",
+                    "Reducts, core, and rough approximations",
+                    "Decision matrix and applications of rough set theory in knowledge discovery",
+                    "Introduction to Multi-Objective Optimization Problems (MOOP)",
+                    "Mathematical formulation, examples, and understanding decision vs objective space",
+                    "Comparison between single-objective and multi-objective optimization",
+                    "Ideal solution vs real solution concepts and Pareto optimality",
+                    "Concept of domination, non-dominated sets, Pareto optimal sets, and Pareto fronts",
+                    "Introduction to genetic algorithms for multi-objective problems: VEGA, MOGA, NPGA, NSGA, and NSGA-II",
+                    "Overview of other evolutionary algorithms: Ant Colony Optimization (ACO) and Particle Swarm Optimization (PSO)"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Timothy J. Ross, 'Fuzzy Logic with Engineering Applications', John Wiley and Sons.",
+            "S. Rajasekaran and G. A. V. Pai, 'Neural Networks, Fuzzy Logic and Genetic Algorithms', PHI Learning."
+        ],
+        "referenceBooks": [
+            "Kumar S. Ray, 'Soft Computing and Its Applications: A Unified Engineering Concept', Volume 1, CRC Press.",
+            "David E. Goldberg, 'Genetic Algorithms in Search, Optimization & Machine Learning', Pearson India.",
+            "B. Yegnanarayana, 'Artificial Neural Networks', PHI Learning.",
+            "Dilip K. Pratihar, 'Soft Computing', Alpha Science International."
+        ],
+        "courseOutcomes": [
+            "Describe the fundamental concepts, technologies, and applications of soft computing.",
+            "Analyze the structure and working of genetic algorithms for solving optimization problems.",
+            "Demonstrate various neural network architectures, algorithms, and their applications.",
+            "Apply the concepts of fuzzy sets, fuzzy logic, and knowledge representation for reasoning under uncertainty.",
+            "Identify the significance of approximation analysis and rough set theory in application development.",
+            "Inspect and compare different soft computing techniques for solving multi-objective optimization problems (MOOP)."
         ]
     }
 ]
