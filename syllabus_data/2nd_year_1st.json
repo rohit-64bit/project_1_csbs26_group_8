@@ -1,0 +1,354 @@
+[
+    {
+        "courseCode": "HMTS2101",
+        "courseName": "Economics for Engineers",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Market and Economic Fundamentals",
+                "topics": [
+                    "Meaning and types of market: Perfect Competition, Monopoly, Monopolistic and Oligopoly markets",
+                    "Basic concepts of economics – needs, wants, and utility",
+                    "National Income: GDP and GNP",
+                    "Demand and Supply, Law of Demand, and the role of demand and supply in price determination",
+                    "Price Elasticity and its importance in economics",
+                    "Inflation: meaning, causes, and economic implications"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Business and Banking",
+                "topics": [
+                    "Types of business organizations: Proprietorship, Partnership, Joint-stock company, and Cooperative society – characteristics and comparison",
+                    "Banking system: role of commercial banks and importance of credit in industrial functioning",
+                    "Role of the Central Bank: Reserve Bank of India – functions and monetary control",
+                    "International Business and Trade Environment: significance and challenges"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Financial Accounting",
+                "topics": [
+                    "Fundamentals of accounting: Journals, Ledgers, Trial Balance, Profit & Loss Account, and Balance Sheet",
+                    "Financial statement analysis using ratio analysis and cash flow analysis",
+                    "Interpretation of financial performance and implications for managerial decisions"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Cost Accounting and Decision Making",
+                "topics": [
+                    "Cost accounting terminology: fixed, variable, and semi-variable costs",
+                    "Break-even analysis and cost-volume-profit relationships",
+                    "Preparation of cost sheet and its interpretation",
+                    "Budgeting and variance analysis for managerial control",
+                    "Marginal cost-based decision making"
+                ]
+            },
+            {
+                "moduleNo": "V",
+                "title": "Time Value of Money and Capital Concepts",
+                "topics": [
+                    "Time value of money: present value, future value, annuity, and perpetuity",
+                    "Concept of equity and debt financing",
+                    "Cost of capital and its relevance in investment decisions"
+                ]
+            },
+            {
+                "moduleNo": "VI",
+                "title": "Capital Budgeting and Project Evaluation",
+                "topics": [
+                    "Methods of project appraisal: average rate of return, payback period, discounted cash flow methods",
+                    "Net present value (NPV), benefit-cost ratio (BCR), and internal rate of return (IRR)",
+                    "Depreciation concepts and types of depreciation methods",
+                    "Replacement and sensitivity analysis for investment decisions"
+                ]
+            }
+        ],
+        "books": [
+            "R. Narayanswami, “Financial Accounting - A Managerial Perspective”, Prentice-Hall of India Private Limited, New Delhi.",
+            "James C. Van Horne, “Fundamentals of Financial Management”, Prentice-Hall of India Private Limited, New Delhi.",
+            "H. L. Ahuja, “Modern Economic Theory”, S. Chand, New Delhi.",
+            "Donald G. Newman, Ted G. Eschenbach, and Jerome P. Lavelle, “Engineering Economic Analysis”, Oxford University Press, New York, 2012."
+        ],
+        "courseOutcomes": [
+            "Evaluate a project and estimate its total cost",
+            "Apply financial analytical methodologies to assess organizational performance",
+            "Participate actively in the capital budgeting process of an organization",
+            "Provide insights for product pricing decisions",
+            "Understand the interplay of economic variables and indicators in professional contexts",
+            "Apply accounting concepts related to costs, revenues, assets, liabilities, capital, profit, investment, and interest"
+        ]
+    },
+    {
+        "courseCode": "ECEN2104",
+        "courseName": "Digital Logic",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Engineering Science Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Number Systems, Boolean Algebra and Logic Gates",
+                "topics": [
+                    "Data and number systems: binary, octal, and hexadecimal representation and conversions",
+                    "BCD, Gray code, Excess-3 code and conversions between them",
+                    "Signed binary number representation using 1’s and 2’s complement methods",
+                    "Binary arithmetic operations: addition, subtraction, etc.",
+                    "Boolean algebra and De-Morgan’s theorem",
+                    "Logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR – truth tables and circuit representation",
+                    "Universal logic gates and their implementations",
+                    "Sum of Products (SOP) and Product of Sums (POS) forms",
+                    "Minimization of logic expressions using algebraic, Karnaugh map, and Quine-McCluskey methods"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Arithmetic and Combinational Circuits",
+                "topics": [
+                    "Arithmetic circuits: ripple carry adder, carry look-ahead adder (CLA), carry save adder (CSA), and BCD adder",
+                    "Subtractor circuit design and implementation",
+                    "Combinational circuits: encoder, decoder, comparator, multiplexer, demultiplexer, and parity generator",
+                    "Shannon’s expansion theorem and realization of logic functions using multiplexers",
+                    "Parity generator design and applications"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Sequential Logic Circuits",
+                "topics": [
+                    "Basic memory elements and flip-flops: SR, JK, D, and T flip-flops",
+                    "Sequential circuit design methodology: state tables and state diagrams",
+                    "State reduction method and circuit excitation/output tables",
+                    "Derivation of Boolean functions for sequential circuits",
+                    "Finite State Machine (FSM) design using sequential circuit methodology",
+                    "Registers: parallel load registers, shift registers and their types",
+                    "Counters: asynchronous (ripple) and synchronous (binary, BCD, Johnson) counters"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Memory Systems and Logic Families",
+                "topics": [
+                    "Memory systems: basic concepts and designs of RAM (SRAM and DRAM), ROM, EPROM, and EEPROM",
+                    "Programmable logic devices: PLA, PAL, PLD, and gate arrays",
+                    "Logic families: NMOS and CMOS – operation, characteristics, and specifications",
+                    "Realization of basic logic gates using NMOS and CMOS technologies",
+                    "Open collector and tri-state gates, wired-AND connections, and bus operations"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Morris M. Mano, “Digital Logic and Computer Design”, PHI.",
+            "Leach & Malvino, “Digital Principles & Applications”, 5th Edition, McGraw Hill.",
+            "R. P. Jain, “Modern Digital Electronics”, 2nd Edition, Tata McGraw Hill.",
+            "Brian Holdsworth & Clive Woods, “Digital Logic Design”, 4th Edition.",
+            "H. Taub & D. Schilling, “Digital Integrated Electronics”, McGraw Hill."
+        ],
+        "referenceBooks": [
+            "John F. Wakerly, “Digital Design: Principles and Practices”.",
+            "A. Anand Kumar, “Fundamentals of Digital Circuits”, PHI."
+        ],
+        "courseOutcomes": [
+            "Learn binary number systems and design logic circuits using combinational gates",
+            "Design applications of sequential circuits",
+            "Design and analyze finite state machines (FSMs)",
+            "Understand memory classification and types",
+            "Learn the basics of CMOS logic",
+            "Understand the design of various digital components used in VLSI applications"
+        ]
+    },
+    {
+        "courseCode": "CSBS2101",
+        "courseName": "Fundamentals of Data Structures",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Linear Data Structure I",
+                "topics": [
+                    "Introduction to data structures: concepts of data and data structures, Abstract Data Type (ADT) and Data Type",
+                    "Algorithms and programs: basic idea of pseudo-code and its role in data structures",
+                    "Introduction to time and space complexity analysis of algorithms",
+                    "Arrays: representation in memory – row major and column major order",
+                    "Sparse matrix representation and applications",
+                    "Array representation of polynomials",
+                    "Linked lists: singly, circular, and doubly linked lists",
+                    "Linked list representation of polynomial and its applications"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Linear Data Structure II",
+                "topics": [
+                    "Stack: definition and implementation using arrays and linked lists",
+                    "Principles of recursion and applications of stack in recursion",
+                    "Differences between recursion and iteration, tail recursion concepts",
+                    "Queue: definition, types (linear, circular, deque), and their implementations using arrays and linked lists",
+                    "Implementation of deque with input and output restrictions",
+                    "Applications of queue and deque in real-world problems"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Non-Linear Data Structures",
+                "topics": [
+                    "Trees: basic terminologies and representations (using arrays and linked lists)",
+                    "Binary trees and traversal techniques: preorder, inorder, and postorder traversals",
+                    "Threaded binary trees: left, right, and full threaded structures",
+                    "Binary search trees: creation, insertion, deletion, and searching operations",
+                    "Height-balanced binary trees (AVL trees): insertion and deletion with examples",
+                    "B-Trees: insertion and deletion operations with examples",
+                    "Graphs: definitions, basic concepts, and representations (adjacency matrix and adjacency list)",
+                    "Graph traversal algorithms: Depth First Search (DFS) and Breadth First Search (BFS)",
+                    "Graph connectivity concepts and applications"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Searching, Sorting and Hashing",
+                "topics": [
+                    "Sorting algorithms: bubble sort (and its optimization), insertion sort, shell sort, selection sort, merge sort, quick sort, heap sort, and radix sort",
+                    "Complexity analysis of sorting algorithms",
+                    "Searching techniques: sequential search, binary search, and interpolation search",
+                    "Hashing concepts and functions",
+                    "Collision resolution techniques in hashing: open hashing and closed hashing"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Reema Thareja, “Data Structures using C”, Oxford University Press.",
+            "Narasimha Karumanchi, “Data Structures and Algorithms Made Easy”, CareerMonk Publications."
+        ],
+        "referenceBooks": [
+            "Narasimha Karumanchi, “Data Structures and Algorithms Made Easy - Data Structures and Algorithmic Puzzles”, CareerMonk Publications.",
+            "S. Lipschutz, “Data Structures”, Schaum’s Outlines.",
+            "Ellis Horowitz, Sartaj Sahni, Susan Anderson, “Fundamentals of Data Structures in C”, Freed.",
+            "Aaron M. Tenenbaum, “Data Structures in C”.",
+            "D. Samanta, “Classic Data Structures”, PHI.",
+            "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, “Introduction to Algorithms”, The MIT Press."
+        ],
+        "courseOutcomes": [
+            "Demonstrate the standard data structures covered in this course in relevant applications.",
+            "Identify the applications of ordered and unordered lists in data structure problems.",
+            "Apply stack and queue data structures to solve mathematical and real-life problems.",
+            "Explore tree and graph approaches to solve given problem definitions.",
+            "Analyze sorting, searching, and hashing algorithms covered in this course in related applications.",
+            "Compare the performance and efficiency of alternative data structure implementations."
+        ]
+    },
+    {
+        "courseCode": "HMTS2001",
+        "courseName": "Human Values and Professional Ethics",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Social Science",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Human Society and the Value System",
+                "topics": [
+                    "Values: definition, importance, and application",
+                    "Formation of values: process of socialization, development of self and integrated personality, morality, courage, integrity",
+                    "Types of values and their importance:",
+                    "Social values: justice, rule of law, democracy, Indian Constitution, secularism",
+                    "Aesthetic values: perception and appreciation of beauty",
+                    "Organizational values: employee–employer rights, relationships, and obligations",
+                    "Psychological values: integrated personality and mental health",
+                    "Spiritual values and their role in everyday life",
+                    "Value spectrum for a good life and meaning of a good life",
+                    "Value crisis in contemporary society – individual, societal, and cultural levels",
+                    "Value crisis management – strategies and case studies"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Ethics, Professional Ethics, and Work Ethics",
+                "topics": [
+                    "Ethics and ethical values: principles and theories of ethics",
+                    "Consequential and non-consequential ethics: egotism, utilitarianism, Kant’s theory, ethics of care, justice, fairness, rights, and duties",
+                    "Standardization, codification, acceptance, and application of ethics",
+                    "Types of ethics: ethics of rights and duties, ethics of responsibility, ethics and moral judgment, ethics of care, ethics of justice and fairness",
+                    "Work ethics and quality of life at work",
+                    "Professional ethics in engineering: moral issues and dilemmas, moral autonomy, and types of inquiry",
+                    "Kohlberg’s theory and Gilligan’s theory (consensus and controversy)",
+                    "Code of professional ethics: ASME, ASCE, IEEE, Institute of Engineers, IIMM, IETE",
+                    "Violations of code of ethics – conflict, causes, and consequences",
+                    "Engineering as social experimentation; engineers as responsible experimenters (computer ethics, weapons development)",
+                    "Engineers as managers, consultants, experts, witnesses, advisors, and moral leaders",
+                    "Conflict between business demands and professional ideals",
+                    "Social and ethical responsibilities of technologists",
+                    "Whistle blowing: facts, contexts, justifications, and case studies",
+                    "Ethics and industrial law",
+                    "Institutionalizing ethics: relevance, application, digression, and consequences"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Science, Technology and Engineering Ethics",
+                "topics": [
+                    "Science, technology, and engineering as knowledge and profession – definition, nature, social function, and practical application",
+                    "Rapid industrial growth and its consequences",
+                    "Renewable and non-renewable resources: definitions and types",
+                    "Energy crisis and its impact on development",
+                    "Industry and industrialization – man–machine interaction",
+                    "Impact of assembly line and automation on society",
+                    "Technology assessment and impact analysis",
+                    "Industrial hazards and safety principles",
+                    "Safety regulations, safety engineering, and professional responsibilities",
+                    "Safety and risk – risk-benefit analysis and risk reduction strategies",
+                    "Technology transfer: definition, types, and relevance in Indian context"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Environment and Eco-friendly Technology",
+                "topics": [
+                    "Human development and environmental balance",
+                    "Ecological and environmental ethics",
+                    "Depletion of natural resources and environmental degradation",
+                    "Pollution and pollution control mechanisms",
+                    "Eco-friendly technologies: implementation, impact, and assessment",
+                    "Sustainable development: definition, concepts, and strategies",
+                    "Modern trends in sustainable development",
+                    "Appropriate technology movement by Schumacher and later developments",
+                    "Reports and findings of the Club of Rome on global sustainability"
+                ]
+            }
+        ],
+        "books": [
+            "A. N. Tripathi, “Human Values”, New Age International, New Delhi, 2006.",
+            "George Ritzer, “Classical Sociological Theory”, The McGraw Hill Companies, New York, 1996.",
+            "S. L. Doshi, “Postmodern Perspectives on Indian Society”, Rawat Publications, New Delhi, 2008.",
+            "D. K. Bhatnagar, “Sustainable Development”, Cyber Tech Publications, New Delhi, 2008.",
+            "Ray Kurzwell, “The Age of Spiritual Machines”, Penguin Books, New Delhi, 1999.",
+            "S. K. Weinberg, “Social Problems in Modern Urban Society”, Prentice Hall Inc., USA, 1970.",
+            "Anthony Giddens, “Sociology”, 13th Edition, Polity Press, London, 2009."
+        ],
+        "courseOutcomes": [
+            "Be aware of the value system and understand its importance in the workplace.",
+            "Apply ethical theories in the decision-making process.",
+            "Follow institutional and organizational ethical codes of conduct.",
+            "Implement the principles governing work ethics in professional life.",
+            "Develop strategies to implement sustainable development models.",
+            "Apply ecological ethics and promote eco-friendly technologies where relevant."
+        ]
+    }
+]

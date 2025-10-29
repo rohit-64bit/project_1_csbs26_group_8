@@ -1,378 +1,2019 @@
 [
     {
-        "year": "4th Year",
-        "semester": "7th Semester",
-        "courses": [
+        "courseCode": "CSBS4233",
+        "courseName": "Advanced Business Research",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
             {
-                "courseCode": "CSBS4101",
-                "courseName": "Cloud Computing",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction to Cloud Computing",
-                        "topics": [
-                            "Overview of distributed, parallel and cloud computing",
-                            "Service models: IaaS, PaaS, SaaS and deployment models (public, private, hybrid)"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Virtualization and Cloud Architecture",
-                        "topics": [
-                            "Virtualization concepts: types, hypervisors and resource pooling",
-                            "Cloud infrastructure and architecture layers"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Cloud Storage and Services",
-                        "topics": [
-                            "Cloud storage models, APIs and data management",
-                            "Cloud service providers: AWS, Azure and Google Cloud overview"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Cloud Security and Management",
-                        "topics": [
-                            "Cloud security threats, risk management and compliance",
-                            "Service level agreements (SLA), monitoring and billing models"
-                        ]
-                    }
+                "moduleNo": "I",
+                "title": "Introduction to Research and Research Problem",
+                "topics": [
+                    "Introduction to research: meaning, objectives, characteristics, significance, and types of research",
+                    "Steps of research and the scientific approach",
+                    "Defining the research problem: definition, selection of research problem, necessity and techniques for defining the problem"
                 ]
             },
             {
-                "courseCode": "CSBS4102",
-                "courseName": "Big Data Analytics",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction to Big Data",
-                        "topics": [
-                            "Definition, characteristics and challenges of big data",
-                            "Big data architecture and processing frameworks"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Hadoop Ecosystem",
-                        "topics": [
-                            "HDFS architecture and MapReduce programming model",
-                            "YARN, Hive, Pig and HBase overview"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Data Analytics Techniques",
-                        "topics": [
-                            "Batch and real-time analytics",
-                            "Stream processing using Spark and Kafka"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Applications and Visualization",
-                        "topics": [
-                            "Big data use cases: healthcare, finance, IoT",
-                            "Visualization tools and dashboards"
-                        ]
-                    }
+                "moduleNo": "II",
+                "title": "Research Design, Sampling Design, and Data Collection",
+                "topics": [
+                    "Research design: meaning, need, features, types, concepts, and principles of research design",
+                    "Sampling design: implications, steps, criteria, characteristics, and types of sampling design",
+                    "Scaling techniques: measurement scales, sources of error, tests of sound measurement",
+                    "Classification and scale construction techniques",
+                    "Methods of data collection: collection of primary and secondary data, and selection of appropriate method for data collection"
                 ]
             },
             {
-                "courseCode": "CSBS4131",
-                "courseName": "Professional Elective – III",
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "totalHours": 3,
-                "creditPoints": 3,
-                "courseType": "Professional Elective",
-                "options": [
-                    {
-                        "name": "Natural Language Processing",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Introduction to NLP, language models and text processing"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Syntax and parsing techniques"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Machine translation, sentiment analysis and text summarization"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Data Mining",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Data preprocessing and data warehouse concepts"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Association rule mining and Apriori algorithm"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Classification and clustering techniques: decision trees, k-means"
-                                ]
-                            }
-                        ]
-                    }
+                "moduleNo": "III",
+                "title": "Data Processing, Analysis, and Hypothesis Testing",
+                "topics": [
+                    "Processing and analysis of data: importance of statistics in research",
+                    "Simple regression analysis and multiple correlation and regression techniques",
+                    "Testing of hypotheses: concept, procedure, and power of the test",
+                    "Parametric and non-parametric tests and their applications"
                 ]
             },
             {
-                "courseCode": "CSBS4132",
-                "courseName": "Open Elective – I",
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "totalHours": 3,
-                "creditPoints": 3,
-                "courseType": "Open Elective",
-                "options": [
-                    {
-                        "name": "Blockchain Technology",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Blockchain fundamentals, distributed ledger and consensus mechanisms"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Cryptographic techniques and smart contracts"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Applications in finance, healthcare and supply chain"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Internet of Things (IoT)",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "IoT architecture and communication models"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Sensors, actuators and IoT protocols"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "IoT applications in smart homes and industries"
-                                ]
-                            }
-                        ]
-                    }
+                "moduleNo": "IV",
+                "title": "Interpretation, Report Writing, and Statistical Tools",
+                "topics": [
+                    "Interpretation of research results: techniques of interpretation and drawing conclusions",
+                    "Report writing: layout, steps, and types of reports in research",
+                    "Introduction to statistical software tools used in business research: SPSS"
                 ]
             }
+        ],
+        "courseOutcomes": [
+            "Identify and define a business research opportunity",
+            "Synthesize and critically evaluate literature related to a business problem",
+            "Reflect on and evaluate research processes within a specific context",
+            "Develop argumentation and construct hypotheses based on research findings",
+            "Apply appropriate research methods and design a complete research project",
+            "Justify the use of qualitative and quantitative methodologies in business research"
+        ],
+        "textBooks": [
+            "Cooper & Schindler, “Business Research Methods”, McGraw Hill",
+            "C.R. Kothari, “Research Methodology: Methods and Techniques”, New Age International"
+        ],
+        "referenceBooks": [
+            "R.S. Dwivedi, “Research Methods in Behavioral Sciences”, McMillan India Ltd.",
+            "Uma Sekaran & Roger Bougie, “Research Methods for Business”, Wiley"
         ]
     },
     {
-        "year": "4th Year",
-        "semester": "8th Semester",
-        "courses": [
+        "courseCode": "HMTS4226",
+        "courseName": "Advanced Finance",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management",
+        "modules": [
             {
-                "courseCode": "CSBS4201",
-                "courseName": "Deep Learning",
-                "L": 4,
-                "T": 0,
-                "P": 0,
-                "totalHours": 4,
-                "creditPoints": 4,
-                "courseType": "Professional Core Course",
-                "modules": [
-                    {
-                        "moduleNo": "I",
-                        "title": "Introduction to Deep Learning",
-                        "topics": [
-                            "Artificial neural networks and perceptrons",
-                            "Activation functions and gradient descent optimization"
-                        ]
-                    },
-                    {
-                        "moduleNo": "II",
-                        "title": "Feedforward and Convolutional Networks",
-                        "topics": [
-                            "CNN architecture and convolution operations",
-                            "Pooling, dropout and regularization techniques"
-                        ]
-                    },
-                    {
-                        "moduleNo": "III",
-                        "title": "Sequence Models",
-                        "topics": [
-                            "Recurrent neural networks (RNN) and LSTM networks",
-                            "Applications in NLP and speech recognition"
-                        ]
-                    },
-                    {
-                        "moduleNo": "IV",
-                        "title": "Advanced Topics",
-                        "topics": [
-                            "Autoencoders, GANs and reinforcement learning basics",
-                            "Transfer learning and fine-tuning"
-                        ]
-                    }
+                "moduleNo": "I",
+                "title": "Introduction to Financial Management and Financial Analysis",
+                "topics": [
+                    "Financial decisions in a firm and goals of financial management",
+                    "Fundamental principles of finance and the risk–return tradeoff",
+                    "Forms of business organization and the agency problem",
+                    "Emerging role of the financial manager in India",
+                    "Analysis of financial statements using financial ratios and Du Pont analysis"
                 ]
             },
             {
-                "courseCode": "CSBS4231",
-                "courseName": "Professional Elective – IV",
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "totalHours": 3,
-                "creditPoints": 3,
-                "courseType": "Professional Elective",
-                "options": [
-                    {
-                        "name": "Quantum Computing",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Quantum mechanics foundations for computing"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Qubits, superposition and entanglement"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Quantum algorithms: Deutsch, Grover and Shor"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Augmented and Virtual Reality",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "AR/VR fundamentals and interaction models"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Hardware, sensors and motion tracking techniques"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Applications in gaming, education and simulation"
-                                ]
-                            }
-                        ]
-                    }
+                "moduleNo": "II",
+                "title": "Capital Budgeting and Cost of Capital",
+                "topics": [
+                    "Capital budgeting techniques: Net Present Value (NPV), Profitability Index, Internal Rate of Return (IRR), Modified Internal Rate of Return (MIRR), Payback Period, and Accounting Rate of Return (ARR)",
+                    "Computation and significance of cost of capital",
+                    "Cost of individual components: cost of debt, preference share capital, and equity",
+                    "Weighted Average Cost of Capital (WACC) and its role in financial decision-making"
                 ]
             },
             {
-                "courseCode": "CSBS4232",
-                "courseName": "Open Elective – II",
-                "L": 3,
-                "T": 0,
-                "P": 0,
-                "totalHours": 3,
-                "creditPoints": 3,
-                "courseType": "Open Elective",
-                "options": [
-                    {
-                        "name": "Edge Computing",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Concept of edge and fog computing"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Architecture, data management and latency optimization"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Applications in IoT and smart cities"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Ethical Hacking",
-                        "modules": [
-                            {
-                                "moduleNo": "I",
-                                "topics": [
-                                    "Introduction to ethical hacking and penetration testing"
-                                ]
-                            },
-                            {
-                                "moduleNo": "II",
-                                "topics": [
-                                    "Scanning, enumeration and vulnerability assessment"
-                                ]
-                            },
-                            {
-                                "moduleNo": "III",
-                                "topics": [
-                                    "Exploitation techniques and reporting"
-                                ]
-                            }
-                        ]
-                    }
+                "moduleNo": "III",
+                "title": "Long-Term Financing and Capital Structure",
+                "topics": [
+                    "Sources of long-term finance for business enterprises",
+                    "Concept of capital structure and its effect on firm value",
+                    "Assumptions underlying capital structure theories",
+                    "Net Income (NI) and Net Operating Income (NOI) approaches",
+                    "Traditional position and Modigliani–Miller (MM) propositions",
+                    "Leverage analysis and its implications on financial performance"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Dividend Policy and Working Capital Management",
+                "topics": [
+                    "Dividend policy theories: Walter Model, Gordon Model, and Modigliani–Miller (MM) Position",
+                    "Determinants of working capital requirements and influencing factors",
+                    "Operating cycle and cash conversion cycle analysis",
+                    "Cash and liquidity management techniques for efficient operations"
                 ]
             }
+        ],
+        "courseOutcomes": [
+            "Critically evaluate the impact of financial decisions on an organization’s strategic direction",
+            "Identify and assess financial risks and apply techniques to manage them effectively",
+            "Explain various sources of finance and evaluate their suitability in different business contexts",
+            "Evaluate complex investment appraisal situations and understand the role of cost of capital in decision-making",
+            "Analyze strategic financial considerations in mergers and acquisitions, including company valuation",
+            "Assess a company’s financial performance and propose actionable recommendations"
+        ],
+        "textBooks": [
+            "Prasanna Chandra, “Financial Management – Theory & Practice”, Tata McGraw Hill"
+        ],
+        "referenceBooks": [
+            "Khan M.Y. and Jain P.K., “Financial Management: Text and Problems”, Tata McGraw Hill",
+            "Srivastava and Misra, “Financial Management”, Oxford University Press"
+        ]
+    },
+    {
+        "courseCode": "BIOT4124",
+        "courseName": "Biosensor",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Interdisciplinary Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Biological Systems and Biosensors",
+                "topics": [
+                    "Introduction to biosensors: principle and general characteristics",
+                    "Proteins and enzymes: basic properties, denaturation and renaturation",
+                    "Enzyme immobilization techniques and their applications in biosensors",
+                    "Advantages and limitations of biosensors",
+                    "Classification of biosensors based on bioreceptor types",
+                    "Immobilization and coupling of bioreceptors with transducers"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Bio-recognition Based Sensors",
+                "topics": [
+                    "Principle, operation, and limitations of microbial sensors",
+                    "Immunological sensors: design, principle, and application",
+                    "Nucleic acid sensors and their functional mechanisms",
+                    "Use of animal and plant tissue as bioreceptors in biosensors",
+                    "Different types of inhibitors: principles, operations, applications, and limitations in inhibition-based biosensors"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Biosensors Based on Transducers",
+                "topics": [
+                    "Classification of biosensors based on transducer type",
+                    "Calorimetric biosensors: principle, construction, calibration, and limitations",
+                    "Electrochemical biosensors: potentiometric and amperometric principles and applications",
+                    "Optical biosensors: design and working mechanism",
+                    "Piezoelectric biosensors and semiconductor biosensors: construction and operation"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Applications of Biosensors",
+                "topics": [
+                    "Applications of biosensors in the clinical and diagnostic sectors",
+                    "Industrial applications: food processing and environmental monitoring",
+                    "Use of biosensors in defense and security sectors",
+                    "Overview of commercially available biosensors and their technologies"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "State different types of bio-recognition elements and describe the fundamental components required to design a biosensor",
+            "Illustrate enzyme immobilization methods and how they are used in biosensor construction",
+            "Describe different biosensing elements and their applications in biosensor technology",
+            "Understand the classification, construction, and working principles of various transducers used in biosensors",
+            "Understand the concepts, types, working principles, and practical applications of significant biosensors",
+            "Explain the principles and mechanisms of inhibition-based biosensors"
+        ],
+        "textBooks": [
+            "Tran Minh Canh, “Biosensors”, Chapman and Hall, London",
+            "A.P.F. Turner, I. Karube, and G.S. Wilson, “Biosensors: Fundamentals and Applications”, Oxford University Press"
+        ],
+        "referenceBooks": [
+            "Ajit Sadana, “Engineering Biosensors: Kinetics and Design Applications”, Academic Press, San Diego",
+            "D. Thomas and J.M. Laval, “Enzyme Technology” in Concepts in Biotechnology by Balasubramaniam et al., University Press, 1996"
+        ]
+    },
+    {
+        "courseCode": "CSBS4243",
+        "courseName": "Business Analytics",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Business Analytics and Descriptive Analytics",
+                "topics": [
+                    "Definition, impacts, and challenges of Business Analytics",
+                    "Evolution and modern scope of Business Analytics",
+                    "Software support and spreadsheet technology in analytics",
+                    "Applications of analytics: Social Media Analytics, Home Lending and Mortgage Industry",
+                    "Models in Business Analytics and problem solving through analytics",
+                    "Descriptive Analytics: data visualization concepts, tools, and software",
+                    "Excel-based data visualization tools and techniques",
+                    "Descriptive statistics, metrics, and data classification",
+                    "Frequency distributions, histograms, percentiles, and quartiles",
+                    "Descriptive statistical measures and measures of association",
+                    "Identifying and interpreting outliers",
+                    "Statistical thinking in business decision-making"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Probability, Data Modeling, and Statistical Inference",
+                "topics": [
+                    "Probability distributions and data modeling fundamentals",
+                    "Random variables and types of probability distributions: discrete and continuous",
+                    "Distribution fitting and data modeling approaches",
+                    "Sampling and estimation: statistical sampling and estimation of population parameters",
+                    "Sampling distributions and interval estimates",
+                    "Confidence and prediction intervals for decision-making",
+                    "Statistical inference and hypothesis testing",
+                    "One-sample and two-sample hypothesis tests",
+                    "Analysis of variance (ANOVA) and Chi-square tests for independence"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Predictive Analytics and Simulation",
+                "topics": [
+                    "Trendlines and regression analysis for data modeling",
+                    "Simple and multiple linear regression models",
+                    "Building robust regression models and assessing goodness-of-fit",
+                    "Forecasting techniques: qualitative and quantitative methods",
+                    "Forecasting stationary time series and time series with trends or seasonality",
+                    "Spreadsheet modeling and analysis: model-building strategies and implementation",
+                    "Descriptive, predictive, and prescriptive spreadsheet models",
+                    "Analyzing uncertainty and model assumptions",
+                    "Simulation and risk analysis using Monte Carlo simulation",
+                    "Random sampling from probability distributions and generating random variates in Excel",
+                    "Dynamic systems simulation for business analysis"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Prescriptive Analytics and Optimization",
+                "topics": [
+                    "Linear optimization: model formulation and solution techniques",
+                    "Solving linear optimization models using spreadsheet solvers",
+                    "Solver outcomes, solution messages, and interpretation",
+                    "Applications of linear optimization in business decision-making",
+                    "Integer and nonlinear optimization: models with binary and integer variables",
+                    "Nonlinear optimization models and their business implications",
+                    "Optimization analytics and what-if analysis for optimization models",
+                    "Decision analysis: decision strategies with and without outcome probabilities",
+                    "Decision tree modeling and sensitivity analysis in decision trees"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the emergence of Business Analytics as a competitive strategy",
+            "Learn data visualization and effective storytelling through data",
+            "Apply descriptive analytics techniques and tools for business decision-making",
+            "Use predictive analytics methods to forecast and analyze data trends",
+            "Implement prescriptive analytics tools to optimize business processes",
+            "Analyze and solve problems across industries such as manufacturing, services, retail, banking, and finance"
+        ],
+        "textBooks": [
+            "James R. Evans, “Business Analytics: Methods, Models, and Decisions”, 3rd Edition, Pearson"
+        ],
+        "referenceBooks": [
+            "U. Dinesh Kumar, “Business Analytics: The Science of Data-Driven Decision Making”, 2nd Edition, Wiley",
+            "Wayne L. Winston and S. Albright, “Business Analytics: Data Analysis and Decision Making”, 6th Edition, Cengage Learning"
+        ]
+    },
+    {
+        "courseCode": "CSBS4101",
+        "courseName": "Business Environment, Functions & Corporate Strategy",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Strategic Management",
+                "topics": [
+                    "Concept of strategy using case studies of business failure and turnaround success",
+                    "The strategic management process: stages and significance",
+                    "Strategic intent and its components: vision, mission, values, goals, objectives, and policies",
+                    "Importance of strategic planning in modern organizations"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Environmental Analysis and Strategic Alternatives",
+                "topics": [
+                    "Purpose and scope of external environment analysis",
+                    "Macro and micro business environment factors and their influence",
+                    "Environmental analysis and diagnosis techniques",
+                    "Porter’s model of industry analysis and competitive rivalry",
+                    "Concept and types of competition; drivers of competitive behavior",
+                    "Internal environment analysis: resources, capabilities, and challenges",
+                    "Value chain analysis and identification of strategic advantage factors",
+                    "Core competencies and sustainable competitive advantage criteria",
+                    "Formulation of strategic alternatives using SWOT, TOWS, SPACE, and IE matrix methods",
+                    "Quantitative Strategic Planning Matrix (QSPM) approach"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Business, Corporate, and Global Strategies",
+                "topics": [
+                    "Portfolio strategies and their application in business management",
+                    "Strategic alternatives: stable growth, expansion, turnaround, and retrenchment strategies",
+                    "Business-level strategies: importance, classification, and formulation",
+                    "Corporate-level strategies and their implementation frameworks",
+                    "Global strategy formulation: identifying international opportunities and market entry strategies",
+                    "Risks associated with international business environments and mitigation approaches"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Strategy Implementation, Evaluation, and Control",
+                "topics": [
+                    "Functional and structural aspects of strategy implementation",
+                    "Challenges and obstacles to organizational change",
+                    "Balancing stability and change in strategic management",
+                    "Strategy evaluation and control frameworks",
+                    "Problems encountered during strategy implementation",
+                    "Criteria and tools for evaluating strategic performance",
+                    "Balanced Scorecard approach for strategic control and evaluation"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand different facets of controllable and uncontrollable forces influencing business decisions",
+            "Recognize methods of resource allocation for single-unit and multi-unit business organizations",
+            "Apply analytical techniques to assess and forecast business environments effectively",
+            "Develop knowledge on implementing business strategies in real-world organizational contexts"
+        ],
+        "textBooks": [
+            "D. Roy, “Discourses on Strategic Management”, Asian Books Pvt. Ltd."
+        ],
+        "referenceBooks": [
+            "A. A. Thompson and A. J. Strickland, “Strategic Management: Concepts and Cases”, McGraw Hill"
+        ]
+    },
+    {
+        "courseCode": "CSBS4231",
+        "courseName": "Consumer Behavior",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Consumer Behavior and Market Segmentation",
+                "topics": [
+                    "Definition and scope of consumer behavior",
+                    "Difference between consumers, customers, buyers, and users",
+                    "Organizations as buyers and their behavioral patterns",
+                    "Development of the marketing concept and its relationship with consumer behavior",
+                    "Applications of consumer behavior knowledge in marketing decisions",
+                    "Consumer research process and its importance",
+                    "Models of consumer behavior: Black Box Model and Nicosia Model",
+                    "Market segmentation and positioning: requirements for effective segmentation",
+                    "Bases and variables for market segmentation",
+                    "Deciding the number of segments to target",
+                    "Product positioning strategies and approaches"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Consumer Motivation, Personality, and Perception",
+                "topics": [
+                    "Consumer motivation: needs, goals, and motivational conflicts",
+                    "Motivation theories: Maslow’s hierarchy of needs and its marketing implications",
+                    "Motive arousal and motivation research techniques",
+                    "Concept of self and its role in consumer behavior",
+                    "Personality theories and the concept of brand personality",
+                    "Role of emotions and sensations in buying behavior",
+                    "Perceptual processes: exposure to stimuli, selection, and organization",
+                    "Perceptual distortions and factors affecting individual perception"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Consumer Learning, Memory, and Attitudes",
+                "topics": [
+                    "Consumer learning: components, behavioral learning theory, and cognitive learning theory",
+                    "Concept and dimensions of consumer involvement",
+                    "Consumer memory and its role in marketing communication",
+                    "Consumer attitudes: nature, structure, and functions",
+                    "Attitude models explaining the relationship between beliefs, feelings, and behavior",
+                    "Formation and change of attitudes",
+                    "Strategies for attitude change through marketing efforts"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Social Influences and Consumer Decision-Making",
+                "topics": [
+                    "Social class and its influence on consumer behavior",
+                    "Categories and determinants of social class",
+                    "Group influence: reference groups, opinion leaders, and word-of-mouth communication",
+                    "Role of family and family life cycle in consumer decisions",
+                    "Stages of the consumer decision-making process: problem recognition, information search, evaluation of alternatives, purchase, and post-purchase behavior",
+                    "Impact of social and cultural factors on consumer decisions"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand consumer behavior in a structured and analytical manner",
+            "Analyze consumer behavior and its impact on buying patterns",
+            "Examine personal, socio-cultural, and environmental factors influencing consumer decision-making",
+            "Explain consumer perception and its role in determining brand preferences",
+            "Identify and evaluate the components and stages of the decision-making process",
+            "Design and assess marketing strategies based on consumer buying behavior principles"
+        ],
+        "textBooks": [
+            "Leon G. Schiffman and Leslie Lazar Kanuk, “Consumer Behavior”, Pearson",
+            "Loudon and Bitta, “Consumer Behavior”, McGraw Hill International"
+        ],
+        "referenceBooks": [
+            "Glenn Walters and Blaise J. Bergiel, “Consumer Behavior: A Decision-Making Approach”, South-Western Publishing Company",
+            "Mothersbaugh, Hawkins and Kleiser, “Consumer Behavior: Implications for Marketing Strategy”, McGraw Hill",
+            "Michael R. Solomon, “Consumer Behavior: Buying, Having, and Being”, Pearson"
+        ]
+    },
+    {
+        "courseCode": "CSBS4135",
+        "courseName": "Data Analytics",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction, Data Acquisition, and Exploratory Data Analysis",
+                "topics": [
+                    "Overview of Data Analytics: definition, objectives, and applications",
+                    "Components of a modern data ecosystem and real-world applications of analytics",
+                    "Data acquisition: gathering information from various sources including internal systems, external systems, web APIs, and open data sources",
+                    "Accessing and processing data using Data APIs, web scraping, and relational database queries",
+                    "Data pre-processing and preparation: data cleansing, data editing, data reduction, and data wrangling",
+                    "Exploratory Data Analysis (EDA): analysis of structured and rectangular data, measures of location and variability, data distribution, handling binary and categorical data, correlation, and analysis of multiple variables",
+                    "Introduction to regression: input representation, linear classification, and linear regression concepts"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Classification Techniques",
+                "topics": [
+                    "Introduction to classification and concept of training and test datasets",
+                    "Decision tree classifier: design, pre-pruning, and post-pruning methods",
+                    "Rule-based classification methods and their implementation",
+                    "K-Nearest Neighbor (KNN) algorithm for classification tasks",
+                    "Bayesian classifier and probabilistic reasoning approaches",
+                    "Introduction to neural networks for classification of complex datasets"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Clustering and Dimensionality Reduction",
+                "topics": [
+                    "Clustering paradigm and its role in data analysis",
+                    "K-means clustering algorithm and its implementation",
+                    "Fuzzy C-means clustering technique for soft clustering",
+                    "Hierarchical clustering and its linkage methods",
+                    "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)",
+                    "Introduction to Principal Component Analysis (PCA) and dimensionality reduction concepts",
+                    "Reducing the dimensionality of datasets using PCA and interpreting principal components"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Data Visualization and Measurement Concepts",
+                "topics": [
+                    "Science and principles of data visualization",
+                    "Visualization periodic table and design principles",
+                    "Concepts of measurement and scales of measurement in analytics",
+                    "Designing data collection formats and data representation techniques",
+                    "Principles of effective data visualization: size, shape, and color considerations",
+                    "Visualization types and techniques: bubble charts, geo-maps (choropleths), gauge charts, tree maps, heat maps, motion charts, and force-directed charts"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Illustrate data collection, management, and storage procedures",
+            "Demonstrate proficiency in exploratory data analysis of datasets",
+            "Apply appropriate classification algorithms to real-world datasets",
+            "Explain clustering techniques to identify groups within data",
+            "Perform dimensionality reduction using Principal Component Analysis (PCA)",
+            "Create effective visual representations of real-world data"
+        ],
+        "textBooks": [
+            "Wes McKinney, “Python for Data Analysis”, O’Reilly",
+            "Davy Cielen, Arno D. Meysman, and Mohamed Ali, “Introducing Data Science”, Dreamtech Press",
+            "Tom M. Mitchell, “Machine Learning”, 1st Edition, McGraw-Hill, 1997"
+        ],
+        "referenceBooks": [
+            "Christopher M. Bishop, “Pattern Recognition and Machine Learning”, Springer, 2010",
+            "Claus O. Wilke, “Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures”, O’Reilly",
+            "Alex Campbell, “Data Visualization: Ultimate Guide to Data Mining and Visualization”, Independently Published, ISBN-13: 979-8697812983",
+            "Alex Campbell, “Data Science for Beginners: Comprehensive Guide to Most Important Basics in Data Science”, Independently Published, ISBN: 9798593883094"
+        ]
+    },
+    {
+        "courseCode": "CSBS4232",
+        "courseName": "Digital Marketing",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Digital Marketing",
+                "topics": [
+                    "Definition and scope of digital marketing",
+                    "Understanding the 4Ps of web marketing and their application",
+                    "Need and importance of digital marketing in modern business",
+                    "Foundations of an effective digital marketing strategy",
+                    "Differences between traditional and digital marketing approaches",
+                    "Overview of the digital marketing process and its key stages"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Tools Used in Digital Marketing",
+                "topics": [
+                    "Search Engine Optimization (SEO) enabled tools and their functions",
+                    "Search Engine Marketing (SEM) activities and strategies",
+                    "Content marketing and its role in customer engagement",
+                    "Concept of remarketing and targeted advertising",
+                    "Email marketing and its best practices",
+                    "Social media marketing and influencer marketing techniques",
+                    "Video marketing and its impact on brand awareness",
+                    "Enhancing responsiveness in web designs for better user experience"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Aligning Internet with Business Objectives",
+                "topics": [
+                    "Integrating internet marketing with overall business objectives",
+                    "Understanding the digital marketing mix and its components",
+                    "Internet marketing: opportunities and challenges in the digital era",
+                    "Digital marketing frameworks and strategic alignment models",
+                    "Impact of digital channels on integrated marketing communication (IMC)"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Digital Marketing Strategy and CRM",
+                "topics": [
+                    "Product Opportunity Evaluation Matrix (POEM) framework and its applications",
+                    "Understanding the digital landscape and online business environment",
+                    "Performing SWOT analysis and target group analysis for digital campaigns",
+                    "Overview of digital marketing models and strategic planning tools",
+                    "Customer Relationship Management (CRM): introduction and importance",
+                    "CRM platforms, models, and their role in digital relationship marketing"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Describe digital business and innovation along with elements of digital infrastructure",
+            "Develop strategic plans for managing digital marketing effectively",
+            "Differentiate between traditional and digital marketing concepts",
+            "Analyze the strengths, weaknesses, opportunities, and threats of digital marketing",
+            "Explore and apply various digital marketing tools for business promotion",
+            "Understand the importance of conversion and digital relationship marketing"
+        ],
+        "textBooks": [
+            "Damian Ryan, “Understanding Digital Marketing”, Kogan Page Ltd.",
+            "Puneet Singh Bhatia, “Fundamentals of Digital Marketing”, Pearson"
+        ],
+        "referenceBooks": [
+            "Rajendra Nargudkar and Romi Sainy, “Digital Marketing Cases from India”, Notion Press",
+            "Tracy L. Tuten and Michael R. Solomon, “Social Media Marketing”, SAGE Publications",
+            "Ward Hanson and Kirthi Kalyanam, “Internet Marketing & e-Commerce”, Cengage Learning"
+        ]
+    },
+    {
+        "courseCode": "CSBS4245",
+        "courseName": "Distributed Database",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Distributed Databases and Architectures",
+                "topics": [
+                    "Definition and key features of distributed databases",
+                    "Need and advantages of distributed database management systems (DDBMS)",
+                    "Comparison between centralized and distributed DBMS",
+                    "Distributed databases across geographically dispersed and local networks",
+                    "Distributed DBMS architectures: autonomy, distribution, and heterogeneity models",
+                    "Client-server architecture, peer-to-peer architecture, and multi-database systems (MDBS)",
+                    "Heterogeneous databases: federated databases, reference architectures, loosely and tightly coupled systems"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Principles and Design of Distributed Databases",
+                "topics": [
+                    "Levels of distribution transparency and reference architecture for distributed databases",
+                    "Global schema, fragmentation schema, allocation schema, and local mapping schema",
+                    "Types of distribution transparency: location, fragmentation, replication, and local mapping transparency",
+                    "Design alternatives: localized and distributed data models",
+                    "Data fragmentation concepts and rules of fragmentation",
+                    "Types of fragmentation: horizontal, vertical, derived horizontal, and mixed fragmentation",
+                    "Correctness rules for fragmentation and fragment allocation methods",
+                    "Framework for distributed database design and fragment allocation strategies",
+                    "Impact of distribution on user queries: global data dictionary (GDD) and examples of fragmentation"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Query Processing and Optimization in Distributed Databases",
+                "topics": [
+                    "Overview of query processing steps: parsing, translation, optimization, and evaluation",
+                    "Measures of query cost and selection operation techniques",
+                    "Sorting and join operations: nested loop join, block nested loop join, and hash join algorithms",
+                    "Evaluation of relational expressions and translation of global queries into fragment queries",
+                    "Query optimization: transformation of relational expressions and equivalence rules",
+                    "Join ordering, estimation of expression statistics, and selection of evaluation plans",
+                    "Problem-solving examples in query optimization and cost estimation"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Distributed Transactions, Recovery, and Concurrency Control",
+                "topics": [
+                    "Overview and applications of distributed transactions",
+                    "Atomicity in distributed transactions and handling communication failures",
+                    "Reference models for distributed transaction recovery",
+                    "Two-phase commit (2PC) and three-phase commit (3PC) protocols",
+                    "Behavior of commit protocols under different failure scenarios",
+                    "Objectives of distributed concurrency control and locking-based methods",
+                    "Reference model for distributed concurrency control",
+                    "Concept of serializability in distributed databases and problem-solving applications"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the need for distributed databases and identify different architectures of DDBMS",
+            "Apply various fragmentation and data distribution techniques to real-world scenarios",
+            "Analyze and implement query optimization algorithms for distributed systems",
+            "Apply distributed transaction management and recovery protocols effectively",
+            "Compare concurrency control approaches in centralized and distributed databases",
+            "Design a normalized centralized database and transform it into a distributed system"
+        ],
+        "textBooks": [
+            "Stefano Ceri and Giuseppe Pelagatti, “Distributed Databases – Principles and Systems”, 1st Edition, Tata McGraw-Hill, 2008",
+            "M. Tamer Özsu and Patrick Valduriez, “Principles of Distributed Database Systems”, 2nd Edition, Pearson Education"
+        ],
+        "referenceBooks": [
+            "Sachin Deshpande, “Distributed Databases”, Dreamtech",
+            "Rahimi and Haug, “Distributed Database Management Systems”, Wiley",
+            "Chanda Ray, “Distributed Database Systems”, Pearson Publication",
+            "Abraham Silberschatz, Henry F. Korth, and S. Sudarshan, “Database System Concepts”, TMH",
+            "Ramakrishnan and Gehrke, “Database Management Systems”, TMH",
+            "Elmasri and Navathe, “Fundamentals of Database Systems”, Pearson"
+        ]
+    },
+    {
+        "courseCode": "ECEN4123",
+        "courseName": "Error Control Coding for Secure Data Transmission",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Interdisciplinary Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Information Theory and Source Coding",
+                "topics": [
+                    "Concept of uncertainty and information; measures of information",
+                    "Self and conditional information, mutual information, and entropy",
+                    "Fixed-length and variable-length codes; prefix and instantaneous codes",
+                    "Kraft inequality and its significance in coding theory",
+                    "Source coding theorem and the concept of efficient source coding",
+                    "Huffman coding and Shannon–Fano coding methods",
+                    "Arithmetic coding and Lempel–Ziv algorithm",
+                    "Overview of communication channels: discrete memoryless channels and channel matrices",
+                    "Types of channels: lossless, deterministic, and noiseless channels",
+                    "Deterministic channel capacity, channel coding, information capacity theorem, and Shannon limit"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Block Codes and Linear Block Codes",
+                "topics": [
+                    "Introduction to block codes and their importance in error detection and correction",
+                    "Hamming codes and the concept of minimum distance",
+                    "Error detection and correction capabilities of block codes",
+                    "Definition and properties of linear block codes",
+                    "Generator and parity check matrices and their construction",
+                    "Encoding and decoding of linear block codes",
+                    "Syndrome computation and error detection in linear block codes",
+                    "Minimum distance considerations for linear codes and their impact on error correction performance"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Cyclic Codes, Galois Fields, and BCH Codes",
+                "topics": [
+                    "Definition and properties of cyclic codes and their advantages",
+                    "Representation of codes using code and generator polynomials",
+                    "Division algorithm for polynomials and cyclic code generation",
+                    "Matrix representation of cyclic codes and syndrome-based error detection",
+                    "Decoding techniques for cyclic codes",
+                    "Introduction to linear algebra concepts: groups, fields, and binary field arithmetic",
+                    "Overview of Galois Field theory and primitive elements",
+                    "Generator polynomials derived from minimal polynomials and their calculation",
+                    "Introduction to BCH codes: concepts, encoding, and decoding",
+                    "Overview of Reed–Solomon codes and their practical applications"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Convolution Codes and Decoding Techniques",
+                "topics": [
+                    "Polynomial description and representation of convolution codes",
+                    "Distance notions for convolution codes and generating functions",
+                    "Encoding of convolution codes: systematic and non-systematic forms",
+                    "Decoding of convolution codes using the Viterbi algorithm",
+                    "Performance and distance bounds for convolution codes",
+                    "Structural properties: state diagrams, state tables, state transition tables",
+                    "Visualization of convolution codes through tree and trellis diagrams"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Calculate entropy, mutual information, and channel capacity for various types of communication channels",
+            "Analyze discrete memoryless channels using source and transition probabilities",
+            "Design and demonstrate encoders and decoders for linear block and cyclic codes",
+            "Apply modern linear algebra concepts to error control coding techniques",
+            "Select and implement efficient decoding algorithms for block and convolution codes",
+            "Develop an understanding of different types of coding methods used for secure data transmission"
+        ],
+        "textBooks": [
+            "S. Gravano, “Introduction to Error Control Codes”, Oxford Press",
+            "Ranjan Bose, “Information Theory, Coding and Cryptography”, TMH",
+            "N. Abramson, “Information and Coding”, McGraw Hill"
+        ],
+        "referenceBooks": [
+            "M. Mansurpur, “Introduction to Information Theory”, McGraw Hill",
+            "R. B. Ash, “Information Theory”, Prentice Hall",
+            "Shu Lin and D. J. Costello Jr., “Error Control Coding”, Prentice Hall"
+        ]
+    },
+    {
+        "courseCode": "CSBS4133",
+        "courseName": "Financial Management",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction, Time Value of Money, and Valuation of Securities",
+                "topics": [
+                    "Introduction to Financial Management – nature, scope, and importance",
+                    "Goals of the firm and objectives of financial management",
+                    "Overview of the financial environment and its components",
+                    "Time Value of Money: simple and compound interest rates, amortization concepts",
+                    "Computing interest more than once a year and annuity factor calculations",
+                    "Valuation of Securities: bond valuation, preferred stock valuation, common stock valuation",
+                    "Concept of yield and yield to maturity (YTM)"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Risk, Return, and Cost of Capital",
+                "topics": [
+                    "Defining risk and return and their importance in financial decision-making",
+                    "Using probability distributions to measure risk",
+                    "Attitudes toward risk: risk-averse, risk-neutral, and risk-seeking behaviors",
+                    "Risk and return in a portfolio context and benefits of diversification",
+                    "Introduction to the Capital Asset Pricing Model (CAPM)",
+                    "Cost of Capital: concept and computation of specific costs of capital for equity, preference, and debt",
+                    "Weighted Average Cost of Capital (WACC) and factors affecting cost of capital"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Working Capital and Cash Management",
+                "topics": [
+                    "Overview of working capital management and its significance in business operations",
+                    "Working capital issues and challenges in financing current assets",
+                    "Short-term and long-term financing of current assets and liability structure mix",
+                    "Estimation of working capital requirements for business concerns",
+                    "Cash management: motives for holding cash and methods of cash optimization",
+                    "Techniques for speeding up cash receipts and slowing down cash payouts",
+                    "Impact of electronic commerce and outsourcing on cash management",
+                    "Maintaining optimal cash balances and the concept of factoring"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Capital Budgeting and Investment Decision-Making",
+                "topics": [
+                    "Concept and process of capital budgeting",
+                    "Generating and evaluating investment project proposals",
+                    "Estimating project cash flows and after-tax incremental operating cash flows",
+                    "Capital budgeting techniques: payback period, NPV, IRR, and profitability index",
+                    "Project evaluation and selection using alternative decision-making methods"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the basic concepts and scope of financial management",
+            "Apply financial management tools for decision-making, including capital budgeting techniques",
+            "Develop analytical skills for solving business financial problems",
+            "Explain and use financial analysis techniques such as fund flow and cash flow analysis",
+            "Estimate working capital requirements for business concerns",
+            "Identify and explain factors affecting capital structure and its significance in financial planning"
+        ],
+        "textBooks": [
+            "Prasanna Chandra, “Financial Management: Theory & Practice”, Tata McGraw Hill"
+        ],
+        "referenceBooks": [
+            "Brigham, “Financial Management”, 10th Edition, Thomson Learning",
+            "Srivastava and Misra, “Financial Management”, Oxford University Press",
+            "Van Horne and Wachowicz, “Fundamentals of Financial Management”, Prentice Hall/Pearson Education"
+        ]
+    },
+    {
+        "courseCode": "CHEN4126",
+        "courseName": "Industrial Total Quality Management",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Interdisciplinary Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Basic Concepts of Quality Management",
+                "topics": [
+                    "Three paradigms of management and evolution of quality management concepts",
+                    "Organizational objectives and goals: mission, vision, customer, and secondary customer",
+                    "Deming’s Wheel and the concept of profit vs. quality",
+                    "Historical developments and contributions of quality management scientists",
+                    "Basic statistical concepts associated with quality management",
+                    "Measurement of central tendency and dispersion: range vs variance",
+                    "Random variables and expected value calculations",
+                    "Quality and process capability",
+                    "Probability distributions and concept of statistical quality control"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Tools and Techniques for Total Quality Management (TQM)",
+                "topics": [
+                    "Classification of TQM tools and techniques: Type A and Type B",
+                    "SWOT analysis and brainstorming techniques",
+                    "Stratification, Pareto Analysis, Ishikawa (cause-and-effect) diagram, and check sheet",
+                    "Use of control charts and process engineering techniques for quality implementation",
+                    "X–R chart, moving average chart, p-chart, and c-chart"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Acceptance Sampling and Quality Circles",
+                "topics": [
+                    "Principles of acceptance sampling: single, double, and multiple sampling plans",
+                    "Key parameters: AOQ, AQL, and LTPD",
+                    "Chain sampling plan and Dodge-Romig plan",
+                    "Philosophy and concept of quality circles",
+                    "Formation and operation of quality circles: steering committee, leadership, and facilitator roles",
+                    "Case studies illustrating implementation of quality circles in organizations"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Kaizen, Six Sigma, and Quality Standards",
+                "topics": [
+                    "Principles of Kaizen and Gemba concepts",
+                    "Introduction to Six Sigma standards and case studies",
+                    "Different quality standards: ISO, BS, and Bureau of Indian Standards",
+                    "Details of ISO 9000 series, ISO 14000 series, SA 8000, and OSHAS 18000",
+                    "Overview of certification authorities and their roles in quality assurance"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Identify and control the quality of processes, products, and services using statistical tools",
+            "Draw and analyze various types of control charts to evaluate process stability",
+            "Develop sampling plans to evaluate the quality of products based on defect types",
+            "Apply techniques of Quality Circles and Kaizen to enhance organizational culture and Total Quality Management"
+        ],
+        "textBooks": [
+            "Grant, Eugene and Leavenworth, Richard, “Statistical Quality Control”, TMH, 7th Edition, 2012",
+            "Udpa, S. R., “Quality Circles: Progress through Participation”, TMH, 1992",
+            "Bedi, Kanishka, “Quality Management”, Oxford University Press"
+        ],
+        "referenceBooks": [
+            "H. Lal, “Total Quality Management – A Practical Approach”, New Age International, 1990",
+            "Sundararaju, S. M., “Total Quality Management – A Primer”, TMH, 1995",
+            "Mitra, Amitava, “Fundamentals of Quality Control and Improvement”, 2nd Edition, Prentice-Hall of India, 1998",
+            "Subburaj Ramasamy, “Total Quality Management”, McGraw Hill Education (India) Pvt. Ltd., 2012"
+        ]
+    },
+    {
+        "courseCode": "CSBS4241",
+        "courseName": "Introduction to Cognitive Science",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Philosophical and Cognitive Approaches to Cognitive Science",
+                "topics": [
+                    "Philosophical assumptions of Cognitive Science and the Mind–Body Problem",
+                    "Mystery of consciousness and understanding attention through philosophical approaches",
+                    "Cognitive approach: mind as an information processing system and modular approach",
+                    "Understanding attention, thought, and cognition through the cognitive perspective",
+                    "Neuropsychology approach: mind as neuropsychological matter and methodological approaches in neuroscience",
+                    "Understanding attention through neuropsychological approaches",
+                    "Connectomes approach: mind as a network of connectomes, methodology, and understanding attention through connectome-based approaches"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Perception, Attention, and Behavioral Models",
+                "topics": [
+                    "Perception and attention: bottom-up and top-down processing",
+                    "Recognition of letters and objects and heuristics for perceiving perception and attention",
+                    "Early, intermediate, and late selection models of attention",
+                    "Behavioral contrast and errorless discrimination learning",
+                    "Applications of cognitive models in social media frameworks, game development, virtual reality, and augmented reality frameworks"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Brain Imaging and Neuroimaging Applications",
+                "topics": [
+                    "Overview of brain imaging techniques: CAT (Computed Axial Tomography), DOT (Diffused Optical Tomography), and EROS (Event Related Optical Signal)",
+                    "Magnetic Resonance Imaging (MRI) and Functional MRI (fMRI)",
+                    "Methodological considerations for using BOLD fMRI in clinical neuroscience research",
+                    "Applications of functional neuroimaging to study nicotine dependence",
+                    "Relationship between mood, stress, and tobacco smoking using neuroimaging approaches"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Statistical Models in Cognitive Science",
+                "topics": [
+                    "Measures of association and frequency analysis of categorical data",
+                    "Goodness-of-Fit Tests and Post-hoc Tests",
+                    "Repeated-measure ANOVA applications in cognitive research",
+                    "Linear and multiple regression analysis in cognitive science studies"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Relate the contributions of philosophy, psychology, neuroscience, and artificial intelligence to cognitive science",
+            "Choose appropriate methods of cognitive science according to specific research tasks",
+            "Understand the main methodological issues in cognitive science",
+            "Apply knowledge and methods of cognitive science in applied research contexts",
+            "Recognize the variety of methodologies used in cognitive science, including their capabilities and limitations",
+            "Understand the relationship between cognitive science and computing, including human-centered computing, robotics, design, and educational technology"
+        ],
+        "textBooks": [
+            "Robert A. Wilson and Frank C. Keil (eds.), “The MIT Encyclopedia of the Cognitive Sciences (MITECS)”, MIT Press",
+            "Vyvyan Evans and Melanie Green, “Cognitive Linguistics: An Introduction”, Routledge",
+            "Jay Friedenberg and Gordon Silverman, “Cognitive Science: An Introduction to the Study of Mind”, SAGE Publications",
+            "José Luis Bermúdez, “Cognitive Science: An Introduction to the Science of the Mind”, Cambridge University Press"
+        ],
+        "referenceBooks": []
+    },
+    {
+        "courseCode": "AEIE4127",
+        "courseName": "Introduction to Embedded System",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Interdisciplinary Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Embedded Systems and Architectures",
+                "topics": [
+                    "Definition and characteristics of embedded systems",
+                    "Embedded system vs. general computing system",
+                    "Challenges in embedded system design and design process",
+                    "Requirements and examples of embedded systems",
+                    "Embedded system architectures: Harvard vs. Princeton",
+                    "Comparison of CISC and RISC architectures",
+                    "Introduction to AVR, PIC, ARM, and Arduino-based embedded systems"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Overview of AVR Microcontroller and Communication Interfaces",
+                "topics": [
+                    "Introduction to AVR (ATmega328p-pu) microcontroller: pin layout and architecture",
+                    "Program memory and Data Direction Register (DDRx)",
+                    "Port Registers (PORTx) and PWM registers (8-bit)",
+                    "ADC registers and interrupt handling in AVR",
+                    "Basics of communication interfaces: I2C Bus, UART, and SPI",
+                    "Overview and interfacing of I/O devices using I2C Bus, UART, and SPI"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Embedded Operating Systems and Real-Time Concepts",
+                "topics": [
+                    "Basics of operating systems and types of operating systems",
+                    "Concepts of tasks, processes, and threads",
+                    "Multiprocessing and multitasking fundamentals",
+                    "Task scheduling and its algorithms",
+                    "Task communication methods: shared memory, message passing, remote procedure calls, and sockets",
+                    "Task synchronization issues and techniques",
+                    "Overview of device drivers and selection of a Real-Time Operating System (RTOS)"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Hardware Interfacing and Embedded Programming with ATmega328p",
+                "topics": [
+                    "Interfacing of LCD with ATmega328p",
+                    "Interfacing with analog sensors: LM35 temperature sensor and ADXL 335 accelerometer",
+                    "Interfacing of stepper motors and keyboard with AVR",
+                    "Interfacing MPU6050 (MEMS accelerometer and gyroscope) using I2C bus",
+                    "Programming and debugging techniques for hardware interfaces"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Explain the definitions, components, and requirements of embedded systems",
+            "Acquire knowledge in embedded system design using AVR microcontrollers",
+            "Develop interfacing and communication techniques in embedded systems",
+            "Understand the basic concepts of Real-Time Operating Systems (RTOS)",
+            "Explain message passing and task synchronization techniques in embedded systems",
+            "Develop algorithms for real-time embedded applications"
+        ],
+        "textBooks": [
+            "Raj Kamal, “Embedded System: Architecture, Programming, Design”, McGraw Hill",
+            "Elliot Williams, “AVR Programming: Learning to Write Software for Hardware”, Maker Media Inc."
+        ],
+        "referenceBooks": [
+            "Muhammad Ali Mazidi, Sarmad Naimi, Sepehr Naimi, “The AVR Microcontroller and Embedded Systems: Using Assembly and C”, Pearson",
+            "Dhananjay Gadre, “Programming and Customizing the AVR Microcontroller”, McGraw Hill Education",
+            "Silberschatz, Galvin, Gagne, “Operating System Concepts”, Wiley",
+            "Shibu K. V., “Introduction to Embedded Systems”, Tata McGraw Hill"
+        ]
+    },
+    {
+        "courseCode": "CSBS4281",
+        "courseName": "Introduction to Industrial Sociology",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Open Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Industrial Sociology and Development of Industry",
+                "topics": [
+                    "Concept, scope, and significance of industrial sociology",
+                    "The rise of industrial sociology: Hawthorne Experiment",
+                    "Impact of industrial institutions on society",
+                    "Caste and class conflict in industrial society",
+                    "Development of industry in Western society: The Manorial System, Guild System, and Putting Out System",
+                    "Factory System: characteristics and the factory as a social system",
+                    "Industrial policy and labor legislation"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Organizational Structure of Industry and Trade Unions",
+                "topics": [
+                    "Formal organization: line and staff structure",
+                    "Informal organization and industrial bureaucracy",
+                    "Division of labor and its implications",
+                    "Trade Union movements in India: history and growth",
+                    "Recognition, election, affiliation, and social responsibilities of trade unions",
+                    "Employers’ associations and their roles in industrial relations"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Industrial Relations and Legal Provisions",
+                "topics": [
+                    "Industrial development in India and characteristics of Indian labor",
+                    "Labor problems and absenteeism in Indian industries",
+                    "Social consequences of industrialism in India",
+                    "Industrial Relations (IR) mechanisms: conciliation, arbitration, and adjudication",
+                    "Collective bargaining: nature, processes, and issues",
+                    "Tripartite consultation: statutory and non-statutory committees and boards",
+                    "Legal provisions regarding strikes, lockouts, unfair labor practices, and recovery of dues"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Labor Laws and Labor Welfare",
+                "topics": [
+                    "Key provisions of major labor laws: Industrial Disputes Act (1947), Trade Unions Act (1926), Factories Act (1948), Employees State Insurance Act (1948)",
+                    "Overview of new labor codes and their implications",
+                    "Labor welfare concepts: industrial welfare and benefit administration",
+                    "Social security measures and corporate social responsibility (CSR)",
+                    "Role of welfare officers and welfare funds",
+                    "Workers’ education and issues related to women and child labor"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Critically understand the impact of industrial institutions on society",
+            "Implement sociological theories in an industrial context",
+            "Grasp the ideas of trade union movements and class conflicts in India",
+            "Understand the fundamentals of industrial relations and mechanisms for dispute resolution",
+            "Apply knowledge of labor laws and labor welfare in industrial settings",
+            "Effectively resolve industrial disputes using established legal and organizational tools"
+        ],
+        "textBooks": [
+            "Arun Monappa, “Industrial Relations and Labor Laws”, McGraw-Hill",
+            "Ashok Raj, “Industrial Sociology”, S.K. Kataria & Sons"
+        ],
+        "referenceBooks": [
+            "S.L. Aggarwal, “Labor Relations Law in India”, Macmillan",
+            "Sharmistha Bhattacharjee, “Industrial Sociology”, Pointer Publishers"
+        ]
+    },
+    {
+        "courseCode": "CSBS4132",
+        "courseName": "Marketing Management",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Marketing and Market Segmentation",
+                "topics": [
+                    "Definitions and core concepts of marketing: need, want, demand, offering, branding, value, and satisfaction",
+                    "Evolution of marketing concepts (orientations)",
+                    "Marketing Mix – 4Ps (Product, Price, Place, Promotion) and 4Cs (Customer, Cost, Convenience, Communication)",
+                    "Market Segmentation, Targeting, and Positioning (STP)",
+                    "Bases of segmentation: geographic, demographic, psychographic (VALS-II), and behavioral",
+                    "Targeting approaches: mass marketing, segment marketing, niche marketing, micro marketing, and customization",
+                    "Concept of differentiation and positioning"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Consumer Behavior and Marketing Research",
+                "topics": [
+                    "Framework of consumer decision-making process",
+                    "Major factors influencing consumer behavior",
+                    "Marketing research: role and importance in managerial decision-making",
+                    "Steps and process of marketing research",
+                    "Introduction to B2B (Business-to-Business) marketing and its significance"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Product, Branding, and Packaging",
+                "topics": [
+                    "Product classification and service characteristics",
+                    "Expanded service mix elements and product levels",
+                    "Product mix and product line management",
+                    "Product Life Cycle (PLC): concept, types, and strategies across PLC phases",
+                    "New Product Development (NPD) process and innovation in product design",
+                    "Branding: purpose, brand equity, and branding strategies",
+                    "Packaging: purpose, types (primary, secondary, and shipping packages), and its role in marketing"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Pricing and Promotion Strategies",
+                "topics": [
+                    "Procedure for price setting and pricing objectives",
+                    "Cost and demand considerations in pricing decisions",
+                    "Pricing methods and strategies for different market conditions",
+                    "Promotion mix elements: advertising, sales promotion, personal selling, direct marketing, publicity, and public relations",
+                    "5M model of advertising (Mission, Money, Message, Media, Measurement)",
+                    "Concept of digital marketing and overview of the selling process"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Identify the scope and significance of marketing in the modern business environment",
+            "Practice effective marketing communication skills relevant to corporate settings",
+            "Coordinate various marketing environment variables and interpret them for designing marketing strategies",
+            "Illustrate marketing research skills to design innovative strategies for business firms"
+        ],
+        "textBooks": [
+            "Ramaswamy & Namakumari, “Marketing Management”, McMillan",
+            "Philip Kotler, Kevin Keller, Abraham Koshy, and Mithileshwar Jha, “Marketing Management”, Pearson"
+        ],
+        "referenceBooks": [
+            "R. Saxena, “Marketing Management”, TMH",
+            "Philip Kotler, Kevin Keller, Abraham Koshy, and Mithileshwar Jha, “Marketing Management”, Pearson",
+            "David L. Kurtz and Louis E. Boone, “Principles of Marketing”, Thomson",
+            "Keith Blois, “Textbook of Marketing”, Oxford University Press",
+            "M.J. Etzel, B.W. Walker, and W.J. Stanton, “Marketing”, TMH"
+        ]
+    },
+    {
+        "courseCode": "HMTS4125",
+        "courseName": "Marketing Research",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Marketing Research and Research Process",
+                "topics": [
+                    "Meaning, definition, and scope of marketing research",
+                    "Applications of research in managerial decision-making",
+                    "Aims, roles, functions, and sources of research in business",
+                    "Client–user interface: role conflict and resolution",
+                    "Research process: steps in planning and execution",
+                    "Formulating research purpose and objectives",
+                    "Converting a manager’s problem into a researcher’s problem",
+                    "Problem formulation, research design, data collection, analysis, and report presentation",
+                    "Preparation and structure of a research proposal"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Research Design and Sources of Data",
+                "topics": [
+                    "Types of research design: exploratory, descriptive, and causal studies",
+                    "Types of information: behavioral and non-behavioral correlates",
+                    "Sources of data: primary and secondary (government, non-government, syndicated research)",
+                    "Errors in data collection and their minimization",
+                    "Role of research design in achieving reliability and validity"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Data Collection Methods, Measurement, and Scaling",
+                "topics": [
+                    "Primary data collection methods: focus groups, observations, case histories, and surveys",
+                    "Survey methods: structured and unstructured, direct and indirect approaches",
+                    "In-depth interviews, panels, and interview media (personal, telephone, internet, and mail)",
+                    "Questionnaire construction and pre-testing",
+                    "Qualitative vs. quantitative research techniques",
+                    "Measurement and scaling: levels of measurement – nominal, ordinal, interval, ratio scales",
+                    "Attitude measurement: paired comparison, ranking, rating, and ordered category sorting methods",
+                    "Quantitative judgment methods and their applications in marketing studies"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Sampling and Data Analysis Techniques",
+                "topics": [
+                    "Census vs. sampling: advantages and disadvantages",
+                    "Steps in the sampling process and definitions of population, frame, unit, and element",
+                    "Types of sampling: probabilistic and non-probabilistic techniques",
+                    "Determination of sample size and representativeness",
+                    "Classification and coding of data for analysis",
+                    "Analytical techniques: introduction to univariate and multivariate analysis",
+                    "Overview of regression, discriminant, factor, cluster, multidimensional scaling, and conjoint analysis",
+                    "Hypothesis testing and interpretation of results"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the fundamental principles, concepts, and measurement tools essential for planning and evaluating marketing research",
+            "Design a logical and systematic marketing research plan",
+            "Differentiate between qualitative and quantitative research techniques",
+            "Operationalize marketing concepts to develop testable research propositions",
+            "Conduct exploratory research and utilize secondary data to formulate research questions effectively"
+        ],
+        "textBooks": [
+            "D.R. Cooper and P.S. Schindler, “Marketing Research”, TMH",
+            "P. Green, D. Tull, and G. Albaum, “Research for Marketing Decisions”, PHI"
+        ],
+        "referenceBooks": [
+            "Boyd and Westfall, “Marketing Research: Text and Cases”, AIT Bookseller",
+            "Luck and Rubin, “Marketing Research”, PHI",
+            "Naresh K. Malhotra, “Marketing Research”, Pearson",
+            "G.C. Beri, “Marketing Research”, Tata McGraw Hill",
+            "C.R. Kothari, “Marketing Research”, New Age International"
+        ]
+    },
+    {
+        "courseCode": "CSBS4244",
+        "courseName": "Natural Language Processing",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to NLP and Linguistic Foundations",
+                "topics": [
+                    "Introduction to Natural Language Processing: issues and strategies",
+                    "Tools of NLP and linguistic organization",
+                    "NLP as an application domain",
+                    "Word classes and regular expressions",
+                    "Chomsky hierarchy, context-free grammars (CFG), and parsing techniques",
+                    "Morphology: inflectional and derivational processes",
+                    "Parsing with finite state transducers (FST) and combinational rules",
+                    "Probabilistic language modeling and its applications"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Language Modeling and Part of Speech Tagging",
+                "topics": [
+                    "Unigram, Bigram, Trigram, and N-gram language models",
+                    "Advanced smoothing techniques for language modeling",
+                    "Empirical comparison of smoothing techniques",
+                    "Applications of language modeling and natural language generation",
+                    "Part of Speech (POS) tagging and morphology",
+                    "Named Entity Recognition (NER) and Markov Models",
+                    "Hidden Markov Models (HMM) and Viterbi algorithm for sequence labeling",
+                    "Transformation-based tagging and accuracy measurement in tagging tasks"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Semantics and Lexical Semantics",
+                "topics": [
+                    "Representing meaning: unambiguous representation, canonical forms, and expressiveness",
+                    "Meaning structure of language and semantic analysis",
+                    "Role of NLP in Information Retrieval (IR) and its integration with Latent Semantic Analysis",
+                    "Lexical semantics: lexemes, synonymy, hyponymy, and metonymy",
+                    "WordNet and computational approaches to lexical semantics",
+                    "Supervised and unsupervised methods in semantic processing"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Pragmatics and Natural Language Generation",
+                "topics": [
+                    "Information theory: entropy, cross-entropy, and information gain",
+                    "Reference resolution and related phenomena",
+                    "Syntactic and semantic constraints in pronoun resolution",
+                    "Pronoun resolution algorithms and discourse coherence",
+                    "Discourse structure and text coherence",
+                    "Natural Language Generation: architecture and discourse planning",
+                    "Text schemata and rhetorical relations in NLG",
+                    "Resource-constrained word sense disambiguation (WSD)",
+                    "Parsing ambiguous sentences and probabilistic parsing algorithms"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Learn various models, methods, and algorithms of Natural Language Processing to build automation tools for speech recognition, machine translation, spam filtering, text classification, and spell checking",
+            "Understand and estimate the parameters of probabilistic models",
+            "Identify problems solvable in language automation environments and recognize tasks that are challenging for traditional statistical models",
+            "Compare various part-of-speech tagging algorithms",
+            "Understand linguistic phenomena and explore linguistic features relevant to NLP tasks",
+            "Identify research opportunities and prepare to conduct research in NLP or related fields"
+        ],
+        "textBooks": [
+            "D. Jurafsky and J.H. Martin, “Speech and Language Processing: An Introduction to Language Processing, Computational Linguistics, and Speech Recognition”, Pearson Education"
+        ],
+        "referenceBooks": [
+            "James Allen, “Natural Language Understanding”, Benjamin/Cummings, 2nd Edition",
+            "A. Bharathi, Vineet Chaitanya, and Rajeev Sangal, “Natural Language Processing: A Paninian Perspective”, Prentice Hall India",
+            "Eugene Charniak, “Statistical Language Learning”, MIT Press, 1993",
+            "Christopher Manning and Heinrich Schütze, “Foundations of Statistical Natural Language Processing”, MIT Press",
+            "Abhijit Mishra and Pushpak Bhattacharyya, “Cognitively Inspired Natural Language Processing”, Springer"
+        ]
+    },
+    {
+        "courseCode": "BIOT4222",
+        "courseName": "Non-conventional Energy",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Interdisciplinary Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Non-Conventional Energy Sources",
+                "topics": [
+                    "Overview of non-conventional energy and its necessity as an alternative source of energy",
+                    "Different forms of non-conventional energy and their applications",
+                    "Solar energy: solar energy balance and methods of electricity production",
+                    "Photovoltaic systems: design principles and efficiency",
+                    "Wind energy: wind energy conversion systems and power generation",
+                    "Calculations on wind turbine performance and design",
+                    "Basics of hydrothermal energy and its conversion techniques",
+                    "Energy from waves and tides and their potential utilization"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Biogas and Biomass Energy",
+                "topics": [
+                    "Biomass as a renewable energy source: definition, types, and availability",
+                    "Types of biomass: forest, agricultural, and animal residues; industrial and domestic organic wastes",
+                    "Classification of biogas production processes: combustion, pyrolysis, gasification, and other thermo-chemical processes",
+                    "Production of alcohol and biogas from biomass",
+                    "Anaerobic digestion processes and biogas generation mechanisms"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Biodiesel and Biofuel Production",
+                "topics": [
+                    "Fundamentals of biodiesel production and its importance",
+                    "Trans-esterification of vegetable oils for biodiesel production",
+                    "Characterization of biodiesel and quality parameters",
+                    "Sources of biodiesel: edible and non-edible oils, algae-based biodiesel",
+                    "Economic analysis, current trends, and future prospects in biodiesel usage"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Hydrogen Energy and Fuel Cells",
+                "topics": [
+                    "Hydrogen as a clean energy source: concepts and energy systems",
+                    "Hydrogen infrastructure: storage, transportation, and safety considerations",
+                    "Safety, codes, and standards for hydrogen handling",
+                    "Hydrogen production methods: electrolysis, thermochemical processes, and hydrogen generation from fossil fuel, biomass, and renewable sources",
+                    "Combustion of fuels and related problem-solving",
+                    "Hydrogen storage technologies: carbon materials, metal hydrides, chemical hydrides, and cryogenic storage",
+                    "Hydrogen fuel cells: working principle, importance, and classification"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the concept and necessity of non-conventional energy as an alternative energy source",
+            "Comprehend and apply the concepts of solar and wind energy to design photovoltaic cells and wind turbines",
+            "Classify and design different biogas production processes",
+            "Design biodiesel production processes using trans-esterification techniques",
+            "Understand hydrogen energy as a clean fuel and characterize hydrogen production processes",
+            "Comprehend the importance and classification of hydrogen fuel cells"
+        ],
+        "textBooks": [
+            "J.E. Smith, “Biotechnology”, 3rd Edition, Cambridge University Press",
+            "S. Sarkar, “Fuels and Combustion”, 2nd Edition, University Press",
+            "Donald L. Klass, “Biomass for Renewable Energy, Fuels and Chemicals”, Academic Press"
+        ],
+        "referenceBooks": []
+    },
+    {
+        "courseCode": "CSBS4131",
+        "courseName": "Operations Management",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Production and Operations Management",
+                "topics": [
+                    "Difference between manufacturing and service operations",
+                    "Product-process matrix and capacity planning",
+                    "Responsibilities of the production manager",
+                    "Production as a coordination function",
+                    "Production cycle and the concept of production planning and control (PPC)",
+                    "Characteristics of manufacturing systems and their classification with examples",
+                    "Differences between intermittent and continuous production systems"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Plant Location and Plant Layout",
+                "topics": [
+                    "Need for a good plant location and factors influencing plant location",
+                    "Tangible and intangible factors in location decision-making",
+                    "Economic survey and site selection techniques",
+                    "Need for a good plant layout and its characteristics",
+                    "Costs associated with plant layout design",
+                    "Process layout vs. product layout and optimization in layout design",
+                    "Designing process and product layouts",
+                    "Assembly line balancing – concept and related problems",
+                    "Concept of cellular manufacturing and its advantages"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Purchase and Inventory Management",
+                "topics": [
+                    "Purchase management: purchasing procedure, value analysis, vendor selection, negotiation, and make-or-buy decisions",
+                    "Inventory management: classification of inventory items – ABC, FSN, and VED classification",
+                    "Introduction to EOQ (Economic Order Quantity) and EBQ (Economic Batch Quantity)",
+                    "Concept, inputs, and outputs of MRP (Material Requirements Planning) and its benefits with examples",
+                    "Deterministic demand models: EOQ, continuous and periodic review inventory models",
+                    "Master production schedule (MPS) and its relationship with MRP",
+                    "Overview of MRP II, Just-In-Time (JIT), and Enterprise Resource Planning (ERP) systems"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Maintenance Management and Work Study",
+                "topics": [
+                    "Types of maintenance: breakdown and preventive maintenance",
+                    "Total Productive Maintenance (TPM) and its objectives",
+                    "Work study: definition, scope, and importance in operations",
+                    "Basic procedure for performing work study",
+                    "Method study: objectives, procedures, and documentation",
+                    "Work measurement: objectives, procedures, and tools",
+                    "Concepts of performance rating, basic time, allowances, and standard time calculation"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Enhance analytical skills to support effective decision-making in operations management",
+            "Understand the strategic importance of operations management in achieving competitive advantage",
+            "Analyze the relationship between operations and other business functions in organizations",
+            "Apply techniques for facility location, layout planning, line balancing, and job scheduling",
+            "Implement material and inventory management concepts including demand management and classification systems"
+        ],
+        "textBooks": [
+            "S.N. Chary, “Production and Operations Management”, Tata McGraw Hill"
+        ],
+        "referenceBooks": [
+            "R. Panneerselvam, “Production and Operations Management”, PHI",
+            "K. Bedi, “Production and Operations Management”, Oxford University Press",
+            "Chase, Jacobs, Aquilano, and Agarwal, “Operations Management for Competitive Advantage”, TMH",
+            "E.S. Buffa and R.K. Sarin, “Modern Production / Operations Management”, John Wiley",
+            "Collier, Evans, and Ganguly, “Operations Management”, Cengage Learning"
+        ]
+    },
+    {
+        "courseCode": "HMTS4225",
+        "courseName": "Organizational Behavior",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction, Learning, Attitude, and Personality",
+                "topics": [
+                    "Meaning, definition, characteristics, and importance of Organizational Behavior (OB)",
+                    "Disciplines that contribute to OB and the interdisciplinary nature of the field",
+                    "Levels and models of OB, challenges, and opportunities for studying OB",
+                    "Nature and theories of learning: conditioning, shaping, and reinforcement",
+                    "Components, characteristics, sources, and formation of attitude",
+                    "Types of work-related attitudes: job satisfaction, job involvement, and organizational commitment",
+                    "Definition, characteristics, and factors of personality",
+                    "Theories of personality: Myers-Briggs Type Indicator (MBTI) and Big Five Model",
+                    "Other personality traits: authoritarianism, locus of control, Machiavellianism, Type A & B, self-monitoring, achievement orientation, risk-taking, and self-esteem"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Motivation, Perception, and Decision Making",
+                "topics": [
+                    "Definition, nature, and theories of motivation",
+                    "Hierarchy of Needs, Alderfer’s ERG Theory, McGregor’s Theory X and Theory Y, Herzberg’s Two-Factor Theory",
+                    "McClelland’s Theory of Needs, Vroom’s Expectancy Theory, Goal-Setting Theory, Self-Efficacy, Equity Theory, and Job Characteristics Model",
+                    "Job redesign and practical application of motivational techniques",
+                    "Perception: factors influencing perception and Attribution Theory",
+                    "Common shortcuts in judging others and their organizational implications",
+                    "Decision-making models: Rational Model, Bounded Rationality, and Intuition",
+                    "Biases and errors in decision-making"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Emotions, Group Behavior, and Leadership",
+                "topics": [
+                    "Emotions and moods: functions, sources, and organizational relevance",
+                    "Emotional labor and emotional intelligence",
+                    "Group behavior: stages of group development (Five-Stage Model)",
+                    "Group properties, groupthink, and groupshift",
+                    "Group decision-making processes and types of teams",
+                    "Difference between groups and teams in organizations",
+                    "Leadership theories: trait, behavioral (Ohio and Michigan Studies), managerial grid, and contingency theories (Fiedler and others)",
+                    "Leader–Member Exchange (LMX) theory, charismatic and transformational leadership"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Organizational Culture, Structure, Change, and Power",
+                "topics": [
+                    "Concept and characteristics of organizational culture",
+                    "Creating, sustaining, and changing organizational culture",
+                    "Organizational structure: types, specialization, departmentalization, chain of command, span of control",
+                    "Centralization, decentralization, and formalization",
+                    "Organizational change: forces, planned change, resistance, and Lewin’s Model of Change",
+                    "Organizational development interventions and processes",
+                    "Work stress: sources, effects, and management techniques",
+                    "Conflict: traditional and interactionist views, conflict process, and negotiation strategies",
+                    "Introduction to power and politics in organizations"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the basic concepts of Organizational Behavior and its applications in contemporary organizations",
+            "Recognize how individuals, groups, and structures influence organizational effectiveness and efficiency",
+            "Appreciate the major theories and models related to organizational behavior",
+            "Apply innovative and creative approaches to solve organizational challenges",
+            "Value diversity and cultural differences in the workplace",
+            "Manage and cope effectively with organizational changes, stress, and power politics"
+        ],
+        "textBooks": [
+            "Robbins & Judge, “Organizational Behavior”, Pearson",
+            "Luthans, “Organizational Behavior”, McGraw Hill"
+        ],
+        "referenceBooks": [
+            "Amy C. Edmondson, “The Fearless Organization”, Wiley",
+            "Bolman & Deal, “Reframing Organizations”, Jossey-Bass (Wiley)"
+        ]
+    },
+    {
+        "courseCode": "CSBS4121",
+        "courseName": "Soft Computing Fundamentals",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Open Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Genetic Algorithms",
+                "topics": [
+                    "Introduction to soft computing: concept, tools, techniques, usefulness, and applications",
+                    "Overview of soft computing vs. hard computing paradigms",
+                    "Genetic Algorithms (GA): basic concepts and working principles",
+                    "Encoding schemes and fitness functions",
+                    "Genetic modeling: inheritance, selection, crossover, mutation, and bitwise operators",
+                    "Convergence of Genetic Algorithms and related performance metrics"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Neural Networks",
+                "topics": [
+                    "Structure and function of biological neurons and artificial neurons",
+                    "Definition and taxonomy of Artificial Neural Networks (ANN)",
+                    "Difference between ANN and the human brain",
+                    "Characteristics and applications of ANN",
+                    "Single-layer and multilayer perceptrons (MLP)",
+                    "Concept of linear separability and different activation functions",
+                    "Backpropagation algorithm and its implementation",
+                    "Applications of neural networks in pattern recognition and data modeling"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Fuzzy Sets and Fuzzy Logic Systems",
+                "topics": [
+                    "Overview of classical set theory vs. fuzzy set theory",
+                    "Fuzzy sets and fuzzy relations and their operations",
+                    "Properties of fuzzy sets and fuzzy relations including cardinality and membership",
+                    "Membership functions: features, standard forms, boundaries, and fuzzification methods",
+                    "Fuzzy-to-crisp conversions and lambda cuts for fuzzy sets",
+                    "Overview of classical predicate logic and fuzzy logic concepts",
+                    "Approximate reasoning, fuzzy implication, and defuzzification methods",
+                    "Introduction to fuzzy rule-based systems"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Rough Sets and Multi-Objective Optimization",
+                "topics": [
+                    "Introduction to rough set theory and its significance",
+                    "Decision tables, indiscernibility relations, and set approximations",
+                    "Concepts of reducts, core, rough approximations, and decision matrices",
+                    "Applications of rough set theory in data analysis and decision support",
+                    "Introduction to Multi-Objective Optimization Problems (MOOP): formulation and examples",
+                    "Decision space vs. objective space, single vs. multi-objective optimization",
+                    "Concept of domination, non-dominated sets, Pareto optimal sets, and Pareto front",
+                    "Introduction to Multi-Objective Genetic Algorithm (MOGA)",
+                    "Overview of evolutionary algorithms: Ant Colony Optimization (ACO) and Particle Swarm Optimization (PSO)"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Describe the concepts, technologies, and applications of soft computing in problem-solving",
+            "Analyze genetic algorithms and their applications in optimization problems",
+            "Demonstrate various neural network architectures, algorithms, applications, and limitations",
+            "Apply fuzzy sets, fuzzy rules, fuzzy inference systems, and approximate reasoning techniques",
+            "Identify the role of approximation analysis and rough set theory in developing applications",
+            "Inspect and compare different soft computing techniques to solve multi-objective optimization problems"
+        ],
+        "textBooks": [
+            "S. N. Sivanandam and S. N. Deepa, “Principles of Soft Computing”, Wiley India Pvt. Ltd.",
+            "S. Rajasekaran and G. A. V. Pai, “Neural Networks, Fuzzy Logic and Genetic Algorithms”, PHI",
+            "Samir Roy and Udit Chakraborty, “Introduction to Soft Computing, Neuro-Fuzzy and Genetic Algorithms”, Pearson"
+        ],
+        "referenceBooks": [
+            "Kumar S. Ray, “Soft Computing and Its Applications, Volume 1: A Unified Engineering Concept”, CRC Press",
+            "Timothy J. Ross, “Fuzzy Logic with Engineering Applications”, John Wiley & Sons",
+            "David E. Goldberg, “Genetic Algorithms in Search, Optimization & Machine Learning”, Pearson India",
+            "B. Yegnanarayana, “Artificial Neural Networks”, PHI",
+            "Dilip K. Pratihar, “Soft Computing”, Alpha Science International"
+        ]
+    },
+    {
+        "courseCode": "CSBS4121",
+        "courseName": "Soft Computing Fundamentals",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Open Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Genetic Algorithms",
+                "topics": [
+                    "Introduction to soft computing: concept, tools, techniques, usefulness, and applications",
+                    "Overview of soft computing vs. hard computing paradigms",
+                    "Genetic Algorithms (GA): basic concepts and working principles",
+                    "Encoding schemes and fitness functions",
+                    "Genetic modeling: inheritance, selection, crossover, mutation, and bitwise operators",
+                    "Convergence of Genetic Algorithms and related performance metrics"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Neural Networks",
+                "topics": [
+                    "Structure and function of biological neurons and artificial neurons",
+                    "Definition and taxonomy of Artificial Neural Networks (ANN)",
+                    "Difference between ANN and the human brain",
+                    "Characteristics and applications of ANN",
+                    "Single-layer and multilayer perceptrons (MLP)",
+                    "Concept of linear separability and different activation functions",
+                    "Backpropagation algorithm and its implementation",
+                    "Applications of neural networks in pattern recognition and data modeling"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Fuzzy Sets and Fuzzy Logic Systems",
+                "topics": [
+                    "Overview of classical set theory vs. fuzzy set theory",
+                    "Fuzzy sets and fuzzy relations and their operations",
+                    "Properties of fuzzy sets and fuzzy relations including cardinality and membership",
+                    "Membership functions: features, standard forms, boundaries, and fuzzification methods",
+                    "Fuzzy-to-crisp conversions and lambda cuts for fuzzy sets",
+                    "Overview of classical predicate logic and fuzzy logic concepts",
+                    "Approximate reasoning, fuzzy implication, and defuzzification methods",
+                    "Introduction to fuzzy rule-based systems"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Rough Sets and Multi-Objective Optimization",
+                "topics": [
+                    "Introduction to rough set theory and its significance",
+                    "Decision tables, indiscernibility relations, and set approximations",
+                    "Concepts of reducts, core, rough approximations, and decision matrices",
+                    "Applications of rough set theory in data analysis and decision support",
+                    "Introduction to Multi-Objective Optimization Problems (MOOP): formulation and examples",
+                    "Decision space vs. objective space, single vs. multi-objective optimization",
+                    "Concept of domination, non-dominated sets, Pareto optimal sets, and Pareto front",
+                    "Introduction to Multi-Objective Genetic Algorithm (MOGA)",
+                    "Overview of evolutionary algorithms: Ant Colony Optimization (ACO) and Particle Swarm Optimization (PSO)"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Describe the concepts, technologies, and applications of soft computing in problem-solving",
+            "Analyze genetic algorithms and their applications in optimization problems",
+            "Demonstrate various neural network architectures, algorithms, applications, and limitations",
+            "Apply fuzzy sets, fuzzy rules, fuzzy inference systems, and approximate reasoning techniques",
+            "Identify the role of approximation analysis and rough set theory in developing applications",
+            "Inspect and compare different soft computing techniques to solve multi-objective optimization problems"
+        ],
+        "textBooks": [
+            "S. N. Sivanandam and S. N. Deepa, “Principles of Soft Computing”, Wiley India Pvt. Ltd.",
+            "S. Rajasekaran and G. A. V. Pai, “Neural Networks, Fuzzy Logic and Genetic Algorithms”, PHI",
+            "Samir Roy and Udit Chakraborty, “Introduction to Soft Computing, Neuro-Fuzzy and Genetic Algorithms”, Pearson"
+        ],
+        "referenceBooks": [
+            "Kumar S. Ray, “Soft Computing and Its Applications, Volume 1: A Unified Engineering Concept”, CRC Press",
+            "Timothy J. Ross, “Fuzzy Logic with Engineering Applications”, John Wiley & Sons",
+            "David E. Goldberg, “Genetic Algorithms in Search, Optimization & Machine Learning”, Pearson India",
+            "B. Yegnanarayana, “Artificial Neural Networks”, PHI",
+            "Dilip K. Pratihar, “Soft Computing”, Alpha Science International"
+        ]
+    },
+    {
+        "courseCode": "ECEN4122",
+        "courseName": "Software Defined Radio",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Interdisciplinary Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Software Defined Radio",
+                "topics": [
+                    "Definition and overview of Software Defined Radio (SDR)",
+                    "Brief history and development of SDR technology",
+                    "RF architectures applied in SDR and their evolution",
+                    "Processing architectures suitable for SDR systems",
+                    "Software environment and platforms for SDR implementation",
+                    "Benefits and challenges associated with SDR",
+                    "GNU Radio design framework and its role in SDR development"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Signals, Systems, and SDR Hardware",
+                "topics": [
+                    "Signals and systems in relation to SDR",
+                    "Role of probability in communications and its effects on reliability",
+                    "Understanding SDR hardware components and architecture",
+                    "Timing and carrier synchronization in SDR systems",
+                    "Frame synchronization and its importance",
+                    "Channel coding principles for SDR",
+                    "Receive techniques for SDR and their applications",
+                    "Transmit power control, bandwidth utilization, and spectral efficiency",
+                    "Sources of interference and mitigation methods in SDR systems"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "OFDM and Channel Techniques in SDR",
+                "topics": [
+                    "Orthogonal Frequency Division Multiplexing (OFDM): introduction and principles",
+                    "Implementation of general OFDM models in SDR",
+                    "Channel estimation methods and algorithms",
+                    "Equalization techniques for SDR",
+                    "Power allocation techniques for bits in communication channels"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Applications and Future Directions of SDR",
+                "topics": [
+                    "Applications of SDR in modern communication systems",
+                    "Future directions and emerging trends in SDR development",
+                    "SDR-3000 series Software Defined Radio Transceiver Systems",
+                    "Smart Antenna API integration for SDR",
+                    "Networking applications of SDR including case studies",
+                    "Vehicular networking using SDR and its industrial relevance"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the technological differences between various families of radios",
+            "Explain the function and design of reconfigurable hardware used in SDR",
+            "Analyze the processing techniques required for Software Defined Radio systems",
+            "Evaluate the effects of probability on communication reliability and system performance",
+            "Analyze synchronization requirements in SDR and SDR-based networks",
+            "Compare and analyze the functioning of different families of radios and SDR architectures"
+        ],
+        "textBooks": [
+            "T. Collins, Robin Getz, Di Pu, and Alexander M. Wyglinski, “Software Defined Radio for Engineers”, Artech House"
+        ],
+        "referenceBooks": [
+            "Sithamparanathan Kandeepan and Andrea Giorgetti, “Cognitive Radio Techniques: Spectrum Sensing, Interference Mitigation and Localization”, Artech House, 2012",
+            "Martin Bates and Bruce A. Fette, “Cognitive Radio Technology”, Elsevier Science & Technology",
+            "Liesbet Van Der Perre, Michael Timmers, and Sofie Pollin, “Software Defined Radios: From Smart(er) to Cognitive”, Springer"
+        ]
+    },
+    {
+        "courseCode": "CSBS4134",
+        "courseName": "Web Technology",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Professional Elective Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Semantic Web and HTML5",
+                "topics": [
+                    "Basics of Semantic Web: evolution from traditional web to semantic web",
+                    "World Wide Web (WWW) and its usage in information sharing",
+                    "Meta data creation and addition in web pages",
+                    "Meta data tools and their importance in web development",
+                    "Search engines for semantic web – web page markup and query building issues",
+                    "HTML5 overview and new features: detecting HTML5 elements and attributes",
+                    "HTML5 elements – canvas, video, local storage, web workers, offline applications, geo-location, placeholders, and input types",
+                    "HTML5 structure – document type, root, headers, articles, dates, navigation, and footers",
+                    "Canvas and drawing – simple shapes, paths, text, gradients, and images",
+                    "Local storage for web applications – past, present, and future trends",
+                    "HTML5 form enhancements – placeholders, autofocus, email, web addresses, number sliders, date and color pickers, and search boxes"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "JavaScript Basics and Advanced Concepts",
+                "topics": [
+                    "Introduction to JavaScript: syntax, variables, and data types",
+                    "Operations, calculations, and control structures",
+                    "Arrays, loops, decisions, and functions in JavaScript",
+                    "Objects and built-in classes: String, Math, and Array objects",
+                    "Document Object Model (DOM) and event handling",
+                    "Advanced JavaScript concepts: scopes and closures",
+                    "Understanding the ‘this’ keyword and prototypes",
+                    "Object-oriented programming principles in JavaScript and prototypal inheritance",
+                    "Concept of asynchronous programming in JavaScript"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Server-side JavaScript with Node.js and MongoDB",
+                "topics": [
+                    "Introduction to Node.js: architecture and features",
+                    "Installation and setup of Node.js environment",
+                    "Creating web servers using HTTP: handling requests and responses",
+                    "Understanding npm and the package.json structure",
+                    "File system APIs in Node.js and their usage",
+                    "Integration of Node.js with MongoDB for backend development",
+                    "CRUD operations using Node.js and MongoDB",
+                    "Event handling and implementation of GET and POST requests",
+                    "Using Express.js to create RESTful APIs",
+                    "Connecting Node.js applications with NoSQL databases"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Client-side JavaScript with Angular 4",
+                "topics": [
+                    "Introduction to Angular 4.0 and its evolution",
+                    "Features, setup, and configuration of Angular framework",
+                    "Understanding components and modules",
+                    "Templates and change detection mechanisms in Angular",
+                    "Directives and data binding concepts",
+                    "Pipes, nested components, and reusability of code",
+                    "Model-driven forms (Reactive Forms) in Angular and their implementation",
+                    "Building client-side web applications using Angular and Node.js integration"
+                ]
+            }
+        ],
+        "courseOutcomes": [
+            "Understand the concepts and evolution of semantic web technology",
+            "Develop and design web pages using HTML5 features and semantics",
+            "Apply JavaScript to create dynamic and interactive web applications",
+            "Implement server-side applications using Node.js and Express.js",
+            "Use Angular 4.0 features to develop component-based client-side applications",
+            "Integrate front-end applications with MongoDB databases for full-stack web development"
+        ],
+        "textBooks": [
+            "Liyang Yu, “Introduction to the Semantic Web and Semantic Web Services”, Chapman & Hall/CRC, Taylor & Francis Group, 2007",
+            "Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda, “ng-book: The Complete Book on Angular 4”, September 2016",
+            "Krasimir Tsonev, “Node.js by Example Paperback”, May 2015"
+        ],
+        "referenceBooks": [
+            "Johan Hjelm, “Creating the Semantic Web with RDF”, Wiley, 2001",
+            "Mark Pilgrim, “HTML5 Up and Running”, O’Reilly | Google Press, 2010"
         ]
     }
 ]

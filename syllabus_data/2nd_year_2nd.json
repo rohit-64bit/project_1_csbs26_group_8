@@ -1,0 +1,512 @@
+[
+    {
+        "courseCode": "CSBS2202",
+        "courseName": "Computer Organization and Architecture",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Computer and Computer Arithmetic",
+                "topics": [
+                    "Von Neumann and Harvard architectures – structure and comparison",
+                    "Difference between computer organization and computer architecture",
+                    "Instruction format and various addressing modes",
+                    "Arithmetic operations: addition and subtraction with signed magnitude representation",
+                    "Half adder, full adder, ripple carry adder, and carry look-ahead adder",
+                    "Multiplication and division algorithms for binary numbers",
+                    "Floating-point number representation and IEEE 754 standard",
+                    "Design principles of Arithmetic Logic Unit (ALU)"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Memory Organization and I/O Techniques",
+                "topics": [
+                    "Properties of inclusion, coherence, and locality in memory hierarchy",
+                    "Memory hierarchy concepts and organization",
+                    "Cache memory organization and design considerations",
+                    "Cache replacement policies and techniques to reduce cache misses",
+                    "Virtual memory organization: mapping and management techniques",
+                    "I/O organization: modes of data transfer, handshaking mechanism, and Direct Memory Access (DMA)"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Pipeline and Instruction Level Parallelism (ILP)",
+                "topics": [
+                    "Quantitative techniques in computer design",
+                    "Introduction to pipelining and stages of instruction pipeline",
+                    "Arithmetic and processor pipelining concepts",
+                    "Pipeline hazards: types, causes, and countermeasures",
+                    "Advanced pipeline architectures: super-pipeline, superscalar, and Very Long Instruction Word (VLIW) systems",
+                    "Introduction to Instruction Level Parallelism (ILP) and techniques to enhance ILP",
+                    "Overview of array and vector processors"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Multiprocessor Architecture and Control Unit",
+                "topics": [
+                    "Taxonomy of parallel architectures and types of multiprocessor systems",
+                    "Multi-cache inconsistency and coherence problems",
+                    "Centralized and distributed shared memory architectures",
+                    "Memory consistency models and cluster computer design",
+                    "Data flow architecture concepts",
+                    "RISC and CISC architectural comparison",
+                    "Control Unit design: Hardwired and Microprogrammed control units – working principles"
+                ]
+            }
+        ],
+        "books": [
+            "Kai Hwang, “Advanced Computer Architecture”.",
+            "John L. Hennessy and David A. Patterson, “Computer Architecture: A Quantitative Approach”.",
+            "Hwang and Briggs, “Computer Architecture and Parallel Processing”.",
+            "T. K. Ghosh, “Computer Architecture”.",
+            "M. M. Mano, “Computer System Architecture”, PHI.",
+            "Hamacher, “Computer Organisation”, McGraw Hill."
+        ],
+        "courseOutcomes": [
+            "Categorize the types of instructions and addressing modes and analyze their impact on processor design.",
+            "Demonstrate the design principles of arithmetic and logical units of a digital computer system.",
+            "Analyze cache memory performance and optimization techniques to reduce access time.",
+            "Explain paging, segmentation, and virtual memory management strategies.",
+            "Illustrate pipeline design and techniques to minimize hazards during instruction execution.",
+            "Understand concepts of parallel processing, multiprocessor architectures, and control unit design."
+        ]
+    },
+    {
+        "courseCode": "CSBS2203",
+        "courseName": "Design and Analysis of Algorithms",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction and Divide & Conquer Techniques",
+                "topics": [
+                    "Properties and characteristics of algorithms",
+                    "Patterns in algorithm design and their significance",
+                    "Time and space complexity of algorithms",
+                    "Asymptotic notations – Big O, Omega, and Theta and their mathematical significance",
+                    "Master theorem and generating functions for recurrence relations",
+                    "Divide and Conquer method: principle, steps, and complexity analysis",
+                    "Binary Search algorithm and its complexity",
+                    "Merge Sort and Quick Sort algorithms with analysis",
+                    "Matrix multiplication algorithms – Strassen’s method",
+                    "Heaps and heap operations: maintaining the heap property, building a heap",
+                    "Heapsort algorithm and its efficiency",
+                    "Priority queues and their applications",
+                    "Lower Bound Theory: O(n log n) bound for comparison-based sorting",
+                    "Set manipulation algorithms – UNION-FIND and related operations"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Graph Algorithms and Greedy Method",
+                "topics": [
+                    "Introduction to graph theory and graph traversal algorithms",
+                    "Breadth-First Search (BFS) and Depth-First Search (DFS)",
+                    "Best-First Search and Bidirectional Search techniques",
+                    "Greedy method: basic approach and characteristics",
+                    "Fractional Knapsack problem and its solution using greedy technique",
+                    "Job sequencing with deadlines and cost optimization",
+                    "Minimum cost spanning tree algorithms: Prim’s and Kruskal’s methods",
+                    "Dijkstra’s algorithm for single-source shortest path determination"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Dynamic Programming and Network Flow",
+                "topics": [
+                    "Dynamic programming: concept, methodology, and advantages",
+                    "All-pairs shortest path problem using dynamic programming",
+                    "Single-source shortest path using Bellman-Ford algorithm",
+                    "Matrix chain multiplication and optimization strategy",
+                    "Travelling Salesperson Problem (TSP) and its dynamic programming solution",
+                    "Network flow problems and optimization",
+                    "Ford-Fulkerson algorithm for maximum flow computation",
+                    "Max-Flow Min-Cut theorem – statement and illustration"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Backtracking, Branch and Bound, NP-Completeness, and Approximation Algorithms",
+                "topics": [
+                    "Backtracking method and applications",
+                    "8-Queens problem and its recursive backtracking solution",
+                    "Graph coloring problem and constraints handling",
+                    "Branch and Bound method: principle and implementation",
+                    "15-Puzzle problem using Branch and Bound approach",
+                    "Notion of NP-Completeness and computational complexity classes",
+                    "P, NP, NP-hard, and NP-complete classes – definitions and interrelationships",
+                    "Cook’s theorem (statement only)",
+                    "Satisfiability (SAT) problem and Clique decision problem",
+                    "Non-deterministic algorithms and their relevance",
+                    "Approximation algorithms: necessity and basic design principles",
+                    "Polynomial-time approximation schemes (PTAS)",
+                    "Travelling Salesman Problem (TSP) approximation algorithms"
+                ]
+            }
+        ],
+        "textBooks": [
+            "T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, “Introduction to Algorithms”.",
+            "E. Horowitz and S. Sahni, “Fundamentals of Computer Algorithms”."
+        ],
+        "referenceBooks": [
+            "A. Aho, J. Hopcroft, and J. Ullman, “The Design and Analysis of Algorithms”.",
+            "D. E. Knuth, “The Art of Computer Programming”.",
+            "Jon Kleinberg and Éva Tardos, “Algorithm Design”.",
+            "Kurt Mehlhorn, “Data Structures and Algorithms”, Volumes I & II.",
+            "Sara Baase, “Computer Algorithms”.",
+            "E. M. Reingold, J. Nievergelt, and N. Deo, “Combinatorial Algorithms: Theory and Practice”, Prentice Hall, 1997."
+        ],
+        "courseOutcomes": [
+            "Analyze the time and space complexity of algorithms using asymptotic notations.",
+            "Distinguish between algorithms to solve optimization problems effectively.",
+            "Illustrate suitable algorithmic techniques for solving decision-making problems.",
+            "Apply algorithmic techniques to solve mathematical puzzles and logical problems.",
+            "Describe NP-hard and NP-complete problems and justify the need for approximation algorithms.",
+            "Develop efficient algorithms for solving common engineering and computational problems."
+        ]
+    },
+    {
+        "courseCode": "EVSC2016",
+        "courseName": "Environmental Sciences",
+        "L": 2,
+        "T": 0,
+        "P": 0,
+        "totalHours": 2,
+        "creditPoints": 0,
+        "courseType": "Basic Science Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Socio-Environmental Impact",
+                "topics": [
+                    "Basic ideas of environment and its components",
+                    "Population growth models: exponential and logistic growth",
+                    "Concepts of natural resources and sustainable development",
+                    "Introduction to green chemistry, green catalysts, and green solvents",
+                    "Environmental disasters and their social impacts",
+                    "Environmental Impact Assessment (EIA) and environmental auditing",
+                    "Environmental laws and protection acts of India"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Air Pollution",
+                "topics": [
+                    "Structure of the atmosphere and global temperature models",
+                    "Greenhouse effect and global warming",
+                    "Acid rain: causes, effects, and control measures",
+                    "Lapse rate and atmospheric stability",
+                    "Pollutants and contaminants in air",
+                    "Smog formation and effects",
+                    "Ozone layer depletion and its global consequences",
+                    "Air pollution standards and control measures"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Water Pollution",
+                "topics": [
+                    "Hydrosphere and its significance",
+                    "Water pollutants: origin and effects",
+                    "Oxygen-demanding wastes and thermal pollution",
+                    "Pesticides and salts as water pollutants",
+                    "Biochemical effects of heavy metals on aquatic systems",
+                    "Eutrophication: sources, effects, and control methods",
+                    "Water quality parameters: DO (Dissolved Oxygen), BOD (Biochemical Oxygen Demand), COD (Chemical Oxygen Demand)",
+                    "Water treatment processes for surface water and wastewater"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Land and Noise Pollution",
+                "topics": [
+                    "Land pollution: sources, effects, and control measures",
+                    "Solid waste management: classification, recovery, recycling, treatment, and disposal",
+                    "Noise pollution: definition and classification",
+                    "Noise parameters – frequency, pressure, intensity, loudness, and threshold limit values",
+                    "Health and environmental effects of noise pollution",
+                    "Control measures and mitigation strategies for noise pollution"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Gour Krishna Das Mahapatra, “Basic Environmental Engineering and Elementary Biology”, Vikas Publishing House Pvt. Ltd.",
+            "A. K. De, “Environmental Chemistry”, New Age International.",
+            "A. K. Das, “Environmental Chemistry with Green Chemistry”, Books and Allied Pvt. Ltd."
+        ],
+        "referenceBooks": [
+            "S. C. Santra, “Environmental Science”, New Central Book Agency Pvt. Ltd.",
+            "D. De and D. De, “Fundamentals of Environment & Ecology”, S. Chand & Company Ltd."
+        ],
+        "courseOutcomes": [
+            "Understand the natural environment and its relationship with human activities.",
+            "Characterize and analyze the impacts of human actions on the environment.",
+            "Integrate facts, concepts, and methods from multiple disciplines to address environmental problems.",
+            "Work effectively in multidisciplinary environments to address evolving environmental challenges.",
+            "Implement scientific research strategies for the collection, management, and interpretation of environmental data.",
+            "Design and evaluate strategies and technologies for sustainable management and restoration of the environment."
+        ]
+    },
+    {
+        "courseCode": "CSBS2204",
+        "courseName": "Introduction to Innovation and Entrepreneurship",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction to Innovation",
+                "topics": [
+                    "Definition and differentiation of creativity, invention, and innovation",
+                    "Necessity and role of innovation in the modern business world",
+                    "Classification and types of innovation",
+                    "Relevance of technology in driving innovation",
+                    "Adaptability and diffusion of innovations",
+                    "Overview of Indian innovations and emerging opportunities in the innovation landscape"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Promoting and Managing Innovation",
+                "topics": [
+                    "Understanding innovators and imitators in the innovation ecosystem",
+                    "Concept of patents, trademarks, and intellectual property rights",
+                    "Phases of innovation: exploring, executing, leveraging, and renewing",
+                    "Strategies for commercialization of innovation",
+                    "Risks and barriers in introducing new products and services",
+                    "Strategic selection, investment planning, and organizational setup for innovation",
+                    "Evaluating the costs, feasibility, and impact of innovation projects"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Introduction to Entrepreneurship",
+                "topics": [
+                    "Entrepreneurship in a global context: role in social and economic development",
+                    "Opportunity identification and discovery",
+                    "Relationship between intellectual property (IP) innovation and entrepreneurship",
+                    "Key entrepreneurial attributes and performance indicators",
+                    "Theories and models of entrepreneurship",
+                    "Characteristics of successful entrepreneurial ventures",
+                    "Factors influencing entrepreneurial success and sustainability"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Social Entrepreneurship",
+                "topics": [
+                    "Concept and importance of social entrepreneurship",
+                    "Identifying and analyzing sectoral opportunities for social enterprises",
+                    "Role of science and technology in promoting social change",
+                    "Tools, frameworks, and approaches for social innovation",
+                    "Different models and case studies of social entrepreneurship"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Robin Lowe and Sue Marriott, “Enterprise: Entrepreneurship and Innovation – Concepts, Contexts and Commercialization”.",
+            "John Bessant and Joe Tidd, “Innovation and Entrepreneurship”, Wiley, ISBN: 978-1-118-99309-5."
+        ],
+        "referenceBooks": [
+            "Rabindra N. Kanungo, “Entrepreneurship and Innovation”, Sage Publications, New Delhi, 1998.",
+            "Peter F. Drucker, “Innovation and Entrepreneurship”, Harper Business Publications.",
+            "EDII, “Faculty and External Experts – A Handbook for New Entrepreneurs”, Entrepreneurship Development Institute of India, Ahmedabad, 1986.",
+            "Philips, Bonefiel, and Sharma, “Social Entrepreneurship”, Global Vision Publishing House, New Delhi, 2011."
+        ],
+        "courseOutcomes": [
+            "Learn and understand the various aspects of innovation.",
+            "Identify effective methods for fostering innovation within organizations.",
+            "Understand fundamental concepts and theories of entrepreneurship.",
+            "Recognize entrepreneurial traits and qualities that contribute to success.",
+            "Identify opportunities for social entrepreneurship and innovation for social good.",
+            "Generate creative business ideas based on trends and personal interests."
+        ]
+    },
+    {
+        "courseCode": "CSBS2205",
+        "courseName": "Managerial Economics",
+        "L": 3,
+        "T": 0,
+        "P": 0,
+        "totalHours": 3,
+        "creditPoints": 3,
+        "courseType": "Humanities and Management",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Fundamentals of Managerial Economics and Demand Analysis",
+                "topics": [
+                    "Fundamental concepts of managerial economics",
+                    "Objectives of the firm and the environment of business",
+                    "Economic and non-economic elements and their interactions in decision-making",
+                    "Consumer behaviour: utility analysis, law of equi-marginal utility, and indifference curve analysis",
+                    "Consumer equilibrium and decision-making behaviour",
+                    "Demand theory: meaning, types, and determinants of demand",
+                    "Demand function and demand elasticity",
+                    "Methods of demand estimation and types of demand forecasting"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Production, Cost, and Pricing Decisions",
+                "topics": [
+                    "Production decisions and firm behaviour in short and long run",
+                    "Cost concepts and cost-output relationships",
+                    "Production function and its elementary analysis",
+                    "Pricing decisions and determinants of price",
+                    "Objectives of pricing under various market conditions",
+                    "Market structures: perfect competition, monopoly, monopolistic competition, and oligopoly",
+                    "Pricing strategies under different market structures"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Monetary and Fiscal Policy Framework",
+                "topics": [
+                    "Monetary policy: definition, goals, and components of money supply",
+                    "Monetary theory and policy in practice",
+                    "Interest rate policy and its influence on the economy",
+                    "Role of the Reserve Bank of India (RBI) in monetary management",
+                    "Credit policy and financial institutions in India",
+                    "Fiscal policy: fiscal imbalance, government expenditure (plan and non-plan), and taxation reforms",
+                    "Government borrowing – domestic and external",
+                    "Commercial policy and foreign trade policy",
+                    "Foreign Exchange Management Act (FEMA) and its relevance",
+                    "External sector analysis: balance of payment (BOP) and balance of trade (BOT)",
+                    "Trends in exports and imports and their macroeconomic implications"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "Business Environment, Industrial Policy, and Economic Reforms",
+                "topics": [
+                    "Role of government in business and economic development strategy",
+                    "Industrial Policy and the Industries (Development and Regulation) Act, 1951",
+                    "Industrial Policy Resolution (IPR) of 1956 and its impact",
+                    "Monopolies and Restrictive Trade Practices (MRTP) Act, 1969",
+                    "Five-Year Plans – review of preceding plans and overview of the latest plan",
+                    "Public sector in India: role, organization, challenges, and prospects",
+                    "Economic reforms in India: liberalization, privatization, and globalization (LPG)",
+                    "Assessment and impact of new economic reforms on Indian economy"
+                ]
+            }
+        ],
+        "books": [
+            "I. J. Ahluwalia, “India’s Economic Reforms and Development: Essays for Manmohan Singh”, Oxford University Press, New Delhi, 1998.",
+            "Montek S. Ahluwalia, “Macroeconomics and Monetary Policy”, Oxford University Press, New Delhi, 2002.",
+            "Montek S. Ahluwalia, “Macroeconomics and Monetary Policy: Issues for a Reforming Economy”, Oxford University Press, New Delhi, 2003.",
+            "H. L. Ahuja, “Advanced Economic Theory: Microeconomic Theory”, 13th Edition, S. Chand & Co., New Delhi, 2003.",
+            "H. L. Bhatia, “Public Finance”, 25th Edition, Vikas Publishing House, New Delhi, 2006."
+        ],
+        "courseOutcomes": [
+            "Appreciate the foundational concepts and scope of managerial economics.",
+            "Develop a microeconomic approach for effective business decision-making.",
+            "Apply microeconomic tools and techniques in real-world managerial problems.",
+            "Utilize managerial economics for optimizing production processes.",
+            "Correlate concepts of microeconomics and macroeconomics in managerial contexts.",
+            "Make informed decisions to achieve organizational goals using economic principles."
+        ]
+    },
+    {
+        "courseCode": "CSBS2201",
+        "courseName": "Operating System Concept",
+        "L": 4,
+        "T": 0,
+        "P": 0,
+        "totalHours": 4,
+        "creditPoints": 4,
+        "courseType": "Professional Core Course",
+        "modules": [
+            {
+                "moduleNo": "I",
+                "title": "Introduction, System Structure, Processes and Threads",
+                "topics": [
+                    "Introduction to Operating Systems: functions, evaluation, and importance in computing",
+                    "Types of operating systems: batch, multiprogrammed, time-sharing, real-time, distributed, parallel systems",
+                    "System structure: computer system operation, I/O structure, storage structure and hierarchy",
+                    "Protection mechanisms and operating system structures – simple, layered, and virtual machine models",
+                    "Operating system services and system calls",
+                    "Concept of processes and operations on processes – creation, maintenance, termination, scheduling, and communication",
+                    "Threads: overview, benefits, user-level and kernel-level threads, and multithreading models"
+                ]
+            },
+            {
+                "moduleNo": "II",
+                "title": "Process Scheduling, Synchronization, and Deadlocks",
+                "topics": [
+                    "Process scheduling and inter-process communication in cooperative systems",
+                    "CPU scheduling: scheduling criteria and types (preemptive and non-preemptive)",
+                    "Scheduling algorithms: FCFS, SJF, RR, priority-based, multilevel queue, and feedback queue scheduling",
+                    "Algorithm evaluation and multiprocessor scheduling",
+                    "Process synchronization: critical section problem and algorithms for two and multiple processes",
+                    "Synchronization hardware, semaphores, and classical synchronization problems (e.g., producer-consumer, readers-writers, dining philosophers)",
+                    "Deadlocks: system model, characterization, prevention, avoidance, detection, and recovery methods",
+                    "Monitors and synchronization in concurrent systems"
+                ]
+            },
+            {
+                "moduleNo": "III",
+                "title": "Memory and Disk Management",
+                "topics": [
+                    "Memory management concepts: logical vs. physical address space, swapping, and contiguous memory allocation",
+                    "Paging, segmentation, and segmentation with paging techniques",
+                    "Virtual memory: concept, demand paging, and performance analysis",
+                    "Page replacement algorithms: FCFS, LRU, Optimal, MRU, MFU, and LFU",
+                    "Frame allocation policies and handling of thrashing",
+                    "Disk management: structure and organization of disks",
+                    "Disk scheduling algorithms: FCFS, SSTF, SCAN, and C-SCAN",
+                    "Disk reliability, formatting, bad block handling, boot block management, and RAID concepts"
+                ]
+            },
+            {
+                "moduleNo": "IV",
+                "title": "File Systems, I/O Management, Protection and Security",
+                "topics": [
+                    "File systems: concept, access methods, and directory structures",
+                    "File system structure and allocation methods: contiguous, linked, and indexed allocation",
+                    "Free-space management: bit vector, linked list, grouping, and counting methods",
+                    "Directory implementation: linear list and hash table; file system performance considerations",
+                    "I/O management: I/O hardware, polling, interrupts, DMA, and device interfaces (block and character devices, clocks, and network devices)",
+                    "Kernel I/O subsystem: scheduling, buffering, caching, spooling, device reservation, and error handling",
+                    "Protection and security: goals of protection, domain of protection, authentication, and one-time passwords",
+                    "Security threats: program and system threats, threat monitoring, and encryption techniques"
+                ]
+            }
+        ],
+        "textBooks": [
+            "Abraham Silberschatz and J. L. Peterson, “Operating System Concepts”, Wiley.",
+            "Andrew S. Tanenbaum, “Operating System Design & Implementation”, Prentice Hall NJ.",
+            "M. Milenkovic, “Operating System: Concepts & Design”, McGraw Hill."
+        ],
+        "referenceBooks": [
+            "D. M. Dhamdhere, “Operating Systems”, TMH.",
+            "Maxwell, “Operating Systems”, McMillan International Editions, 1992.",
+            "H. N. Deitel, “An Introduction to Operating Systems”, Addison Wesley."
+        ],
+        "courseOutcomes": [
+            "Differentiate between various types of operating systems based on their design and applications.",
+            "Describe system operations and internal structures of both computer and operating systems.",
+            "Illustrate multiprocessing and multithreading environments with process synchronization mechanisms.",
+            "Compare memory hierarchy levels and understand their interrelation in system performance.",
+            "Describe I/O operations and device management within the operating system framework.",
+            "Identify threats such as viruses and worms, and explain security mechanisms for system protection."
+        ]
+    }
+]
